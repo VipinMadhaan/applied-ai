@@ -270,3 +270,8 @@ uv lock
 
 If a Python package needs native libraries, install the matching system package
 with your OS package manager or add it to `DockerFile`.
+
+cd project
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
