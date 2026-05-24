@@ -1,0 +1,10 @@
+logs
+*.log
+.agents
+.codex
+.venv
+
+# Local env files
+.env
+.env.*
+!.env.example
