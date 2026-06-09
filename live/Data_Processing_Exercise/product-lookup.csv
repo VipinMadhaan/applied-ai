@@ -1,0 +1,11 @@
+merchant_name,category,is_digital,avg_txn_value
+Amazon,E-commerce,True,1500
+Netflix,Entertainment,True,499
+Uber,Transport,False,250
+Swiggy,Food Delivery,False,350
+Zomato,Food Delivery,False,320
+BigBasket,Grocery,False,800
+Flipkart,E-commerce,True,1200
+PhonePe,Payments,True,600
+Paytm,Payments,True,400
+HDFC ATM,Banking,False,5000

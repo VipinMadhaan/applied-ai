@@ -1,0 +1,112 @@
+<h2 class="sr-only">A branded interactive flowchart of the Aarambh Bank build pipeline on a white card. Each step expands to show what it does and which files it touches; the feature-loop step expands into its seven inner stages.</h2>
+<style>
+.ab-card{background:#ffffff;border:1px solid #ECEAF3;border-radius:18px;overflow:hidden;max-width:600px;margin:1rem auto;color:#1a1a1a}
+.ab-ribbon{display:flex;height:5px}
+.ab-ribbon i{flex:1}
+.ab-head{display:flex;align-items:center;gap:10px;padding:16px 20px 6px}
+.ab-dots{display:flex;gap:5px}
+.ab-dots i{width:11px;height:11px;border-radius:3px;display:block}
+.ab-name{font-size:15px;font-weight:500;color:#1a1a1a}
+.ab-cap{margin-left:auto;font-size:12px;color:#8a8980}
+.flow{padding:8px 18px 20px}
+.node{border:1px solid #ECEAF3;border-radius:14px;background:#ffffff}
+.node.loop{border:2px solid #FF2D95}
+.nhead{display:flex;align-items:center;gap:12px;padding:13px 15px;cursor:pointer;user-select:none;width:100%;background:none;border:none;text-align:left;font:inherit;color:#1a1a1a;border-radius:13px}
+.nhead:hover{background:#FAF8FE}
+.badge{font-size:12px;font-weight:500;padding:3px 11px;border-radius:7px;white-space:nowrap;flex:none}
+.b-prompt{background:#8A5CF6;color:#fff}
+.b-loop{background:#FF2D95;color:#fff}
+.b-launch{background:#00E676;color:#07371d}
+.b-input{background:#F1EFE8;color:#444441}
+.ntitle{font-size:15px;font-weight:500;color:#1a1a1a}
+.nsub{font-size:13px;color:#6c6b64;margin-top:1px}
+.chev{margin-left:auto;transition:transform .2s;color:#b4b2a9;font-size:18px;flex:none}
+.node.open .chev{transform:rotate(180deg)}
+.detail{max-height:0;overflow:hidden;transition:max-height .28s ease}
+.dinner{padding:2px 15px 15px;font-size:14px;line-height:1.6;color:#5f5e5a}
+.mono{font-family:var(--font-mono);font-size:12.5px;color:#6c6b64;margin-top:9px;background:#FAF8FE;border:1px solid #ECEAF3;border-radius:8px;padding:8px 10px}
+.mono b{color:#1a1a1a;font-weight:500}
+.conn{width:2px;height:13px;background:#E7E1F5;margin:0 auto}
+.sub{display:flex;gap:11px;align-items:flex-start;padding:8px 0;border-top:1px solid #F1EFF7}
+.sub:first-child{border-top:none}
+.snum{flex:none;width:23px;height:23px;border-radius:50%;background:#8A5CF6;color:#fff;font-size:12px;font-weight:500;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.stext{font-size:13.5px;color:#1a1a1a;line-height:1.5}
+.stext span{color:#6c6b64}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+<div class="ab-card">
+<div class="ab-ribbon"><i style="background:#00E676"></i><i style="background:#8A5CF6"></i><i style="background:#FF2D95"></i></div>
+<div class="ab-head">
+<div class="ab-dots"><i style="background:#00E676"></i><i style="background:#8A5CF6"></i><i style="background:#FF2D95"></i></div>
+<span class="ab-name">Aarambh Bank</span>
+<span class="ab-cap">build flow · tap a step</span>
+</div>
+<div class="flow">
+
+<div class="node">
+<button class="nhead"><span class="badge b-input">input</span><span><span class="ntitle">Bootstrap files</span><div class="nsub">what you provide before building</div></span><i class="ti ti-chevron-down chev" aria-hidden="true"></i></button>
+<div class="detail"><div class="dinner">Files you place in the folder yourself. Claude reads them every session; it does not generate them.<div class="mono"><b>files:</b> CLAUDE.md · CODING_STANDARDS.md · docs/BRD.docx · specs/*.md · .claude/ (agents, skill, hooks, settings)</div></div></div>
+</div>
+<div class="conn"></div>
+
+<div class="node">
+<button class="nhead"><span class="badge b-prompt">prompt 0</span><span><span class="ntitle">Orient + scaffold</span><div class="nsub">creates the folder tree</div></span><i class="ti ti-chevron-down chev" aria-hidden="true"></i></button>
+<div class="detail"><div class="dinner">Claude reads the constitution and specs, restates the rules so you can confirm, then builds any missing directories. No feature code yet.<div class="mono"><b>reads:</b> CLAUDE.md, CODING_STANDARDS.md, specs/<br><b>creates:</b> src/, tests/, seed/ folders</div></div></div>
+</div>
+<div class="conn"></div>
+
+<div class="node">
+<button class="nhead"><span class="badge b-prompt">prompt 1</span><span><span class="ntitle">Database layer</span><div class="nsub">writes src/db, creates tables</div></span><i class="ti ti-chevron-down chev" aria-hidden="true"></i></button>
+<div class="detail"><div class="dinner">Builds the DB connection (config from .env) and the schema, then creates the three tables with money as DECIMAL(15,2) and one account per user.<div class="mono"><b>writes:</b> src/db/connection.py, src/db/schema.py<br><b>creates:</b> users, accounts, transactions tables</div></div></div>
+</div>
+<div class="conn"></div>
+
+<div class="node loop">
+<button class="nhead"><span class="badge b-loop">prompts 2–9</span><span><span class="ntitle">Feature loop</span><div class="nsub">tap to expand the 7-step cycle, run per feature</div></span><i class="ti ti-chevron-down chev" aria-hidden="true"></i></button>
+<div class="detail"><div class="dinner">Runs once for each feature in order: auth → account → dashboard → deposit → withdraw → statement → chat.
+<div class="sub"><div class="snum">1</div><div class="stext">Read the approved spec <span>— specs/X.md is the contract</span></div></div>
+<div class="sub"><div class="snum">2</div><div class="stext">test-writer subagent <span>— writes tests/test_X.py from the acceptance criteria (failing first)</span></div></div>
+<div class="sub"><div class="snum">3</div><div class="stext">Implement until green <span>— writes src/features/X.py to pass the tests</span></div></div>
+<div class="sub"><div class="snum">4</div><div class="stext">Hooks fire on every edit <span>— block secrets, warn on float, run ruff + pytest</span></div></div>
+<div class="sub"><div class="snum">5</div><div class="stext">spec-reviewer subagent <span>— checks the code against each acceptance criterion</span></div></div>
+<div class="sub"><div class="snum">6</div><div class="stext">security-auditor subagent <span>— checks the golden rules and coding standards</span></div></div>
+<div class="sub"><div class="snum">7</div><div class="stext">Feature done <span>— repeat for the next feature</span></div></div>
+</div></div>
+</div>
+<div class="conn"></div>
+
+<div class="node">
+<button class="nhead"><span class="badge b-prompt">skill</span><span><span class="ntitle">/seed-data 5 6</span><div class="nsub">writes seed/seed.py, fills the DB</div></span><i class="ti ti-chevron-down chev" aria-hidden="true"></i></button>
+<div class="detail"><div class="dinner">Runs after auth + account exist. Generates demo users each with months of categorized transactions so the dashboard and chat have real data.<div class="mono"><b>writes:</b> seed/seed.py<br><b>fills:</b> 5 users × ~6 months of transactions</div></div></div>
+</div>
+<div class="conn"></div>
+
+<div class="node">
+<button class="nhead"><span class="badge b-prompt">prompt 10</span><span><span class="ntitle">Styling pass</span><div class="nsub">applies the brand design system</div></span><i class="ti ti-chevron-down chev" aria-hidden="true"></i></button>
+<div class="detail"><div class="dinner">A dedicated polish pass so you build logic first and style once. Applies green / purple / pink, white background, black text, and the WhatsApp-style chat.<div class="mono"><b>edits:</b> src/ui/ (app, styles, components)</div></div></div>
+</div>
+<div class="conn"></div>
+
+<div class="node">
+<button class="nhead"><span class="badge b-prompt">prompt 11</span><span><span class="ntitle">End-to-end check</span><div class="nsub">full pytest + success criteria</div></span><i class="ti ti-chevron-down chev" aria-hidden="true"></i></button>
+<div class="detail"><div class="dinner">Runs the whole test suite, walks the full user journey against SC-01…SC-07 in the BRD, and reports how each requirement maps to a spec and a passing test.<div class="mono"><b>verifies:</b> traceability BRD → spec → test</div></div></div>
+</div>
+<div class="conn"></div>
+
+<div class="node">
+<button class="nhead"><span class="badge b-launch">launch</span><span><span class="ntitle">streamlit run</span><div class="nsub">start the app</div></span><i class="ti ti-chevron-down chev" aria-hidden="true"></i></button>
+<div class="detail"><div class="dinner">Starts the Streamlit app locally so you can register, log in, see the dashboard, move demo money, and chat with the assistant.<div class="mono"><b>command:</b> streamlit run src/ui/app.py</div></div></div>
+</div>
+
+</div>
+</div>
+<script>
+document.querySelectorAll('.flow .node > .nhead').forEach(function(h){
+  h.addEventListener('click', function(){
+    var n = h.parentElement;
+    var d = n.querySelector(':scope > .detail');
+    var open = n.classList.toggle('open');
+    d.style.maxHeight = open ? (d.scrollHeight + 40) + 'px' : '0';
+  });
+});
+</script>

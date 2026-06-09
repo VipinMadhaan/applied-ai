@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv .venv)",
+      "Bash(.venv\\\\Scripts\\\\pip.exe install *)",
+      "Bash(ls \"d:\\\\OneDrive - Rahul Tiwari\\\\Desktop\\\\Aarambh Application\\\\aarambh-bank\\\\\" | Select-Object Name)",
+      "Read(//d/OneDrive - Rahul Tiwari/Desktop/Aarambh Application/**)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "PowerShell(Start-Process powershell -ArgumentList \"-NoExit\", \"-Command\", \"cd 'd:\\\\OneDrive - Rahul Tiwari\\\\Desktop\\\\Aarambh Application\\\\aarambh-bank'; streamlit run src/ui/app.py\")"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .claude/hooks/check_secrets.py"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .claude/hooks/run_checks.py"
+          }
+        ]
+      }
+    ]
+  }
+}

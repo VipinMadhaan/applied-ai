@@ -1,0 +1,291 @@
+transaction_id,transaction_date,account_number,amount,txn_type,merchant_name,status,customer_age,is_refund,year_month,day_of_week,customer_name,city,join_date,credit_score,segment,email,phone,category,is_digital,avg_txn_value
+TXN00238,2022-01-02,ACC1023,196.31,credit,Swiggy,SUCCESS,48.0,0,2022-01,Sunday,Shweta Jain,Delhi,2019-12-02,612.0,Premium,shweta.jain@email.com,9810225283.0,Food Delivery,False,350.0
+TXN00135,2022-01-03,ACC1041,37.37,credit,Hdfc Atm,FAILED,29.0,0,2022-01,Monday,Kavita Rao,Pune,2022-03-16,666.0,Senior,kavita.rao@email.com,9897767609.0,,,
+TXN00101,2022-01-08,ACC1016,17.76,deposit,Paytm,FAILED,62.0,0,2022-01,Saturday,Neha Saxena,Kolkata,2021-07-02,566.0,Premium,neha.saxena@email.com,9824949509.0,Payments,True,400.0
+TXN00106,2022-01-09,ACC1037,272.07,debit,Bigbasket,REVERSED,49.0,0,2022-01,Sunday,Vikram Singh,Lucknow,2022-07-26,550.0,Regular,vikram.singh@email.com,9818679461.0,,,
+TXN00177,2022-01-09,ACC1047,151.34,deposit,Swiggy,SUCCESS,48.0,0,2022-01,Sunday,Madhuri Lal,Hyderabad,2021-04-14,703.0,Premium,madhuri.lal@email.com,9818306055.0,Food Delivery,False,350.0
+TXN00065,2022-01-10,ACC1030,502.09,deposit,Flipkart,PENDING,59.0,0,2022-01,Monday,Meera Pillai,Kolkata,2022-07-16,840.0,Premium,meera.pillai@email.com,9885416933.0,E-commerce,True,1200.0
+TXN00129,2022-01-16,ACC1026,172.34,deposit,Uber,REVERSED,44.0,0,2022-01,Sunday,,,,,,,,Transport,False,250.0
+TXN00098,2022-01-22,ACC1002,219.55,credit,Zomato,SUCCESS,41.0,0,2022-01,Saturday,Suresh Kumar,Hyderabad,2019-01-16,,Senior,suresh.kumar@email.com,9856066984.0,Food Delivery,False,320.0
+TXN00220,2022-01-25,ACC1042,167.81,withdrawal,Bigbasket,SUCCESS,51.0,0,2022-01,Tuesday,Usha Bhat,Mumbai,2019-08-24,574.0,Senior,usha.bhat@email.com,9886885150.0,,,
+TXN00001,2022-02-02,ACC1015,312.65,withdrawal,Bigbasket,REVERSED,57.0,0,2022-02,Wednesday,Arjun Sharma,Chennai,2020-10-26,806.0,Student,arjun.sharma@email.com,9854667809.0,,,
+TXN00104,2022-02-02,ACC1043,44.55,debit,Hdfc Atm,SUCCESS,24.0,0,2022-02,Wednesday,Sanjay Desai,Pune,2022-04-04,612.0,Senior,sanjay.desai@email.com,9868648080.0,,,
+TXN00040,2022-02-02,ACC1018,199.4,transfer,Bigbasket,SUCCESS,37.0,0,2022-02,Wednesday,Rahul Gupta,Mumbai,2020-07-11,,Student,rahul.gupta@email.com,9887305664.0,,,
+TXN00161,2022-02-09,ACC1041,34.4,debit,Flipkart,PENDING,39.0,0,2022-02,Wednesday,Kavita Rao,Pune,2022-03-16,666.0,Senior,kavita.rao@email.com,9897767609.0,E-commerce,True,1200.0
+TXN00155,2022-02-10,ACC1001,230.35,transfer,Zomato,FAILED,34.0,0,2022-02,Thursday,Lakshmi Rao,Mumbai,2022-11-14,800.0,Senior,lakshmi.rao@email.com,9855665951.0,Food Delivery,False,320.0
+TXN00024,2022-02-16,ACC1025,17.51,deposit,Bigbasket,FAILED,41.0,0,2022-02,Wednesday,Ravi Kapoor,Ahmedabad,2020-09-20,633.0,Senior,ravi.kapoor@email.com,9835482265.0,,,
+TXN00269,2022-02-17,ACC1039,76.7,transfr,Paytm,REVERSED,29.0,0,2022-02,Thursday,Ramesh Kaur,Ahmedabad,2018-06-25,729.0,Regular,ramesh.kaur@email.com,9859356828.0,Payments,True,400.0
+TXN00145,2022-02-21,ACC1003,219.16,transfr,Uber,SUCCESS,49.0,0,2022-02,Monday,Amit Sinha,Chennai,2020-04-17,624.0,Premium,amit.sinha@email.com,9825527644.0,Transport,False,250.0
+TXN00117,2022-02-25,ACC1046,140.88,credit,Phonepe,FAILED,57.0,0,2022-02,Friday,,,,,,,,,,
+TXN00039,2022-02-27,ACC1015,20.24,debit,Zomato,FAILED,40.0,0,2022-02,Sunday,Arjun Sharma,Chennai,2020-10-26,806.0,Student,arjun.sharma@email.com,9854667809.0,Food Delivery,False,320.0
+TXN00148,2022-02-28,ACC1028,20.48,credit,Uber,FAILED,62.0,0,2022-02,Monday,Rashmi Mehta,Pune,2022-03-20,806.0,Senior,rashmi.mehta@email.com,9899086047.0,Transport,False,250.0
+TXN00081,2022-03-01,ACC1006,106.75,credit,Paytm,PENDING,38.0,0,2022-03,Tuesday,,,,,,,,Payments,True,400.0
+TXN00142,2022-03-01,ACC1039,1054.39,debit,Netflix,REVERSED,57.0,0,2022-03,Tuesday,Ramesh Kaur,Ahmedabad,2018-06-25,729.0,Regular,ramesh.kaur@email.com,9859356828.0,Entertainment,True,499.0
+TXN00118,2022-03-04,ACC1008,25.71,credit,Netflix,PENDING,56.0,0,2022-03,Friday,Anita Nair,Jaipur,2019-03-12,604.0,Senior,anita.nair@email.com,9896434410.0,Entertainment,True,499.0
+TXN00211,2022-03-07,ACC1016,349.44,debit,Phonepe,FAILED,52.0,0,2022-03,Monday,Neha Saxena,Kolkata,2021-07-02,566.0,Premium,neha.saxena@email.com,9824949509.0,,,
+TXN00042,2022-03-09,ACC1032,191.91,debit,Paytm,SUCCESS,56.0,0,2022-03,Wednesday,Rekha Patil,Pune,2018-12-07,731.0,Senior,rekha.patil@email.com,9835253920.0,Payments,True,400.0
+TXN00151,2022-03-11,ACC1005,216.1,withdrawal,Amazon,PENDING,38.0,0,2022-03,Friday,Anjali Kulkarni,Mumbai,2019-07-21,726.0,Regular,anjali.kulkarni@email.com,9861028923.0,E-commerce,True,1500.0
+TXN00084,2022-03-12,ACC1048,68.21,transfer,Uber,FAILED,25.0,0,2022-03,Saturday,Mohan Hegde,Lucknow,2018-05-12,834.0,Premium,mohan.hegde@email.com,9887432467.0,Transport,False,250.0
+TXN00150,2022-03-12,ACC1024,231.71,withdrawal,Uber,SUCCESS,48.0,0,2022-03,Saturday,Geeta Nambiar,Kolkata,2020-02-13,747.0,Regular,geeta.nambiar@email.com,9827101682.0,Transport,False,250.0
+TXN00241,2022-03-13,ACC1036,45.21,transfr,Hdfc Atm,PENDING,54.0,0,2022-03,Sunday,Arun Iyer,Lucknow,2019-01-10,703.0,Senior,arun.iyer@email.com,9896181498.0,,,
+TXN00105,2022-03-14,ACC1008,116.52,transfer,Hdfc Atm,FAILED,34.0,0,2022-03,Monday,Anita Nair,Jaipur,2019-03-12,604.0,Senior,anita.nair@email.com,9896434410.0,,,
+TXN00271,2022-03-16,ACC1007,1289.37,deposit,Hdfc Atm,REVERSED,61.0,0,2022-03,Wednesday,Harish Bose,Jaipur,2018-03-02,699.0,Senior,harish.bose@email.com,9851714724.0,,,
+TXN00165,2022-03-16,ACC1028,629.59,withdrawal,Netflix,SUCCESS,31.0,0,2022-03,Wednesday,Rashmi Mehta,Pune,2022-03-20,806.0,Senior,rashmi.mehta@email.com,9899086047.0,Entertainment,True,499.0
+TXN00168,2022-03-17,ACC1034,2553.42,transfer,Zomato,FAILED,54.0,0,2022-03,Thursday,,,,,,,,Food Delivery,False,320.0
+TXN00296,2022-03-21,ACC1031,52.49,transfer,Amazon,REVERSED,47.0,0,2022-03,Monday,Pooja Mishra,Pune,2019-01-28,793.0,Student,pooja.mishra@email.com,9841322048.0,E-commerce,True,1500.0
+TXN00020,2022-03-22,ACC1045,17.84,withdrawal,Amazon,REVERSED,56.0,0,2022-03,Tuesday,Prakash More,Delhi,2018-06-13,701.0,Premium,prakash.more@email.com,9825583513.0,E-commerce,True,1500.0
+TXN00149,2022-03-24,ACC1043,324.7,deposit,Hdfc Atm,REVERSED,57.0,0,2022-03,Thursday,Sanjay Desai,Pune,2022-04-04,612.0,Senior,sanjay.desai@email.com,9868648080.0,,,
+TXN00156,2022-03-25,ACC1027,50.83,debit,Netflix,REVERSED,49.0,0,2022-03,Friday,Satish Thakur,Chennai,2019-04-26,705.0,Regular,satish.thakur@email.com,9889196483.0,Entertainment,True,499.0
+TXN00083,2022-03-29,ACC1002,1362.18,transfer,Phonepe,SUCCESS,46.0,0,2022-03,Tuesday,Suresh Kumar,Hyderabad,2019-01-16,,Senior,suresh.kumar@email.com,9856066984.0,,,
+TXN00190,2022-04-01,ACC1043,15.3,transfer,Hdfc Atm,SUCCESS,26.0,0,2022-04,Friday,Sanjay Desai,Pune,2022-04-04,612.0,Senior,sanjay.desai@email.com,9868648080.0,,,
+TXN00054,2022-04-04,ACC1035,371.49,debit,Hdfc Atm,FAILED,26.0,0,2022-04,Monday,Swati Chatterjee,Lucknow,2021-10-09,,Student,swati.chatterjee@email.com,9862096010.0,,,
+TXN00014,2022-04-05,ACC1004,8.42,debit,Netflix,FAILED,53.0,0,2022-04,Tuesday,Sunita Tiwari,Pune,2020-06-21,843.0,Regular,sunita.tiwari@email.com,9849054205.0,Entertainment,True,499.0
+TXN00188,2022-04-05,ACC1037,133.05,withdrawal,Zomato,SUCCESS,26.0,0,2022-04,Tuesday,Vikram Singh,Lucknow,2022-07-26,550.0,Regular,vikram.singh@email.com,9818679461.0,Food Delivery,False,320.0
+TXN00002,2022-04-06,ACC1025,120.61,credit,Paytm,FAILED,31.0,0,2022-04,Wednesday,Ravi Kapoor,Ahmedabad,2020-09-20,633.0,Senior,ravi.kapoor@email.com,9835482265.0,Payments,True,400.0
+TXN00113,2022-04-07,ACC1011,162.45,debit,Hdfc Atm,REVERSED,37.0,0,2022-04,Thursday,Pankaj Chauhan,Mumbai,2019-06-29,,Regular,pankaj.chauhan@email.com,9879759849.0,,,
+TXN00127,2022-04-11,ACC1044,33.59,deposit,Paytm,FAILED,42.0,0,2022-04,Monday,Shruti Malik,Chennai,2018-05-06,738.0,Premium,shruti.malik@email.com,9826952687.0,Payments,True,400.0
+TXN00071,2022-04-19,ACC1014,255.21,deposit,Flipkart,FAILED,48.0,0,2022-04,Tuesday,Divya Agarwal,Pune,2022-11-21,639.0,Regular,divya.agarwal@email.com,9844775001.0,E-commerce,True,1200.0
+TXN00277,2022-04-20,ACC1020,200.05,transfer,Uber,REVERSED,48.0,0,2022-04,Wednesday,Asha Goel,Jaipur,2018-07-26,667.0,Student,asha.goel@email.com,9852901755.0,Transport,False,250.0
+TXN00230,2022-04-22,ACC1016,411.33,deposit,Paytm,FAILED,60.0,0,2022-04,Friday,Neha Saxena,Kolkata,2021-07-02,566.0,Premium,neha.saxena@email.com,9824949509.0,Payments,True,400.0
+TXN00055,2022-04-23,ACC1002,696.8,withdrawal,Hdfc Atm,FAILED,56.0,0,2022-04,Saturday,Suresh Kumar,Hyderabad,2019-01-16,,Senior,suresh.kumar@email.com,9856066984.0,,,
+TXN00195,2022-04-25,ACC1021,192.44,deposit,Swiggy,FAILED,58.0,0,2022-04,Monday,Deepa Menon,Ahmedabad,2019-02-16,686.0,Premium,deepa.menon@email.com,9860601468.0,Food Delivery,False,350.0
+TXN00079,2022-04-25,ACC1027,170.31,debit,Phonepe,PENDING,22.0,1,2022-04,Monday,Satish Thakur,Chennai,2019-04-26,705.0,Regular,satish.thakur@email.com,9889196483.0,,,
+TXN00066,2022-04-25,ACC1012,1134.97,credit,Netflix,REVERSED,28.0,0,2022-04,Monday,Sneha Reddy,Kolkata,2021-03-07,731.0,Senior,sneha.reddy@email.com,9890621827.0,Entertainment,True,499.0
+TXN00180,2022-04-29,ACC1021,8780.19,deposit,Amazon,PENDING,55.0,0,2022-04,Friday,Deepa Menon,Ahmedabad,2019-02-16,686.0,Premium,deepa.menon@email.com,9860601468.0,E-commerce,True,1500.0
+TXN00227,2022-04-29,ACC1015,163.44,credit,Amazon,UNKNOWN,35.0,0,2022-04,Friday,Arjun Sharma,Chennai,2020-10-26,806.0,Student,arjun.sharma@email.com,9854667809.0,E-commerce,True,1500.0
+TXN00234,2022-04-29,ACC1024,55.85,deposit,Uber,SUCCESS,42.0,0,2022-04,Friday,Geeta Nambiar,Kolkata,2020-02-13,747.0,Regular,geeta.nambiar@email.com,9827101682.0,Transport,False,250.0
+TXN00282,2022-05-05,ACC1018,400.69,credit,Paytm,FAILED,26.0,0,2022-05,Thursday,Rahul Gupta,Mumbai,2020-07-11,,Student,rahul.gupta@email.com,9887305664.0,Payments,True,400.0
+TXN00019,2022-05-08,ACC1038,38.01,transfer,Uber,PENDING,46.0,0,2022-05,Sunday,,,,,,,,Transport,False,250.0
+TXN00085,2022-05-09,ACC1035,44.14,deposit,Bigbasket,SUCCESS,57.0,0,2022-05,Monday,Swati Chatterjee,Lucknow,2021-10-09,,Student,swati.chatterjee@email.com,9862096010.0,,,
+TXN00191,2022-05-14,ACC1025,75.96,debit,Zomato,SUCCESS,59.0,0,2022-05,Saturday,Ravi Kapoor,Ahmedabad,2020-09-20,633.0,Senior,ravi.kapoor@email.com,9835482265.0,Food Delivery,False,320.0
+TXN00109,2022-05-16,ACC1045,218.4,deposit,Paytm,FAILED,59.0,0,2022-05,Monday,Prakash More,Delhi,2018-06-13,701.0,Premium,prakash.more@email.com,9825583513.0,Payments,True,400.0
+TXN00283,2022-05-17,ACC1003,1602.03,credit,Zomato,UNKNOWN,39.0,0,2022-05,Tuesday,Amit Sinha,Chennai,2020-04-17,624.0,Premium,amit.sinha@email.com,9825527644.0,Food Delivery,False,320.0
+TXN00179,2022-05-18,ACC1018,99.78,deposit,Phonepe,REVERSED,54.0,0,2022-05,Wednesday,Rahul Gupta,Mumbai,2020-07-11,,Student,rahul.gupta@email.com,9887305664.0,,,
+TXN00300,2022-05-22,ACC1012,381.63,debit,Zomato,SUCCESS,43.0,0,2022-05,Sunday,Sneha Reddy,Kolkata,2021-03-07,731.0,Senior,sneha.reddy@email.com,9890621827.0,Food Delivery,False,320.0
+TXN00047,2022-05-23,ACC1044,74.37,debit,Zomato,PENDING,44.0,0,2022-05,Monday,Shruti Malik,Chennai,2018-05-06,738.0,Premium,shruti.malik@email.com,9826952687.0,Food Delivery,False,320.0
+TXN00046,2022-05-27,ACC1043,50.41,debit,Amazon,FAILED,57.0,0,2022-05,Friday,Sanjay Desai,Pune,2022-04-04,612.0,Senior,sanjay.desai@email.com,9868648080.0,E-commerce,True,1500.0
+TXN00268,2022-05-31,ACC1034,17.37,transfer,Amazon,FAILED,37.0,0,2022-05,Tuesday,,,,,,,,E-commerce,True,1500.0
+TXN00074,2022-06-06,ACC1022,1551.48,deposit,Hdfc Atm,PENDING,50.0,0,2022-06,Monday,Rajesh Pandey,Kolkata,2021-07-07,759.0,Senior,rajesh.pandey@email.com,9821768256.0,,,
+TXN00140,2022-06-08,ACC1020,23.42,withdrawal,Bigbasket,FAILED,29.0,0,2022-06,Wednesday,Asha Goel,Jaipur,2018-07-26,667.0,Student,asha.goel@email.com,9852901755.0,,,
+TXN00208,2022-06-08,ACC1034,320.76,debit,Flipkart,REVERSED,53.0,0,2022-06,Wednesday,,,,,,,,E-commerce,True,1200.0
+TXN00012,2022-06-09,ACC1030,73.8,withdrawal,Phonepe,SUCCESS,45.0,0,2022-06,Thursday,Meera Pillai,Kolkata,2022-07-16,840.0,Premium,meera.pillai@email.com,9885416933.0,,,
+TXN00182,2022-06-10,ACC1006,41.03,withdrawal,Uber,SUCCESS,56.0,0,2022-06,Friday,,,,,,,,Transport,False,250.0
+TXN00010,2022-06-13,ACC1022,334.9,debit,Phonepe,FAILED,60.0,0,2022-06,Monday,Rajesh Pandey,Kolkata,2021-07-07,759.0,Senior,rajesh.pandey@email.com,9821768256.0,,,
+TXN00075,2022-06-15,ACC1049,2.92,transfer,Flipkart,SUCCESS,58.0,0,2022-06,Wednesday,Gopal Das,Lucknow,2018-08-12,677.0,Student,gopal.das@email.com,9821964091.0,E-commerce,True,1200.0
+TXN00192,2022-06-15,ACC1022,536.25,debit,Flipkart,PENDING,24.0,0,2022-06,Wednesday,Rajesh Pandey,Kolkata,2021-07-07,759.0,Senior,rajesh.pandey@email.com,9821768256.0,E-commerce,True,1200.0
+TXN00029,2022-06-16,ACC1049,164.49,withdrawal,Hdfc Atm,SUCCESS,57.0,0,2022-06,Thursday,Gopal Das,Lucknow,2018-08-12,677.0,Student,gopal.das@email.com,9821964091.0,,,
+TXN00209,2022-06-16,ACC1013,321.36,credit,Netflix,SUCCESS,55.0,0,2022-06,Thursday,Tarun Bajaj,Mumbai,2018-01-15,773.0,Premium,tarun.bajaj@email.com,9890747752.0,Entertainment,True,499.0
+TXN00035,2022-06-17,ACC1035,509.7,deposit,Uber,UNKNOWN,28.0,0,2022-06,Friday,Swati Chatterjee,Lucknow,2021-10-09,,Student,swati.chatterjee@email.com,9862096010.0,Transport,False,250.0
+TXN00134,2022-06-18,ACC1045,164.49,deposit,Bigbasket,PENDING,42.0,0,2022-06,Saturday,Prakash More,Delhi,2018-06-13,701.0,Premium,prakash.more@email.com,9825583513.0,,,
+TXN00262,2022-06-23,ACC1048,135.74,debit,Amazon,FAILED,64.0,0,2022-06,Thursday,Mohan Hegde,Lucknow,2018-05-12,834.0,Premium,mohan.hegde@email.com,9887432467.0,E-commerce,True,1500.0
+TXN00228,2022-07-02,ACC1026,164.49,withdrawal,Flipkart,UNKNOWN,23.0,0,2022-07,Saturday,,,,,,,,E-commerce,True,1200.0
+TXN00070,2022-07-02,ACC1021,56.39,transfer,Bigbasket,FAILED,30.0,0,2022-07,Saturday,Deepa Menon,Ahmedabad,2019-02-16,686.0,Premium,deepa.menon@email.com,9860601468.0,,,
+TXN00097,2022-07-03,ACC1013,231.41,withdrawal,Amazon,REVERSED,49.0,0,2022-07,Sunday,Tarun Bajaj,Mumbai,2018-01-15,773.0,Premium,tarun.bajaj@email.com,9890747752.0,E-commerce,True,1500.0
+TXN00121,2022-07-14,ACC1020,486.16,debit,Netflix,SUCCESS,39.0,0,2022-07,Thursday,Asha Goel,Jaipur,2018-07-26,667.0,Student,asha.goel@email.com,9852901755.0,Entertainment,True,499.0
+TXN00249,2022-07-16,ACC1015,2096.83,transfer,Paytm,FAILED,25.0,0,2022-07,Saturday,Arjun Sharma,Chennai,2020-10-26,806.0,Student,arjun.sharma@email.com,9854667809.0,Payments,True,400.0
+TXN00023,2022-07-16,ACC1037,164.23,deposit,Zomato,SUCCESS,38.0,0,2022-07,Saturday,Vikram Singh,Lucknow,2022-07-26,550.0,Regular,vikram.singh@email.com,9818679461.0,Food Delivery,False,320.0
+TXN00273,2022-07-19,ACC1019,849.58,withdrawal,Hdfc Atm,SUCCESS,46.0,0,2022-07,Tuesday,Priya Patel,Jaipur,2018-08-14,650.0,Premium,priya.patel@email.com,9840038761.0,,,
+TXN00160,2022-07-29,ACC1024,397.36,debit,Paytm,FAILED,27.0,0,2022-07,Friday,Geeta Nambiar,Kolkata,2020-02-13,747.0,Regular,geeta.nambiar@email.com,9827101682.0,Payments,True,400.0
+TXN00256,2022-08-04,ACC1035,164.49,transfer,Hdfc Atm,FAILED,26.0,0,2022-08,Thursday,Swati Chatterjee,Lucknow,2021-10-09,,Student,swati.chatterjee@email.com,9862096010.0,,,
+TXN00090,2022-08-05,ACC1005,320.51,deposit,Paytm,FAILED,48.0,0,2022-08,Friday,Anjali Kulkarni,Mumbai,2019-07-21,726.0,Regular,anjali.kulkarni@email.com,9861028923.0,Payments,True,400.0
+TXN00044,2022-08-06,ACC1025,94.48,debit,Zomato,SUCCESS,46.0,0,2022-08,Saturday,Ravi Kapoor,Ahmedabad,2020-09-20,633.0,Senior,ravi.kapoor@email.com,9835482265.0,Food Delivery,False,320.0
+TXN00169,2022-08-07,ACC1042,102.71,deposit,Hdfc Atm,SUCCESS,22.0,0,2022-08,Sunday,Usha Bhat,Mumbai,2019-08-24,574.0,Senior,usha.bhat@email.com,9886885150.0,,,
+TXN00108,2022-08-08,ACC1030,192.84,deposit,Uber,SUCCESS,54.0,0,2022-08,Monday,Meera Pillai,Kolkata,2022-07-16,840.0,Premium,meera.pillai@email.com,9885416933.0,Transport,False,250.0
+TXN00172,2022-08-09,ACC1035,43.65,credit,Hdfc Atm,REVERSED,32.0,0,2022-08,Tuesday,Swati Chatterjee,Lucknow,2021-10-09,,Student,swati.chatterjee@email.com,9862096010.0,,,
+TXN00255,2022-08-11,ACC1048,15.19,withdrawal,Bigbasket,UNKNOWN,45.0,0,2022-08,Thursday,Mohan Hegde,Lucknow,2018-05-12,834.0,Premium,mohan.hegde@email.com,9887432467.0,,,
+TXN00052,2022-08-13,ACC1009,83.29,withdrawal,Phonepe,PENDING,35.0,0,2022-08,Saturday,Sunil Pawar,Bangalore,2018-09-13,710.0,Regular,sunil.pawar@email.com,9852060116.0,,,
+TXN00038,2022-08-13,ACC1032,7.85,debit,Paytm,PENDING,52.0,0,2022-08,Saturday,Rekha Patil,Pune,2018-12-07,731.0,Senior,rekha.patil@email.com,9835253920.0,Payments,True,400.0
+TXN00278,2022-08-13,ACC1001,60.32,transfer,Phonepe,PENDING,50.0,0,2022-08,Saturday,Lakshmi Rao,Mumbai,2022-11-14,800.0,Senior,lakshmi.rao@email.com,9855665951.0,,,
+TXN00267,2022-08-19,ACC1049,1717.49,credit,Swiggy,PENDING,32.0,0,2022-08,Friday,Gopal Das,Lucknow,2018-08-12,677.0,Student,gopal.das@email.com,9821964091.0,Food Delivery,False,350.0
+TXN00219,2022-08-22,ACC1031,71.66,debit,Amazon,REVERSED,26.0,0,2022-08,Monday,Pooja Mishra,Pune,2019-01-28,793.0,Student,pooja.mishra@email.com,9841322048.0,E-commerce,True,1500.0
+TXN00103,2022-08-23,ACC1031,88.76,credit,Flipkart,REVERSED,22.0,0,2022-08,Tuesday,Pooja Mishra,Pune,2019-01-28,793.0,Student,pooja.mishra@email.com,9841322048.0,E-commerce,True,1200.0
+TXN00026,2022-08-27,ACC1001,175.28,withdrawal,Hdfc Atm,PENDING,43.0,0,2022-08,Saturday,Lakshmi Rao,Mumbai,2022-11-14,800.0,Senior,lakshmi.rao@email.com,9855665951.0,,,
+TXN00003,2022-08-27,ACC1045,392.11,debit,Netflix,SUCCESS,58.0,0,2022-08,Saturday,Prakash More,Delhi,2018-06-13,701.0,Premium,prakash.more@email.com,9825583513.0,Entertainment,True,499.0
+TXN00297,2022-08-29,ACC1031,572.15,debit,Netflix,FAILED,48.0,0,2022-08,Monday,Pooja Mishra,Pune,2019-01-28,793.0,Student,pooja.mishra@email.com,9841322048.0,Entertainment,True,499.0
+TXN00266,2022-08-29,ACC1038,22.84,debit,Netflix,REVERSED,52.0,0,2022-08,Monday,,,,,,,,Entertainment,True,499.0
+TXN00130,2022-08-31,ACC1046,69.74,debit,Zomato,UNKNOWN,32.0,0,2022-08,Wednesday,,,,,,,,Food Delivery,False,320.0
+TXN00111,2022-09-06,ACC1050,8.35,deposit,Uber,PENDING,53.0,0,2022-09,Tuesday,Rohit Joshi,Ahmedabad,2018-05-01,751.0,Student,rohit.joshi@email.com,9861224263.0,Transport,False,250.0
+TXN00275,2022-09-07,ACC1024,34.05,credit,Amazon,FAILED,53.0,0,2022-09,Wednesday,Geeta Nambiar,Kolkata,2020-02-13,747.0,Regular,geeta.nambiar@email.com,9827101682.0,E-commerce,True,1500.0
+TXN00096,2022-09-11,ACC1016,16.52,debit,Hdfc Atm,PENDING,34.0,0,2022-09,Sunday,Neha Saxena,Kolkata,2021-07-02,566.0,Premium,neha.saxena@email.com,9824949509.0,,,
+TXN00120,2022-09-12,ACC1011,458.47,credit,Zomato,FAILED,41.0,0,2022-09,Monday,Pankaj Chauhan,Mumbai,2019-06-29,,Regular,pankaj.chauhan@email.com,9879759849.0,Food Delivery,False,320.0
+TXN00125,2022-09-13,ACC1020,357.91,credit,Hdfc Atm,PENDING,52.0,0,2022-09,Tuesday,Asha Goel,Jaipur,2018-07-26,667.0,Student,asha.goel@email.com,9852901755.0,,,
+TXN00187,2022-09-15,ACC1030,301.83,deposit,Hdfc Atm,FAILED,38.0,0,2022-09,Thursday,Meera Pillai,Kolkata,2022-07-16,840.0,Premium,meera.pillai@email.com,9885416933.0,,,
+TXN00236,2022-09-18,ACC1036,384.09,withdrawal,Netflix,PENDING,51.0,0,2022-09,Sunday,Arun Iyer,Lucknow,2019-01-10,703.0,Senior,arun.iyer@email.com,9896181498.0,Entertainment,True,499.0
+TXN00291,2022-09-23,ACC1032,108.62,transfer,Netflix,FAILED,62.0,0,2022-09,Friday,Rekha Patil,Pune,2018-12-07,731.0,Senior,rekha.patil@email.com,9835253920.0,Entertainment,True,499.0
+TXN00049,2022-09-27,ACC1047,248.5,debit,Amazon,SUCCESS,60.0,0,2022-09,Tuesday,Madhuri Lal,Hyderabad,2021-04-14,703.0,Premium,madhuri.lal@email.com,9818306055.0,E-commerce,True,1500.0
+TXN00069,2022-09-27,ACC1025,255.3,transfer,Phonepe,SUCCESS,63.0,0,2022-09,Tuesday,Ravi Kapoor,Ahmedabad,2020-09-20,633.0,Senior,ravi.kapoor@email.com,9835482265.0,,,
+TXN00017,2022-09-28,ACC1025,32.48,transfer,Flipkart,REVERSED,34.0,0,2022-09,Wednesday,Ravi Kapoor,Ahmedabad,2020-09-20,633.0,Senior,ravi.kapoor@email.com,9835482265.0,E-commerce,True,1200.0
+TXN00136,2022-09-29,ACC1016,1517.62,transfer,Phonepe,REVERSED,59.0,0,2022-09,Thursday,Neha Saxena,Kolkata,2021-07-02,566.0,Premium,neha.saxena@email.com,9824949509.0,,,
+TXN00170,2022-09-29,ACC1018,47.91,transfer,Swiggy,SUCCESS,39.0,0,2022-09,Thursday,Rahul Gupta,Mumbai,2020-07-11,,Student,rahul.gupta@email.com,9887305664.0,Food Delivery,False,350.0
+TXN00229,2022-09-29,ACC1045,50.76,withdrawal,Zomato,REVERSED,32.0,0,2022-09,Thursday,Prakash More,Delhi,2018-06-13,701.0,Premium,prakash.more@email.com,9825583513.0,Food Delivery,False,320.0
+TXN00088,2022-09-29,ACC1015,243.02,transfr,Bigbasket,FAILED,40.0,0,2022-09,Thursday,Arjun Sharma,Chennai,2020-10-26,806.0,Student,arjun.sharma@email.com,9854667809.0,,,
+TXN00213,2022-10-01,ACC1027,620.8,debit,Hdfc Atm,SUCCESS,60.0,0,2022-10,Saturday,Satish Thakur,Chennai,2019-04-26,705.0,Regular,satish.thakur@email.com,9889196483.0,,,
+TXN00015,2022-10-04,ACC1014,11.16,debit,Bigbasket,PENDING,58.0,0,2022-10,Tuesday,Divya Agarwal,Pune,2022-11-21,639.0,Regular,divya.agarwal@email.com,9844775001.0,,,
+TXN00295,2022-10-09,ACC1019,253.54,credit,Netflix,PENDING,35.0,0,2022-10,Sunday,Priya Patel,Jaipur,2018-08-14,650.0,Premium,priya.patel@email.com,9840038761.0,Entertainment,True,499.0
+TXN00189,2022-10-11,ACC1040,41.67,withdrawal,Uber,FAILED,52.0,0,2022-10,Tuesday,Chandni Ghosh,Pune,2020-09-05,598.0,Student,chandni.ghosh@email.com,9881887423.0,Transport,False,250.0
+TXN00009,2022-10-12,ACC1027,73.39,credit,Flipkart,SUCCESS,39.0,0,2022-10,Wednesday,Satish Thakur,Chennai,2019-04-26,705.0,Regular,satish.thakur@email.com,9889196483.0,E-commerce,True,1200.0
+TXN00298,2022-10-12,ACC1029,235.32,debit,Swiggy,SUCCESS,30.0,0,2022-10,Wednesday,Kiran Verma,Pune,2019-06-16,574.0,Regular,kiran.verma@email.com,9840004485.0,Food Delivery,False,350.0
+TXN00223,2022-10-13,ACC1029,415.46,debit,Swiggy,REVERSED,44.0,0,2022-10,Thursday,Kiran Verma,Pune,2019-06-16,574.0,Regular,kiran.verma@email.com,9840004485.0,Food Delivery,False,350.0
+TXN00222,2022-10-13,ACC1032,9.02,withdrawal,Zomato,SUCCESS,38.0,0,2022-10,Thursday,Rekha Patil,Pune,2018-12-07,731.0,Senior,rekha.patil@email.com,9835253920.0,Food Delivery,False,320.0
+TXN00124,2022-10-13,ACC1002,18.12,transfer,Hdfc Atm,REVERSED,36.0,0,2022-10,Thursday,Suresh Kumar,Hyderabad,2019-01-16,,Senior,suresh.kumar@email.com,9856066984.0,,,
+TXN00263,2022-10-18,ACC1031,1.15,withdrawal,Flipkart,PENDING,32.0,0,2022-10,Tuesday,Pooja Mishra,Pune,2019-01-28,793.0,Student,pooja.mishra@email.com,9841322048.0,E-commerce,True,1200.0
+TXN00173,2022-10-19,ACC1050,132.2,deposit,Phonepe,REVERSED,42.0,0,2022-10,Wednesday,Rohit Joshi,Ahmedabad,2018-05-01,751.0,Student,rohit.joshi@email.com,9861224263.0,,,
+TXN00137,2022-10-20,ACC1007,45.84,debit,Bigbasket,SUCCESS,33.0,0,2022-10,Thursday,Harish Bose,Jaipur,2018-03-02,699.0,Senior,harish.bose@email.com,9851714724.0,,,
+TXN00025,2022-10-24,ACC1031,65.59,debit,Zomato,FAILED,46.0,0,2022-10,Monday,Pooja Mishra,Pune,2019-01-28,793.0,Student,pooja.mishra@email.com,9841322048.0,Food Delivery,False,320.0
+TXN00021,2022-10-28,ACC1002,1337.39,deposit,Zomato,SUCCESS,62.0,0,2022-10,Friday,Suresh Kumar,Hyderabad,2019-01-16,,Senior,suresh.kumar@email.com,9856066984.0,Food Delivery,False,320.0
+TXN00178,2022-11-03,ACC1038,1313.3,transfer,Flipkart,FAILED,34.0,0,2022-11,Thursday,,,,,,,,E-commerce,True,1200.0
+TXN00244,2022-11-04,ACC1045,543.83,deposit,Amazon,PENDING,51.0,1,2022-11,Friday,Prakash More,Delhi,2018-06-13,701.0,Premium,prakash.more@email.com,9825583513.0,E-commerce,True,1500.0
+TXN00253,2022-11-05,ACC1021,3580.42,withdrawal,Bigbasket,UNKNOWN,38.0,0,2022-11,Saturday,Deepa Menon,Ahmedabad,2019-02-16,686.0,Premium,deepa.menon@email.com,9860601468.0,,,
+TXN00080,2022-11-11,ACC1017,7.53,credit,Uber,REVERSED,43.0,0,2022-11,Friday,Vivek Bhandari,Kolkata,2018-01-20,612.0,Senior,vivek.bhandari@email.com,9858992670.0,Transport,False,250.0
+TXN00245,2022-11-13,ACC1030,24.52,transfer,Flipkart,FAILED,63.0,0,2022-11,Sunday,Meera Pillai,Kolkata,2022-07-16,840.0,Premium,meera.pillai@email.com,9885416933.0,E-commerce,True,1200.0
+TXN00144,2022-11-18,ACC1037,195.77,withdrawal,Zomato,REVERSED,29.0,0,2022-11,Friday,Vikram Singh,Lucknow,2022-07-26,550.0,Regular,vikram.singh@email.com,9818679461.0,Food Delivery,False,320.0
+TXN00232,2022-11-18,ACC1043,205.34,credit,Swiggy,SUCCESS,55.0,0,2022-11,Friday,Sanjay Desai,Pune,2022-04-04,612.0,Senior,sanjay.desai@email.com,9868648080.0,Food Delivery,False,350.0
+TXN00159,2022-11-20,ACC1028,24.85,transfer,Swiggy,SUCCESS,56.0,0,2022-11,Sunday,Rashmi Mehta,Pune,2022-03-20,806.0,Senior,rashmi.mehta@email.com,9899086047.0,Food Delivery,False,350.0
+TXN00286,2022-11-21,ACC1019,7.94,deposit,Swiggy,PENDING,43.0,0,2022-11,Monday,Priya Patel,Jaipur,2018-08-14,650.0,Premium,priya.patel@email.com,9840038761.0,Food Delivery,False,350.0
+TXN00246,2022-12-01,ACC1018,89.86,withdrawal,Zomato,PENDING,38.0,0,2022-12,Thursday,Rahul Gupta,Mumbai,2020-07-11,,Student,rahul.gupta@email.com,9887305664.0,Food Delivery,False,320.0
+TXN00201,2022-12-02,ACC1022,253.83,deposit,Phonepe,SUCCESS,35.0,0,2022-12,Friday,Rajesh Pandey,Kolkata,2021-07-07,759.0,Senior,rajesh.pandey@email.com,9821768256.0,,,
+TXN00226,2022-12-06,ACC1019,760.08,transfer,Hdfc Atm,REVERSED,42.0,0,2022-12,Tuesday,Priya Patel,Jaipur,2018-08-14,650.0,Premium,priya.patel@email.com,9840038761.0,,,
+TXN00265,2022-12-10,ACC1047,101.61,transfer,Zomato,FAILED,37.0,0,2022-12,Saturday,Madhuri Lal,Hyderabad,2021-04-14,703.0,Premium,madhuri.lal@email.com,9818306055.0,Food Delivery,False,320.0
+TXN00119,2022-12-14,ACC1050,824.05,transfer,Amazon,REVERSED,40.0,0,2022-12,Wednesday,Rohit Joshi,Ahmedabad,2018-05-01,751.0,Student,rohit.joshi@email.com,9861224263.0,E-commerce,True,1500.0
+TXN00011,2022-12-15,ACC1035,74.06,debit,Bigbasket,UNKNOWN,53.0,0,2022-12,Thursday,Swati Chatterjee,Lucknow,2021-10-09,,Student,swati.chatterjee@email.com,9862096010.0,,,
+TXN00184,2022-12-18,ACC1029,306.04,credit,Zomato,REVERSED,42.0,0,2022-12,Sunday,Kiran Verma,Pune,2019-06-16,574.0,Regular,kiran.verma@email.com,9840004485.0,Food Delivery,False,320.0
+TXN00016,2022-12-19,ACC1027,63.85,deposit,Flipkart,REVERSED,33.0,0,2022-12,Monday,Satish Thakur,Chennai,2019-04-26,705.0,Regular,satish.thakur@email.com,9889196483.0,E-commerce,True,1200.0
+TXN00171,2022-12-24,ACC1040,39.08,credit,Uber,REVERSED,53.0,0,2022-12,Saturday,Chandni Ghosh,Pune,2020-09-05,598.0,Student,chandni.ghosh@email.com,9881887423.0,Transport,False,250.0
+TXN00218,2022-12-25,ACC1045,104.04,credit,Amazon,REVERSED,22.0,0,2022-12,Sunday,Prakash More,Delhi,2018-06-13,701.0,Premium,prakash.more@email.com,9825583513.0,E-commerce,True,1500.0
+TXN00206,2022-12-29,ACC1036,36.35,credit,Uber,PENDING,22.0,0,2022-12,Thursday,Arun Iyer,Lucknow,2019-01-10,703.0,Senior,arun.iyer@email.com,9896181498.0,Transport,False,250.0
+TXN00030,2022-12-30,ACC1025,164.49,withdrawal,Phonepe,SUCCESS,33.0,0,2022-12,Friday,Ravi Kapoor,Ahmedabad,2020-09-20,633.0,Senior,ravi.kapoor@email.com,9835482265.0,,,
+TXN00203,2023-01-02,ACC1039,753.39,deposit,Uber,FAILED,22.0,0,2023-01,Monday,Ramesh Kaur,Ahmedabad,2018-06-25,729.0,Regular,ramesh.kaur@email.com,9859356828.0,Transport,False,250.0
+TXN00022,2023-01-06,ACC1049,105.78,credit,Flipkart,SUCCESS,51.0,0,2023-01,Friday,Gopal Das,Lucknow,2018-08-12,677.0,Student,gopal.das@email.com,9821964091.0,E-commerce,True,1200.0
+TXN00240,2023-01-08,ACC1048,533.07,deposit,Amazon,PENDING,59.0,0,2023-01,Sunday,Mohan Hegde,Lucknow,2018-05-12,834.0,Premium,mohan.hegde@email.com,9887432467.0,E-commerce,True,1500.0
+TXN00202,2023-01-09,ACC1018,344.18,withdrawal,Bigbasket,SUCCESS,30.0,0,2023-01,Monday,Rahul Gupta,Mumbai,2020-07-11,,Student,rahul.gupta@email.com,9887305664.0,,,
+TXN00242,2023-01-10,ACC1022,124.95,withdrawal,Paytm,SUCCESS,45.0,0,2023-01,Tuesday,Rajesh Pandey,Kolkata,2021-07-07,759.0,Senior,rajesh.pandey@email.com,9821768256.0,Payments,True,400.0
+TXN00198,2023-01-14,ACC1014,186.9,debit,Phonepe,REVERSED,40.0,0,2023-01,Saturday,Divya Agarwal,Pune,2022-11-21,639.0,Regular,divya.agarwal@email.com,9844775001.0,,,
+TXN00036,2023-01-24,ACC1039,23.78,withdrawal,Paytm,FAILED,49.0,0,2023-01,Tuesday,Ramesh Kaur,Ahmedabad,2018-06-25,729.0,Regular,ramesh.kaur@email.com,9859356828.0,Payments,True,400.0
+TXN00027,2023-01-25,ACC1023,26.4,transfr,Flipkart,REVERSED,34.0,0,2023-01,Wednesday,Shweta Jain,Delhi,2019-12-02,612.0,Premium,shweta.jain@email.com,9810225283.0,E-commerce,True,1200.0
+TXN00215,2023-01-27,ACC1036,92.49,credit,Amazon,PENDING,55.0,0,2023-01,Friday,Arun Iyer,Lucknow,2019-01-10,703.0,Senior,arun.iyer@email.com,9896181498.0,E-commerce,True,1500.0
+TXN00059,2023-01-30,ACC1043,243.93,deposit,Paytm,REVERSED,32.0,0,2023-01,Monday,Sanjay Desai,Pune,2022-04-04,612.0,Senior,sanjay.desai@email.com,9868648080.0,Payments,True,400.0
+TXN00162,2023-02-10,ACC1030,164.49,deposit,Zomato,SUCCESS,26.0,0,2023-02,Friday,Meera Pillai,Kolkata,2022-07-16,840.0,Premium,meera.pillai@email.com,9885416933.0,Food Delivery,False,320.0
+TXN00258,2023-02-11,ACC1045,51.34,debit,Netflix,FAILED,27.0,0,2023-02,Saturday,Prakash More,Delhi,2018-06-13,701.0,Premium,prakash.more@email.com,9825583513.0,Entertainment,True,499.0
+TXN00093,2023-02-13,ACC1003,51.78,credit,Zomato,FAILED,40.0,0,2023-02,Monday,Amit Sinha,Chennai,2020-04-17,624.0,Premium,amit.sinha@email.com,9825527644.0,Food Delivery,False,320.0
+TXN00051,2023-02-13,ACC1030,241.32,transfer,Hdfc Atm,FAILED,60.0,0,2023-02,Monday,Meera Pillai,Kolkata,2022-07-16,840.0,Premium,meera.pillai@email.com,9885416933.0,,,
+TXN00221,2023-02-13,ACC1046,4779.01,withdrawal,Netflix,FAILED,51.0,0,2023-02,Monday,,,,,,,,Entertainment,True,499.0
+TXN00225,2023-02-14,ACC1006,73.12,withdrawal,Zomato,PENDING,58.0,0,2023-02,Tuesday,,,,,,,,Food Delivery,False,320.0
+TXN00041,2023-02-15,ACC1028,449.3,withdrawal,Amazon,PENDING,26.0,0,2023-02,Wednesday,Rashmi Mehta,Pune,2022-03-20,806.0,Senior,rashmi.mehta@email.com,9899086047.0,E-commerce,True,1500.0
+TXN00133,2023-02-15,ACC1038,30.16,credit,Paytm,SUCCESS,53.0,0,2023-02,Wednesday,,,,,,,,Payments,True,400.0
+TXN00152,2023-02-18,ACC1033,249.55,transfer,Flipkart,REVERSED,30.0,0,2023-02,Saturday,Nitin Mukherjee,Ahmedabad,2022-04-07,697.0,Regular,nitin.mukherjee@email.com,9866867849.0,E-commerce,True,1200.0
+TXN00131,2023-02-21,ACC1013,14.5,transfer,Swiggy,REVERSED,42.0,0,2023-02,Tuesday,Tarun Bajaj,Mumbai,2018-01-15,773.0,Premium,tarun.bajaj@email.com,9890747752.0,Food Delivery,False,350.0
+TXN00207,2023-02-21,ACC1001,321.36,debit,Paytm,FAILED,61.0,0,2023-02,Tuesday,Lakshmi Rao,Mumbai,2022-11-14,800.0,Senior,lakshmi.rao@email.com,9855665951.0,Payments,True,400.0
+TXN00112,2023-02-21,ACC1024,142.63,deposit,Netflix,REVERSED,42.0,0,2023-02,Tuesday,Geeta Nambiar,Kolkata,2020-02-13,747.0,Regular,geeta.nambiar@email.com,9827101682.0,Entertainment,True,499.0
+TXN00116,2023-02-25,ACC1048,233.3,credit,Paytm,SUCCESS,58.0,0,2023-02,Saturday,Mohan Hegde,Lucknow,2018-05-12,834.0,Premium,mohan.hegde@email.com,9887432467.0,Payments,True,400.0
+TXN00212,2023-02-26,ACC1047,815.13,debit,Bigbasket,UNKNOWN,29.0,0,2023-02,Sunday,Madhuri Lal,Hyderabad,2021-04-14,703.0,Premium,madhuri.lal@email.com,9818306055.0,,,
+TXN00210,2023-02-27,ACC1006,48006.77,debit,Paytm,SUCCESS,49.0,0,2023-02,Monday,,,,,,,,Payments,True,400.0
+TXN00272,2023-03-01,ACC1013,17.22,credit,Netflix,UNKNOWN,25.0,0,2023-03,Wednesday,Tarun Bajaj,Mumbai,2018-01-15,773.0,Premium,tarun.bajaj@email.com,9890747752.0,Entertainment,True,499.0
+TXN00007,2023-03-06,ACC1005,1585.76,transfer,Flipkart,PENDING,56.0,0,2023-03,Monday,Anjali Kulkarni,Mumbai,2019-07-21,726.0,Regular,anjali.kulkarni@email.com,9861028923.0,E-commerce,True,1200.0
+TXN00123,2023-03-09,ACC1038,1217.06,withdrawal,Hdfc Atm,PENDING,35.0,0,2023-03,Thursday,,,,,,,,,,
+TXN00288,2023-03-13,ACC1009,358.7,deposit,Phonepe,SUCCESS,27.0,0,2023-03,Monday,Sunil Pawar,Bangalore,2018-09-13,710.0,Regular,sunil.pawar@email.com,9852060116.0,,,
+TXN00050,2023-03-15,ACC1011,10.54,withdrawal,Phonepe,FAILED,63.0,0,2023-03,Wednesday,Pankaj Chauhan,Mumbai,2019-06-29,,Regular,pankaj.chauhan@email.com,9879759849.0,,,
+TXN00200,2023-03-17,ACC1017,26.72,withdrawal,Bigbasket,UNKNOWN,42.0,0,2023-03,Friday,Vivek Bhandari,Kolkata,2018-01-20,612.0,Senior,vivek.bhandari@email.com,9858992670.0,,,
+TXN00231,2023-03-21,ACC1020,49.62,deposit,Uber,SUCCESS,59.0,0,2023-03,Tuesday,Asha Goel,Jaipur,2018-07-26,667.0,Student,asha.goel@email.com,9852901755.0,Transport,False,250.0
+TXN00067,2023-03-22,ACC1004,133.22,transfer,Flipkart,REVERSED,34.0,0,2023-03,Wednesday,Sunita Tiwari,Pune,2020-06-21,843.0,Regular,sunita.tiwari@email.com,9849054205.0,E-commerce,True,1200.0
+TXN00094,2023-03-25,ACC1049,90.79,debit,Phonepe,PENDING,60.0,0,2023-03,Saturday,Gopal Das,Lucknow,2018-08-12,677.0,Student,gopal.das@email.com,9821964091.0,,,
+TXN00174,2023-03-25,ACC1031,164.49,deposit,Paytm,UNKNOWN,47.0,0,2023-03,Saturday,Pooja Mishra,Pune,2019-01-28,793.0,Student,pooja.mishra@email.com,9841322048.0,Payments,True,400.0
+TXN00260,2023-03-29,ACC1013,474.35,withdrawal,Bigbasket,REVERSED,34.0,0,2023-03,Wednesday,Tarun Bajaj,Mumbai,2018-01-15,773.0,Premium,tarun.bajaj@email.com,9890747752.0,,,
+TXN00289,2023-04-02,ACC1041,226.22,debit,Phonepe,SUCCESS,22.0,0,2023-04,Sunday,Kavita Rao,Pune,2022-03-16,666.0,Senior,kavita.rao@email.com,9897767609.0,,,
+TXN00008,2023-04-05,ACC1027,469.26,deposit,Uber,PENDING,57.0,0,2023-04,Wednesday,Satish Thakur,Chennai,2019-04-26,705.0,Regular,satish.thakur@email.com,9889196483.0,Transport,False,250.0
+TXN00122,2023-04-05,ACC1007,37.94,credit,Netflix,FAILED,62.0,0,2023-04,Wednesday,Harish Bose,Jaipur,2018-03-02,699.0,Senior,harish.bose@email.com,9851714724.0,Entertainment,True,499.0
+TXN00043,2023-04-08,ACC1002,124.78,debit,Zomato,FAILED,33.0,0,2023-04,Saturday,Suresh Kumar,Hyderabad,2019-01-16,,Senior,suresh.kumar@email.com,9856066984.0,Food Delivery,False,320.0
+TXN00095,2023-04-08,ACC1002,82.42,withdrawal,Uber,UNKNOWN,24.0,0,2023-04,Saturday,Suresh Kumar,Hyderabad,2019-01-16,,Senior,suresh.kumar@email.com,9856066984.0,Transport,False,250.0
+TXN00068,2023-04-10,ACC1017,668.68,deposit,Phonepe,REVERSED,61.0,0,2023-04,Monday,Vivek Bhandari,Kolkata,2018-01-20,612.0,Senior,vivek.bhandari@email.com,9858992670.0,,,
+TXN00164,2023-04-14,ACC1010,43.34,transfer,Paytm,REVERSED,23.0,0,2023-04,Friday,Vinod Shetty,Pune,2021-07-27,728.0,Regular,vinod.shetty@email.com,9889483803.0,Payments,True,400.0
+TXN00166,2023-04-15,ACC1012,275.66,withdrawal,Amazon,SUCCESS,51.0,0,2023-04,Saturday,Sneha Reddy,Kolkata,2021-03-07,731.0,Senior,sneha.reddy@email.com,9890621827.0,E-commerce,True,1500.0
+TXN00018,2023-04-16,ACC1050,237.79,credit,Flipkart,PENDING,44.0,0,2023-04,Sunday,Rohit Joshi,Ahmedabad,2018-05-01,751.0,Student,rohit.joshi@email.com,9861224263.0,E-commerce,True,1200.0
+TXN00259,2023-04-22,ACC1012,288.8,credit,Swiggy,SUCCESS,23.0,0,2023-04,Saturday,Sneha Reddy,Kolkata,2021-03-07,731.0,Senior,sneha.reddy@email.com,9890621827.0,Food Delivery,False,350.0
+TXN00216,2023-04-27,ACC1049,463.34,withdrawal,Phonepe,PENDING,24.0,0,2023-04,Thursday,Gopal Das,Lucknow,2018-08-12,677.0,Student,gopal.das@email.com,9821964091.0,,,
+TXN00270,2023-05-02,ACC1019,180.57,debit,Netflix,REVERSED,25.0,0,2023-05,Tuesday,Priya Patel,Jaipur,2018-08-14,650.0,Premium,priya.patel@email.com,9840038761.0,Entertainment,True,499.0
+TXN00290,2023-05-02,ACC1049,58.32,credit,Hdfc Atm,SUCCESS,26.0,0,2023-05,Tuesday,Gopal Das,Lucknow,2018-08-12,677.0,Student,gopal.das@email.com,9821964091.0,,,
+TXN00146,2023-05-04,ACC1023,479.5,deposit,Netflix,REVERSED,49.0,0,2023-05,Thursday,Shweta Jain,Delhi,2019-12-02,612.0,Premium,shweta.jain@email.com,9810225283.0,Entertainment,True,499.0
+TXN00132,2023-05-08,ACC1005,164.49,credit,Phonepe,FAILED,31.0,0,2023-05,Monday,Anjali Kulkarni,Mumbai,2019-07-21,726.0,Regular,anjali.kulkarni@email.com,9861028923.0,,,
+TXN00185,2023-05-12,ACC1016,164.49,withdrawal,Zomato,SUCCESS,27.0,0,2023-05,Friday,Neha Saxena,Kolkata,2021-07-02,566.0,Premium,neha.saxena@email.com,9824949509.0,Food Delivery,False,320.0
+TXN00078,2023-05-16,ACC1049,94.77,deposit,Paytm,SUCCESS,29.0,0,2023-05,Tuesday,Gopal Das,Lucknow,2018-08-12,677.0,Student,gopal.das@email.com,9821964091.0,Payments,True,400.0
+TXN00274,2023-05-22,ACC1015,150.71,deposit,Netflix,PENDING,24.0,0,2023-05,Monday,Arjun Sharma,Chennai,2020-10-26,806.0,Student,arjun.sharma@email.com,9854667809.0,Entertainment,True,499.0
+TXN00186,2023-06-02,ACC1049,433.11,transfer,Bigbasket,FAILED,49.0,0,2023-06,Friday,Gopal Das,Lucknow,2018-08-12,677.0,Student,gopal.das@email.com,9821964091.0,,,
+TXN00261,2023-06-08,ACC1014,36.95,debit,Netflix,FAILED,64.0,0,2023-06,Thursday,Divya Agarwal,Pune,2022-11-21,639.0,Regular,divya.agarwal@email.com,9844775001.0,Entertainment,True,499.0
+TXN00077,2023-06-09,ACC1018,169.11,transfr,Uber,PENDING,40.0,0,2023-06,Friday,Rahul Gupta,Mumbai,2020-07-11,,Student,rahul.gupta@email.com,9887305664.0,Transport,False,250.0
+TXN00293,2023-06-18,ACC1001,61.31,withdrawal,Paytm,PENDING,47.0,0,2023-06,Sunday,Lakshmi Rao,Mumbai,2022-11-14,800.0,Senior,lakshmi.rao@email.com,9855665951.0,Payments,True,400.0
+TXN00061,2023-06-26,ACC1006,72.33,deposit,Paytm,SUCCESS,33.0,0,2023-06,Monday,,,,,,,,Payments,True,400.0
+TXN00076,2023-06-28,ACC1025,509.21,debit,Phonepe,SUCCESS,42.0,0,2023-06,Wednesday,Ravi Kapoor,Ahmedabad,2020-09-20,633.0,Senior,ravi.kapoor@email.com,9835482265.0,,,
+TXN00147,2023-06-28,ACC1035,23.21,transfr,Zomato,UNKNOWN,58.0,0,2023-06,Wednesday,Swati Chatterjee,Lucknow,2021-10-09,,Student,swati.chatterjee@email.com,9862096010.0,Food Delivery,False,320.0
+TXN00034,2023-07-01,ACC1048,30.37,credit,Bigbasket,UNKNOWN,30.0,0,2023-07,Saturday,Mohan Hegde,Lucknow,2018-05-12,834.0,Premium,mohan.hegde@email.com,9887432467.0,,,
+TXN00239,2023-07-06,ACC1028,55.0,deposit,Zomato,REVERSED,55.0,0,2023-07,Thursday,Rashmi Mehta,Pune,2022-03-20,806.0,Senior,rashmi.mehta@email.com,9899086047.0,Food Delivery,False,320.0
+TXN00299,2023-07-08,ACC1022,502.35,withdrawal,Uber,PENDING,47.0,0,2023-07,Saturday,Rajesh Pandey,Kolkata,2021-07-07,759.0,Senior,rajesh.pandey@email.com,9821768256.0,Transport,False,250.0
+TXN00143,2023-07-10,ACC1008,13.31,transfer,Paytm,PENDING,47.0,0,2023-07,Monday,Anita Nair,Jaipur,2019-03-12,604.0,Senior,anita.nair@email.com,9896434410.0,Payments,True,400.0
+TXN00197,2023-07-13,ACC1032,39.42,credit,Bigbasket,FAILED,31.0,0,2023-07,Thursday,Rekha Patil,Pune,2018-12-07,731.0,Senior,rekha.patil@email.com,9835253920.0,,,
+TXN00254,2023-07-16,ACC1008,698.33,transfr,Flipkart,FAILED,41.0,0,2023-07,Sunday,Anita Nair,Jaipur,2019-03-12,604.0,Senior,anita.nair@email.com,9896434410.0,E-commerce,True,1200.0
+TXN00087,2023-07-17,ACC1023,585.87,withdrawal,Netflix,SUCCESS,52.0,0,2023-07,Monday,Shweta Jain,Delhi,2019-12-02,612.0,Premium,shweta.jain@email.com,9810225283.0,Entertainment,True,499.0
+TXN00193,2023-07-19,ACC1002,204.62,deposit,Uber,SUCCESS,44.0,0,2023-07,Wednesday,Suresh Kumar,Hyderabad,2019-01-16,,Senior,suresh.kumar@email.com,9856066984.0,Transport,False,250.0
+TXN00199,2023-07-20,ACC1023,161.95,withdrawal,Swiggy,UNKNOWN,38.0,0,2023-07,Thursday,Shweta Jain,Delhi,2019-12-02,612.0,Premium,shweta.jain@email.com,9810225283.0,Food Delivery,False,350.0
+TXN00181,2023-07-21,ACC1016,379.37,credit,Hdfc Atm,FAILED,62.0,0,2023-07,Friday,Neha Saxena,Kolkata,2021-07-02,566.0,Premium,neha.saxena@email.com,9824949509.0,,,
+TXN00062,2023-07-21,ACC1042,112.34,credit,Swiggy,REVERSED,30.0,0,2023-07,Friday,Usha Bhat,Mumbai,2019-08-24,574.0,Senior,usha.bhat@email.com,9886885150.0,Food Delivery,False,350.0
+TXN00099,2023-07-22,ACC1040,149.56,credit,Uber,FAILED,49.0,0,2023-07,Saturday,Chandni Ghosh,Pune,2020-09-05,598.0,Student,chandni.ghosh@email.com,9881887423.0,Transport,False,250.0
+TXN00248,2023-07-22,ACC1017,55.7,debit,Phonepe,FAILED,50.0,0,2023-07,Saturday,Vivek Bhandari,Kolkata,2018-01-20,612.0,Senior,vivek.bhandari@email.com,9858992670.0,,,
+TXN00281,2023-07-25,ACC1009,175.96,deposit,Netflix,REVERSED,42.0,0,2023-07,Tuesday,Sunil Pawar,Bangalore,2018-09-13,710.0,Regular,sunil.pawar@email.com,9852060116.0,Entertainment,True,499.0
+TXN00285,2023-07-27,ACC1036,3639.31,credit,Hdfc Atm,REVERSED,63.0,0,2023-07,Thursday,Arun Iyer,Lucknow,2019-01-10,703.0,Senior,arun.iyer@email.com,9896181498.0,,,
+TXN00005,2023-07-29,ACC1046,104.46,debit,Bigbasket,PENDING,45.0,0,2023-07,Saturday,,,,,,,,,,
+TXN00048,2023-07-29,ACC1026,724.65,transfer,Bigbasket,REVERSED,37.0,0,2023-07,Saturday,,,,,,,,,,
+TXN00194,2023-07-29,ACC1032,22.91,credit,Zomato,UNKNOWN,58.0,0,2023-07,Saturday,Rekha Patil,Pune,2018-12-07,731.0,Senior,rekha.patil@email.com,9835253920.0,Food Delivery,False,320.0
+TXN00167,2023-07-31,ACC1047,509.33,debit,Swiggy,PENDING,26.0,0,2023-07,Monday,Madhuri Lal,Hyderabad,2021-04-14,703.0,Premium,madhuri.lal@email.com,9818306055.0,Food Delivery,False,350.0
+TXN00158,2023-08-02,ACC1007,302.1,credit,Hdfc Atm,SUCCESS,34.0,0,2023-08,Wednesday,Harish Bose,Jaipur,2018-03-02,699.0,Senior,harish.bose@email.com,9851714724.0,,,
+TXN00082,2023-08-04,ACC1031,253.58,withdrawal,Swiggy,PENDING,28.0,0,2023-08,Friday,Pooja Mishra,Pune,2019-01-28,793.0,Student,pooja.mishra@email.com,9841322048.0,Food Delivery,False,350.0
+TXN00153,2023-08-07,ACC1042,53.52,deposit,Bigbasket,PENDING,54.0,0,2023-08,Monday,Usha Bhat,Mumbai,2019-08-24,574.0,Senior,usha.bhat@email.com,9886885150.0,,,
+TXN00110,2023-08-14,ACC1017,132.73,deposit,Phonepe,SUCCESS,27.0,0,2023-08,Monday,Vivek Bhandari,Kolkata,2018-01-20,612.0,Senior,vivek.bhandari@email.com,9858992670.0,,,
+TXN00235,2023-08-14,ACC1031,3699.36,deposit,Hdfc Atm,UNKNOWN,39.0,0,2023-08,Monday,Pooja Mishra,Pune,2019-01-28,793.0,Student,pooja.mishra@email.com,9841322048.0,,,
+TXN00154,2023-08-16,ACC1022,210.27,credit,Flipkart,FAILED,41.0,0,2023-08,Wednesday,Rajesh Pandey,Kolkata,2021-07-07,759.0,Senior,rajesh.pandey@email.com,9821768256.0,E-commerce,True,1200.0
+TXN00257,2023-08-17,ACC1049,992.64,debit,Swiggy,FAILED,55.0,0,2023-08,Thursday,Gopal Das,Lucknow,2018-08-12,677.0,Student,gopal.das@email.com,9821964091.0,Food Delivery,False,350.0
+TXN00100,2023-08-26,ACC1010,104.39,transfr,Amazon,FAILED,29.0,0,2023-08,Saturday,Vinod Shetty,Pune,2021-07-27,728.0,Regular,vinod.shetty@email.com,9889483803.0,E-commerce,True,1500.0
+TXN00060,2023-09-03,ACC1002,641.18,credit,Netflix,SUCCESS,39.0,0,2023-09,Sunday,Suresh Kumar,Hyderabad,2019-01-16,,Senior,suresh.kumar@email.com,9856066984.0,Entertainment,True,499.0
+TXN00004,2023-09-09,ACC1010,1457.6,withdrawal,Bigbasket,REVERSED,30.0,0,2023-09,Saturday,Vinod Shetty,Pune,2021-07-27,728.0,Regular,vinod.shetty@email.com,9889483803.0,,,
+TXN00183,2023-09-12,ACC1018,29.77,debit,Amazon,SUCCESS,22.0,0,2023-09,Tuesday,Rahul Gupta,Mumbai,2020-07-11,,Student,rahul.gupta@email.com,9887305664.0,E-commerce,True,1500.0
+TXN00233,2023-09-13,ACC1038,164.49,withdrawal,Hdfc Atm,REVERSED,59.0,0,2023-09,Wednesday,,,,,,,,,,
+TXN00089,2023-09-14,ACC1042,67.04,withdrawal,Zomato,SUCCESS,60.0,0,2023-09,Thursday,Usha Bhat,Mumbai,2019-08-24,574.0,Senior,usha.bhat@email.com,9886885150.0,Food Delivery,False,320.0
+TXN00073,2023-09-16,ACC1021,140.65,transfer,Flipkart,REVERSED,26.0,0,2023-09,Saturday,Deepa Menon,Ahmedabad,2019-02-16,686.0,Premium,deepa.menon@email.com,9860601468.0,E-commerce,True,1200.0
+TXN00033,2023-09-16,ACC1048,145.44,debit,Amazon,PENDING,33.0,0,2023-09,Saturday,Mohan Hegde,Lucknow,2018-05-12,834.0,Premium,mohan.hegde@email.com,9887432467.0,E-commerce,True,1500.0
+TXN00176,2023-09-19,ACC1028,513.26,withdrawal,Paytm,REVERSED,43.0,0,2023-09,Tuesday,Rashmi Mehta,Pune,2022-03-20,806.0,Senior,rashmi.mehta@email.com,9899086047.0,Payments,True,400.0
+TXN00287,2023-09-20,ACC1045,118.19,deposit,Hdfc Atm,PENDING,42.0,0,2023-09,Wednesday,Prakash More,Delhi,2018-06-13,701.0,Premium,prakash.more@email.com,9825583513.0,,,
+TXN00252,2023-09-23,ACC1013,588.04,transfer,Paytm,SUCCESS,31.0,0,2023-09,Saturday,Tarun Bajaj,Mumbai,2018-01-15,773.0,Premium,tarun.bajaj@email.com,9890747752.0,Payments,True,400.0
+TXN00294,2023-10-04,ACC1037,530.81,withdrawal,Hdfc Atm,REVERSED,55.0,0,2023-10,Wednesday,Vikram Singh,Lucknow,2022-07-26,550.0,Regular,vikram.singh@email.com,9818679461.0,,,
+TXN00028,2023-10-04,ACC1020,260.75,debit,Swiggy,FAILED,40.0,0,2023-10,Wednesday,Asha Goel,Jaipur,2018-07-26,667.0,Student,asha.goel@email.com,9852901755.0,Food Delivery,False,350.0
+TXN00056,2023-10-05,ACC1026,599.99,debit,Bigbasket,PENDING,44.0,0,2023-10,Thursday,,,,,,,,,,
+TXN00292,2023-10-15,ACC1007,70.85,transfr,Amazon,REVERSED,33.0,0,2023-10,Sunday,Harish Bose,Jaipur,2018-03-02,699.0,Senior,harish.bose@email.com,9851714724.0,E-commerce,True,1500.0
+TXN00037,2023-10-18,ACC1015,203.02,withdrawal,Swiggy,PENDING,35.0,0,2023-10,Wednesday,Arjun Sharma,Chennai,2020-10-26,806.0,Student,arjun.sharma@email.com,9854667809.0,Food Delivery,False,350.0
+TXN00224,2023-10-19,ACC1002,13.21,transfer,Bigbasket,FAILED,36.0,0,2023-10,Thursday,Suresh Kumar,Hyderabad,2019-01-16,,Senior,suresh.kumar@email.com,9856066984.0,,,
+TXN00006,2023-10-28,ACC1014,104.46,withdrawal,Uber,FAILED,56.0,0,2023-10,Saturday,Divya Agarwal,Pune,2022-11-21,639.0,Regular,divya.agarwal@email.com,9844775001.0,Transport,False,250.0
+TXN00128,2023-10-30,ACC1025,63.47,transfr,Netflix,UNKNOWN,37.0,0,2023-10,Monday,Ravi Kapoor,Ahmedabad,2020-09-20,633.0,Senior,ravi.kapoor@email.com,9835482265.0,Entertainment,True,499.0
+TXN00276,2023-11-03,ACC1012,296.83,debit,Bigbasket,FAILED,24.0,0,2023-11,Friday,Sneha Reddy,Kolkata,2021-03-07,731.0,Senior,sneha.reddy@email.com,9890621827.0,,,
+TXN00157,2023-11-05,ACC1032,2437.34,withdrawal,Swiggy,FAILED,50.0,0,2023-11,Sunday,Rekha Patil,Pune,2018-12-07,731.0,Senior,rekha.patil@email.com,9835253920.0,Food Delivery,False,350.0
+TXN00114,2023-11-06,ACC1039,5972.16,credit,Flipkart,PENDING,42.0,0,2023-11,Monday,Ramesh Kaur,Ahmedabad,2018-06-25,729.0,Regular,ramesh.kaur@email.com,9859356828.0,E-commerce,True,1200.0
+TXN00086,2023-11-07,ACC1004,69.92,deposit,Hdfc Atm,SUCCESS,27.0,0,2023-11,Tuesday,Sunita Tiwari,Pune,2020-06-21,843.0,Regular,sunita.tiwari@email.com,9849054205.0,,,
+TXN00139,2023-11-09,ACC1050,502.84,debit,Amazon,SUCCESS,49.0,0,2023-11,Thursday,Rohit Joshi,Ahmedabad,2018-05-01,751.0,Student,rohit.joshi@email.com,9861224263.0,E-commerce,True,1500.0
+TXN00243,2023-11-11,ACC1023,316.55,credit,Amazon,REVERSED,36.0,0,2023-11,Saturday,Shweta Jain,Delhi,2019-12-02,612.0,Premium,shweta.jain@email.com,9810225283.0,E-commerce,True,1500.0
+TXN00264,2023-11-11,ACC1018,164.49,withdrawal,Hdfc Atm,REVERSED,44.0,0,2023-11,Saturday,Rahul Gupta,Mumbai,2020-07-11,,Student,rahul.gupta@email.com,9887305664.0,,,
+TXN00250,2023-11-12,ACC1008,272.45,debit,Swiggy,REVERSED,31.0,0,2023-11,Sunday,Anita Nair,Jaipur,2019-03-12,604.0,Senior,anita.nair@email.com,9896434410.0,Food Delivery,False,350.0
+TXN00205,2023-11-14,ACC1018,18.79,withdrawal,Amazon,SUCCESS,25.0,0,2023-11,Tuesday,Rahul Gupta,Mumbai,2020-07-11,,Student,rahul.gupta@email.com,9887305664.0,E-commerce,True,1500.0
+TXN00284,2023-11-15,ACC1004,164.49,withdrawal,Flipkart,PENDING,49.0,0,2023-11,Wednesday,Sunita Tiwari,Pune,2020-06-21,843.0,Regular,sunita.tiwari@email.com,9849054205.0,E-commerce,True,1200.0
+TXN00107,2023-11-17,ACC1014,2513.12,debit,Phonepe,REVERSED,46.0,0,2023-11,Friday,Divya Agarwal,Pune,2022-11-21,639.0,Regular,divya.agarwal@email.com,9844775001.0,,,
+TXN00031,2023-11-18,ACC1027,60.19,transfer,Flipkart,SUCCESS,62.0,0,2023-11,Saturday,Satish Thakur,Chennai,2019-04-26,705.0,Regular,satish.thakur@email.com,9889196483.0,E-commerce,True,1200.0
+TXN00163,2023-11-19,ACC1046,843.78,deposit,Bigbasket,FAILED,46.0,0,2023-11,Sunday,,,,,,,,,,
+TXN00251,2023-11-25,ACC1047,22.39,debit,Zomato,FAILED,38.0,1,2023-11,Saturday,Madhuri Lal,Hyderabad,2021-04-14,703.0,Premium,madhuri.lal@email.com,9818306055.0,Food Delivery,False,320.0
+TXN00063,2023-11-28,ACC1028,28.23,debit,Phonepe,PENDING,31.0,0,2023-11,Tuesday,Rashmi Mehta,Pune,2022-03-20,806.0,Senior,rashmi.mehta@email.com,9899086047.0,,,
+TXN00057,2023-11-28,ACC1038,42.15,withdrawal,Zomato,PENDING,50.0,0,2023-11,Tuesday,,,,,,,,Food Delivery,False,320.0
+TXN00064,2023-11-30,ACC1009,24.67,transfer,Uber,REVERSED,38.0,0,2023-11,Thursday,Sunil Pawar,Bangalore,2018-09-13,710.0,Regular,sunil.pawar@email.com,9852060116.0,Transport,False,250.0
+TXN00204,2023-11-30,ACC1045,721.05,transfr,Hdfc Atm,SUCCESS,34.0,0,2023-11,Thursday,Prakash More,Delhi,2018-06-13,701.0,Premium,prakash.more@email.com,9825583513.0,,,
+TXN00091,2023-12-08,ACC1050,171.68,withdrawal,Netflix,PENDING,31.0,0,2023-12,Friday,Rohit Joshi,Ahmedabad,2018-05-01,751.0,Student,rohit.joshi@email.com,9861224263.0,Entertainment,True,499.0
+TXN00196,2023-12-09,ACC1012,264.54,credit,Paytm,PENDING,31.0,0,2023-12,Saturday,Sneha Reddy,Kolkata,2021-03-07,731.0,Senior,sneha.reddy@email.com,9890621827.0,Payments,True,400.0
+TXN00279,2023-12-14,ACC1046,164.8,deposit,Zomato,REVERSED,53.0,0,2023-12,Thursday,,,,,,,,Food Delivery,False,320.0
+TXN00247,2023-12-15,ACC1020,72.79,debit,Paytm,FAILED,26.0,0,2023-12,Friday,Asha Goel,Jaipur,2018-07-26,667.0,Student,asha.goel@email.com,9852901755.0,Payments,True,400.0
+TXN00138,2023-12-15,ACC1045,91.55,credit,Uber,REVERSED,45.0,0,2023-12,Friday,Prakash More,Delhi,2018-06-13,701.0,Premium,prakash.more@email.com,9825583513.0,Transport,False,250.0
+TXN00032,2023-12-20,ACC1035,2388.49,credit,Zomato,REVERSED,40.0,0,2023-12,Wednesday,Swati Chatterjee,Lucknow,2021-10-09,,Student,swati.chatterjee@email.com,9862096010.0,Food Delivery,False,320.0
+TXN00214,2023-12-20,ACC1032,394.29,deposit,Flipkart,REVERSED,47.0,0,2023-12,Wednesday,Rekha Patil,Pune,2018-12-07,731.0,Senior,rekha.patil@email.com,9835253920.0,E-commerce,True,1200.0
+TXN00175,2023-12-22,ACC1030,224.76,withdrawal,Uber,FAILED,46.0,0,2023-12,Friday,Meera Pillai,Kolkata,2022-07-16,840.0,Premium,meera.pillai@email.com,9885416933.0,Transport,False,250.0
+TXN00102,2023-12-26,ACC1009,78.97,withdrawal,Netflix,REVERSED,60.0,0,2023-12,Tuesday,Sunil Pawar,Bangalore,2018-09-13,710.0,Regular,sunil.pawar@email.com,9852060116.0,Entertainment,True,499.0
+TXN00237,2023-12-27,ACC1034,7.12,credit,Zomato,REVERSED,36.0,0,2023-12,Wednesday,,,,,,,,Food Delivery,False,320.0
+TXN00092,2024-01-01,ACC1042,634.58,debit,Zomato,PENDING,47.0,0,2024-01,Monday,Usha Bhat,Mumbai,2019-08-24,574.0,Senior,usha.bhat@email.com,9886885150.0,Food Delivery,False,320.0
