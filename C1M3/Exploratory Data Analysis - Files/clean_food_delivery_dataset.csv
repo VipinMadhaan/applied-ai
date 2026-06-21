@@ -1,0 +1,351 @@
+order_id,price,delivery_rating,delivery_time_minutes,customer_city,order_date,restaurant_name,food_item,quantity,discount,order_status,payment_method
+11484,200.0,5.0,5.0,Bengaluru,2025-09-11,Biryani House,Pizza,3.0,5.0,Cancelled,Card
+19268,200.0,1.0,15.0,Hyderabad,2025-01-10,Foodie Corner,Pasta,2.0,10.0,Cancelled,Cash
+16396,200.0,5.0,5.0,Mumbai,2025-01-10,Pizza Hub,Pasta,2.0,15.0,Cancelled,wallet
+13943,200.0,2.0,15.0,New Delhi,2025-01-10,Pizza Hub,Pizza,1.0,5.0,Cancelled,Cash
+18004,161.33,3.0,37.0,Bengaluru,2025-01-10,Pizza Hub,Pizza,2.0,5.0,Cancelled,wallet
+12911,200.0,0.0,15.0,Pune,2025-01-10,Tasty Treats,Pizza,3.0,15.0,Returned,Cash
+10161,200.0,5.0,5.0,,2025-02-11,Pizza Hub,Pasta,2.0,5.0,Cancelled,Cash
+10161,200.0,3.0,89.0,New Delhi,2025-10-09,The Spice Route,Sandwich,3.0,5.0,Returned,Card
+19339,200.0,1.0,5.0,Nagpur,2025-01-10,Biryani House,Sandwich,3.0,10.0,Completed,Card
+12062,325.85,2.0,5.0,Hyderabad,2025-01-10,Biryani House,Noodles,2.0,5.0,Cancelled,Cash
+18208,200.0,0.0,88.0,Mumbai,2025-01-10,Tasty Treats,Burger,3.0,5.0,Completed,Cash
+15596,204.76,5.0,15.0,New Delhi,2025-01-10,Tasty Treats,Noodles,3.0,15.0,Completed,Cash
+14297,491.45,0.0,15.0,,2025-01-10,The Spice Route,Noodles,3.0,10.0,Returned,Cash
+18050,143.14,1.0,15.0,Pune,2025-01-10,Biryani House,Noodles,2.0,5.0,Completed,Card
+11306,200.0,0.0,44.0,Hyderabad,2025-01-10,The Spice Route,Coke,3.0,5.0,Completed,wallet
+15442,200.0,2.0,68.0,Mumbai,2025-01-10,Pizza Hub,Coke,1.0,10.0,Completed,UPI
+12695,200.0,5.0,15.0,Hyderabad,2025-08-10,Foodie Corner,Sandwich,2.0,10.0,Returned,Card
+13446,243.43,3.0,15.0,Pune,2025-01-10,Biryani House,Pizza,3.0,5.0,Cancelled,wallet
+10606,200.0,3.0,5.0,Mumbai,2025-01-10,Pizza Hub,Coke,2.0,5.0,Cancelled,wallet
+10206,200.0,0.0,44.0,Pune,2025-01-10,Pizza Hub,Sandwich,2.0,5.0,Cancelled,wallet
+10064,269.18,1.0,15.0,Mumbai,2025-01-10,Foodie Corner,Momos,2.0,5.0,Completed,Cash
+15759,200.0,3.0,15.0,New Delhi,2025-01-10,Pizza Hub,Noodles,2.0,5.0,Completed,Cash
+16892,200.0,5.0,15.0,Hyderabad,2025-01-10,Pizza Hub,Noodles,2.0,5.0,Completed,Card
+18006,200.0,5.0,15.0,Nagpur,2025-01-10,Foodie Corner,Coke,3.0,15.0,Completed,Cash
+13843,200.0,5.0,5.0,New Delhi,2025-01-10,Foodie Corner,Momos,1.0,10.0,Cancelled,UPI
+13394,200.0,3.0,15.0,Pune,2025-01-10,Biryani House,Biryani,3.0,10.0,Completed,wallet
+11693,419.38,3.0,15.0,Pune,2025-01-10,Foodie Corner,Biryani,2.0,15.0,Cancelled,Cash
+10098,200.0,3.0,5.0,Nagpur,2025-01-10,Pizza Hub,Biryani,3.0,5.0,Cancelled,Cash
+13170,200.0,5.0,15.0,Nagpur,2025-01-10,Biryani House,Biryani,2.0,5.0,Completed,Card
+14658,200.0,1.0,5.0,Bengaluru,2025-01-10,Tasty Treats,Burger,3.0,5.0,Cancelled,Cash
+14658,200.0,3.0,31.0,Nagpur,2025-01-10,Tasty Treats,Momos,2.0,15.0,Cancelled,UPI
+14548,200.0,5.0,69.0,New Delhi,2025-01-10,Pizza Hub,Burger,1.0,5.0,Cancelled,Card
+11986,200.0,4.0,79.0,Hyderabad,2025-01-10,Foodie Corner,Burger,3.0,10.0,Cancelled,wallet
+16235,200.0,0.0,5.0,Pune,2025-01-10,Tasty Treats,Momos,3.0,5.0,Cancelled,Card
+14911,430.13,0.0,15.0,Nagpur,2025-01-10,Biryani House,Coke,1.0,10.0,Completed,wallet
+11495,200.0,5.0,15.0,Hyderabad,2025-01-10,Pizza Hub,Momos,3.0,5.0,Returned,Cash
+16265,492.76,3.0,15.0,Pune,2025-01-10,The Spice Route,Pasta,1.0,15.0,Cancelled,Cash
+18815,388.1,3.0,5.0,Bengaluru,2025-01-10,The Spice Route,Momos,2.0,5.0,Returned,UPI
+15855,222.26,5.0,15.0,Pune,2025-01-10,Pizza Hub,Momos,2.0,5.0,Cancelled,UPI
+14737,200.0,5.0,15.0,Mumbai,2025-01-10,Foodie Corner,Coke,1.0,10.0,Cancelled,Cash
+12806,200.0,3.0,5.0,Nagpur,2025-01-10,Pizza Hub,Sandwich,1.0,5.0,Cancelled,Card
+18155,200.0,0.0,5.0,Mumbai,2025-01-10,The Spice Route,Pasta,3.0,5.0,Completed,Card
+15855,204.39,0.0,15.0,,2025-01-10,Foodie Corner,Pizza,2.0,5.0,Returned,UPI
+14433,200.0,2.0,5.0,Hyderabad,2025-01-10,Pizza Hub,Burger,3.0,5.0,Cancelled,UPI
+14636,200.0,2.0,36.0,New Delhi,2025-01-10,Foodie Corner,Momos,3.0,5.0,Cancelled,Card
+12869,200.0,3.0,15.0,Hyderabad,2025-01-10,Pizza Hub,Sandwich,3.0,15.0,Cancelled,Cash
+16197,257.33,1.0,40.0,New Delhi,2025-01-10,Pizza Hub,Noodles,2.0,5.0,Completed,Cash
+14014,200.0,1.0,84.0,Nagpur,2025-01-10,The Spice Route,Biryani,2.0,10.0,Cancelled,UPI
+15450,200.0,1.0,5.0,Mumbai,2025-01-11,Foodie Corner,Coke,3.0,5.0,Cancelled,Cash
+13446,440.85,5.0,70.0,New Delhi,2025-01-10,The Spice Route,Coke,3.0,5.0,Cancelled,Card
+14496,200.0,0.0,49.0,Hyderabad,2025-01-10,Foodie Corner,Momos,2.0,5.0,Completed,Card
+13556,200.0,3.0,15.0,Pune,2025-01-10,Tasty Treats,Pasta,3.0,10.0,Cancelled,Cash
+18004,200.0,5.0,54.0,Mumbai,2025-01-10,Tasty Treats,Momos,3.0,5.0,Completed,Card
+17041,200.0,2.0,15.0,Mumbai,2025-01-10,The Spice Route,Pizza,2.0,5.0,Completed,wallet
+10064,200.0,5.0,5.0,New Delhi,2025-01-10,Pizza Hub,Pizza,1.0,5.0,Completed,wallet
+12747,200.0,4.0,35.0,Mumbai,2025-01-10,Pizza Hub,Pizza,2.0,15.0,Completed,Card
+16420,200.0,5.0,48.0,Nagpur,2025-01-10,The Spice Route,Momos,2.0,5.0,Completed,Cash
+11218,384.55,3.0,5.0,Hyderabad,2025-01-10,Tasty Treats,Momos,1.0,5.0,Cancelled,wallet
+11734,200.0,5.0,5.0,Mumbai,2025-01-10,Pizza Hub,Biryani,2.0,15.0,Completed,Cash
+12869,200.0,2.0,5.0,Hyderabad,2025-10-11,Biryani House,Coke,2.0,5.0,Completed,Cash
+16971,209.81,4.0,53.0,Mumbai,2025-01-10,Biryani House,Coke,2.0,15.0,Cancelled,Card
+18571,200.0,2.0,44.0,Mumbai,2025-01-10,Tasty Treats,Noodles,2.0,5.0,Cancelled,Cash
+11409,200.0,5.0,15.0,Nagpur,2025-01-10,Biryani House,Noodles,1.0,5.0,Returned,Cash
+19146,200.0,5.0,41.0,Mumbai,2025-01-10,The Spice Route,Pizza,3.0,15.0,Returned,Cash
+15051,200.0,4.0,57.0,New Delhi,2025-01-10,Pizza Hub,Burger,2.0,5.0,Returned,Cash
+17035,200.0,3.0,75.0,Mumbai,2025-01-10,The Spice Route,Coke,3.0,5.0,Cancelled,Card
+14493,200.0,4.0,15.0,Mumbai,2025-03-09,Tasty Treats,Pizza,2.0,5.0,Cancelled,wallet
+14297,197.03,3.0,76.0,Bengaluru,2025-01-10,Pizza Hub,Pasta,3.0,5.0,Completed,Cash
+19986,200.0,3.0,5.0,,2025-04-10,Pizza Hub,Sandwich,1.0,15.0,Completed,Card
+13099,200.0,3.0,47.0,Hyderabad,2025-10-09,The Spice Route,Sandwich,3.0,5.0,Completed,Cash
+10956,200.0,1.0,5.0,Mumbai,2025-01-10,The Spice Route,Momos,1.0,5.0,Cancelled,UPI
+15134,265.49,5.0,15.0,Pune,2025-01-10,Tasty Treats,Momos,3.0,5.0,Completed,Card
+12790,200.0,2.0,15.0,,2025-01-10,The Spice Route,Sandwich,3.0,5.0,Completed,Cash
+18226,200.0,5.0,15.0,Mumbai,2025-01-10,Tasty Treats,Burger,2.0,5.0,Completed,wallet
+11707,200.0,3.0,15.0,New Delhi,2025-01-10,Tasty Treats,Momos,3.0,15.0,Cancelled,Cash
+12062,200.0,5.0,5.0,New Delhi,2025-01-10,Biryani House,Noodles,3.0,5.0,Cancelled,Card
+17280,200.0,4.0,15.0,,2025-01-10,Tasty Treats,Coke,3.0,10.0,Returned,Cash
+11060,265.9,2.0,66.0,Mumbai,2025-01-10,Tasty Treats,Sandwich,1.0,10.0,Cancelled,Cash
+11585,200.0,3.0,15.0,Bengaluru,2025-01-10,The Spice Route,Pasta,2.0,10.0,Cancelled,Cash
+10262,200.0,5.0,5.0,Pune,2025-07-11,Pizza Hub,Coke,2.0,5.0,Completed,wallet
+13987,200.0,5.0,5.0,Mumbai,2025-01-10,The Spice Route,Burger,2.0,15.0,Cancelled,wallet
+10064,200.0,3.0,48.0,Mumbai,2025-01-10,Pizza Hub,Noodles,3.0,5.0,Returned,wallet
+19007,200.0,5.0,52.0,New Delhi,2025-01-10,Biryani House,Biryani,2.0,5.0,Returned,Cash
+12255,449.63,2.0,15.0,Mumbai,2025-01-10,Foodie Corner,Burger,2.0,5.0,Completed,wallet
+12205,200.0,0.0,15.0,New Delhi,2025-01-10,Pizza Hub,Sandwich,2.0,15.0,Returned,UPI
+14433,200.0,5.0,45.0,Bengaluru,2025-01-11,Biryani House,Pizza,2.0,5.0,Cancelled,UPI
+17385,223.61,0.0,15.0,Mumbai,2025-01-10,Pizza Hub,Pizza,3.0,5.0,Returned,Card
+13157,200.0,4.0,83.0,Mumbai,2025-01-10,The Spice Route,Momos,3.0,5.0,Completed,Cash
+15575,281.69,5.0,61.0,Hyderabad,2025-01-10,Foodie Corner,Pasta,2.0,5.0,Returned,UPI
+17869,200.0,4.0,15.0,New Delhi,2025-01-10,Biryani House,Burger,3.0,5.0,Cancelled,UPI
+18445,200.0,5.0,15.0,Nagpur,2025-01-10,Foodie Corner,Sandwich,3.0,5.0,Completed,UPI
+19167,459.53,5.0,5.0,New Delhi,2025-01-10,Foodie Corner,Momos,2.0,15.0,Completed,wallet
+16892,473.93,5.0,41.0,New Delhi,2025-01-10,Tasty Treats,Sandwich,2.0,5.0,Completed,Card
+19670,200.0,5.0,37.0,Mumbai,2025-01-10,Biryani House,Pasta,1.0,5.0,Cancelled,wallet
+17208,200.0,3.0,15.0,Mumbai,2025-01-10,The Spice Route,Pizza,1.0,5.0,Cancelled,wallet
+17125,200.0,2.0,15.0,Mumbai,2025-01-10,The Spice Route,Pasta,2.0,10.0,Cancelled,Card
+16374,200.0,5.0,84.0,Nagpur,2025-01-10,Biryani House,Coke,2.0,5.0,Completed,Card
+10502,200.0,2.0,15.0,Nagpur,2025-05-09,The Spice Route,Momos,2.0,5.0,Cancelled,Cash
+15450,200.0,2.0,15.0,Hyderabad,2025-01-10,The Spice Route,Momos,1.0,5.0,Cancelled,UPI
+17270,200.0,3.0,15.0,Hyderabad,2025-01-10,Biryani House,Pizza,2.0,5.0,Cancelled,Card
+12747,200.0,3.0,5.0,Mumbai,2025-01-10,Pizza Hub,Pasta,2.0,5.0,Returned,Cash
+13843,298.35,4.0,15.0,Nagpur,2025-01-10,Foodie Corner,Biryani,1.0,10.0,Cancelled,UPI
+12695,200.0,4.0,43.0,Nagpur,2025-01-10,The Spice Route,Pasta,2.0,5.0,Completed,Card
+14218,200.0,5.0,29.0,Nagpur,2025-01-10,Foodie Corner,Noodles,2.0,5.0,Completed,Cash
+10502,200.0,3.0,76.0,Bengaluru,2025-01-10,The Spice Route,Noodles,2.0,10.0,Completed,Cash
+19474,200.0,3.0,5.0,Mumbai,2025-04-10,Pizza Hub,Pizza,3.0,5.0,Returned,wallet
+15390,200.0,4.0,72.0,Hyderabad,2025-01-10,The Spice Route,Pizza,2.0,5.0,Cancelled,UPI
+16863,200.0,0.0,5.0,Bengaluru,2025-01-10,Foodie Corner,Pizza,2.0,5.0,Completed,Cash
+11663,200.0,3.0,41.0,Mumbai,2025-01-10,Pizza Hub,Pizza,2.0,10.0,Completed,Card
+16585,200.0,3.0,5.0,New Delhi,2025-10-09,The Spice Route,Momos,2.0,5.0,Returned,UPI
+14199,200.0,5.0,15.0,Pune,2025-01-10,Foodie Corner,Pizza,2.0,15.0,Cancelled,Cash
+18319,285.32,3.0,80.0,New Delhi,2025-01-10,Pizza Hub,Noodles,2.0,5.0,Cancelled,Cash
+13099,200.0,5.0,5.0,Hyderabad,2025-01-10,The Spice Route,Burger,1.0,5.0,Returned,Cash
+13005,200.0,5.0,5.0,Mumbai,2025-01-10,Pizza Hub,Pasta,1.0,15.0,Cancelled,UPI
+12733,200.0,5.0,15.0,New Delhi,2025-01-10,Foodie Corner,Burger,2.0,15.0,Cancelled,Cash
+15056,200.0,5.0,15.0,Mumbai,2025-01-10,Pizza Hub,Momos,3.0,5.0,Cancelled,UPI
+14931,438.34,4.0,43.0,,2025-01-10,Foodie Corner,Sandwich,3.0,5.0,Cancelled,Cash
+18392,200.0,5.0,15.0,Mumbai,2025-01-10,Pizza Hub,Burger,2.0,10.0,Cancelled,UPI
+14736,193.26,2.0,15.0,Mumbai,2025-01-10,Tasty Treats,Momos,2.0,5.0,Completed,Cash
+14499,418.56,5.0,5.0,Bengaluru,2025-01-10,Pizza Hub,Momos,2.0,10.0,Cancelled,Card
+17408,200.0,3.0,15.0,Pune,2025-01-10,Foodie Corner,Coke,2.0,15.0,Cancelled,wallet
+19339,258.07,3.0,15.0,Nagpur,2025-01-10,Biryani House,Pizza,2.0,5.0,Completed,wallet
+19719,200.0,4.0,39.0,Mumbai,2025-01-10,Foodie Corner,Pizza,2.0,15.0,Cancelled,Cash
+10980,200.0,1.0,5.0,Mumbai,2025-01-10,Foodie Corner,Coke,2.0,5.0,Cancelled,Card
+11636,200.0,2.0,15.0,New Delhi,2025-06-10,Foodie Corner,Burger,3.0,10.0,Returned,Cash
+14061,200.0,1.0,15.0,Hyderabad,2025-01-10,The Spice Route,Coke,1.0,10.0,Completed,Card
+10502,232.3,5.0,15.0,Bengaluru,2025-01-10,Foodie Corner,Biryani,2.0,5.0,Returned,Card
+17022,200.0,3.0,5.0,Mumbai,2025-01-10,Pizza Hub,Pasta,2.0,10.0,Cancelled,wallet
+15172,200.0,3.0,15.0,Hyderabad,2025-01-10,Pizza Hub,Momos,3.0,15.0,Cancelled,Card
+18050,200.0,2.0,15.0,Pune,2025-01-10,Tasty Treats,Sandwich,1.0,5.0,Returned,UPI
+14499,200.0,5.0,16.0,New Delhi,2025-01-10,Biryani House,Noodles,1.0,5.0,Cancelled,Card
+12558,273.88,1.0,5.0,Pune,2025-01-10,Foodie Corner,Momos,2.0,15.0,Cancelled,Card
+13987,200.0,1.0,5.0,,2025-01-10,Pizza Hub,Sandwich,1.0,5.0,Cancelled,Cash
+14548,200.0,5.0,5.0,New Delhi,2025-01-10,Biryani House,Pasta,2.0,5.0,Completed,UPI
+15759,200.0,4.0,15.0,Mumbai,2025-01-10,Foodie Corner,Noodles,2.0,5.0,Completed,UPI
+15116,200.0,1.0,15.0,Pune,2025-02-09,Biryani House,Pasta,2.0,5.0,Completed,wallet
+11930,200.0,3.0,15.0,New Delhi,2025-01-10,Foodie Corner,Coke,2.0,5.0,Completed,UPI
+13840,200.0,2.0,38.0,Mumbai,2025-01-10,Tasty Treats,Biryani,3.0,10.0,Completed,wallet
+17339,200.0,5.0,49.0,Pune,2025-01-10,Pizza Hub,Momos,2.0,5.0,Cancelled,UPI
+14548,200.0,5.0,5.0,Mumbai,2025-01-10,Pizza Hub,Biryani,2.0,5.0,Returned,Cash
+10854,233.4,3.0,65.0,,2025-01-10,Pizza Hub,Pizza,2.0,5.0,Cancelled,Cash
+18901,200.0,5.0,67.0,,2025-01-10,Tasty Treats,Sandwich,1.0,10.0,Returned,UPI
+12811,200.0,1.0,5.0,Nagpur,2025-01-10,Tasty Treats,Noodles,1.0,15.0,Completed,wallet
+18120,200.0,4.0,5.0,Mumbai,2025-01-10,Biryani House,Pasta,1.0,5.0,Returned,Cash
+11843,200.0,5.0,15.0,Nagpur,2025-01-10,Biryani House,Pasta,2.0,5.0,Returned,wallet
+19062,200.0,2.0,15.0,Nagpur,2025-01-10,Biryani House,Sandwich,3.0,5.0,Completed,UPI
+16287,281.61,5.0,15.0,Mumbai,2025-01-10,Pizza Hub,Burger,3.0,15.0,Completed,UPI
+14737,236.96,3.0,5.0,,2025-01-10,Pizza Hub,Coke,3.0,10.0,Completed,UPI
+14413,105.95,0.0,5.0,Mumbai,2025-01-10,The Spice Route,Noodles,1.0,10.0,Cancelled,Card
+10956,200.0,2.0,15.0,New Delhi,2025-01-10,The Spice Route,Sandwich,2.0,15.0,Returned,UPI
+18319,200.0,2.0,51.0,New Delhi,2025-01-10,Pizza Hub,Burger,3.0,5.0,Completed,Card
+11841,200.0,5.0,41.0,Bengaluru,2025-01-10,Pizza Hub,Pasta,2.0,10.0,Cancelled,wallet
+10995,179.18,3.0,5.0,Hyderabad,2025-01-10,Foodie Corner,Burger,2.0,5.0,Cancelled,Card
+17392,200.0,2.0,5.0,Mumbai,2025-01-10,Pizza Hub,Noodles,3.0,5.0,Cancelled,UPI
+18096,434.7,2.0,15.0,Hyderabad,2025-01-10,Biryani House,Momos,2.0,5.0,Cancelled,Cash
+19331,200.0,4.0,5.0,Hyderabad,2025-01-10,Foodie Corner,Momos,3.0,5.0,Cancelled,UPI
+11267,200.0,4.0,66.0,New Delhi,2025-01-10,Tasty Treats,Pasta,2.0,5.0,Cancelled,wallet
+13354,200.0,4.0,30.0,Nagpur,2025-01-10,Pizza Hub,Coke,1.0,15.0,Cancelled,wallet
+10189,200.0,1.0,15.0,Mumbai,2025-01-10,Biryani House,Coke,1.0,5.0,Cancelled,UPI
+16893,200.0,2.0,15.0,Nagpur,2025-01-10,Pizza Hub,Pasta,1.0,5.0,Completed,Cash
+18110,200.0,0.0,15.0,Pune,2025-01-10,Pizza Hub,Momos,2.0,10.0,Completed,UPI
+19692,147.86,2.0,13.0,Bengaluru,2025-01-10,Foodie Corner,Noodles,1.0,5.0,Cancelled,UPI
+17400,200.0,3.0,15.0,Mumbai,2025-01-10,Foodie Corner,Noodles,2.0,15.0,Completed,wallet
+18155,200.0,3.0,14.0,Bengaluru,2025-01-10,Pizza Hub,Biryani,2.0,5.0,Completed,wallet
+16892,241.98,2.0,84.0,Hyderabad,2025-01-10,Pizza Hub,Coke,3.0,5.0,Returned,Card
+18006,200.0,0.0,74.0,New Delhi,2025-01-10,Pizza Hub,Coke,2.0,5.0,Returned,Cash
+18901,200.0,4.0,25.0,Mumbai,2025-01-10,The Spice Route,Noodles,3.0,10.0,Returned,Cash
+18392,200.0,3.0,15.0,Bengaluru,2025-11-09,Biryani House,Biryani,3.0,15.0,Cancelled,Cash
+10698,350.63,3.0,15.0,,2025-01-10,The Spice Route,Sandwich,1.0,10.0,Returned,Cash
+13394,225.71,2.0,15.0,Nagpur,2025-01-10,Foodie Corner,Pizza,2.0,10.0,Cancelled,UPI
+17777,200.0,5.0,15.0,Nagpur,2025-01-10,Foodie Corner,Pizza,3.0,5.0,Cancelled,UPI
+17629,200.0,5.0,5.0,Hyderabad,2025-01-10,Tasty Treats,Momos,2.0,10.0,Cancelled,UPI
+16776,200.0,4.0,5.0,Nagpur,2025-01-10,Tasty Treats,Biryani,2.0,5.0,Returned,Cash
+10301,200.0,3.0,15.0,Mumbai,2025-01-10,Pizza Hub,Biryani,3.0,15.0,Completed,Card
+17526,200.0,5.0,11.0,Pune,2025-01-10,The Spice Route,Momos,2.0,5.0,Completed,wallet
+12327,200.0,4.0,15.0,New Delhi,2025-03-10,Foodie Corner,Burger,1.0,5.0,Cancelled,UPI
+15056,352.09,3.0,15.0,Mumbai,2025-01-10,Pizza Hub,Pasta,3.0,5.0,Cancelled,Cash
+17869,474.88,3.0,5.0,,2025-01-10,The Spice Route,Pizza,2.0,15.0,Completed,UPI
+15450,200.0,1.0,22.0,Nagpur,2025-01-10,Pizza Hub,Coke,1.0,15.0,Completed,wallet
+17849,200.0,2.0,15.0,New Delhi,2025-01-10,Foodie Corner,Burger,3.0,5.0,Cancelled,wallet
+18352,200.0,3.0,5.0,Pune,2025-01-10,Foodie Corner,Pizza,2.0,10.0,Completed,Cash
+17400,200.0,0.0,38.0,Hyderabad,2025-01-10,The Spice Route,Pasta,1.0,15.0,Returned,wallet
+11484,200.0,0.0,61.0,Mumbai,2025-01-10,Biryani House,Pizza,3.0,5.0,Completed,UPI
+16546,200.0,4.0,5.0,Nagpur,2025-01-10,Biryani House,Noodles,3.0,5.0,Completed,Cash
+19986,200.0,3.0,68.0,Mumbai,2025-01-10,Foodie Corner,Burger,3.0,5.0,Returned,Cash
+15895,200.0,1.0,26.0,Pune,2025-01-10,Pizza Hub,Coke,1.0,5.0,Completed,Card
+17215,200.0,5.0,15.0,Mumbai,2025-01-10,Foodie Corner,Pasta,3.0,10.0,Completed,UPI
+18445,200.0,3.0,63.0,Pune,2025-01-10,Pizza Hub,Momos,3.0,5.0,Completed,UPI
+16949,177.44,3.0,15.0,Pune,2025-01-10,The Spice Route,Biryani,3.0,15.0,Cancelled,Cash
+16396,200.0,1.0,5.0,Pune,2025-01-10,Biryani House,Coke,1.0,10.0,Returned,wallet
+11707,488.82,4.0,15.0,Mumbai,2025-01-10,The Spice Route,Momos,3.0,5.0,Completed,Cash
+17574,200.0,3.0,5.0,New Delhi,2025-01-10,Pizza Hub,Pizza,3.0,10.0,Completed,wallet
+16776,255.11,5.0,5.0,Mumbai,2025-01-10,Foodie Corner,Biryani,2.0,5.0,Cancelled,UPI
+18120,200.0,4.0,15.0,Nagpur,2025-01-10,The Spice Route,Biryani,3.0,5.0,Returned,Cash
+12511,200.0,5.0,5.0,Bengaluru,2025-01-10,Pizza Hub,Burger,2.0,10.0,Returned,UPI
+10769,200.0,0.0,15.0,New Delhi,2025-01-10,Foodie Corner,Pizza,2.0,5.0,Completed,Cash
+16019,200.0,2.0,5.0,Mumbai,2025-01-10,Foodie Corner,Momos,3.0,10.0,Completed,UPI
+13005,200.0,3.0,34.0,Pune,2025-01-10,The Spice Route,Biryani,2.0,5.0,Returned,UPI
+12911,200.0,3.0,15.0,Bengaluru,2025-01-10,Biryani House,Sandwich,2.0,15.0,Returned,wallet
+17560,200.0,5.0,45.0,Hyderabad,2025-01-10,Pizza Hub,Burger,3.0,10.0,Cancelled,Card
+11986,200.0,5.0,83.0,Hyderabad,2025-01-10,Tasty Treats,Burger,2.0,5.0,Cancelled,Card
+10391,200.0,2.0,5.0,Pune,2025-01-10,Foodie Corner,Coke,2.0,5.0,Returned,UPI
+18792,200.0,0.0,5.0,Mumbai,2025-01-10,Pizza Hub,Sandwich,1.0,10.0,Completed,wallet
+14658,191.4,3.0,79.0,Mumbai,2025-01-10,Pizza Hub,Noodles,1.0,5.0,Completed,UPI
+14061,200.0,3.0,21.0,New Delhi,2025-01-10,Pizza Hub,Burger,2.0,5.0,Completed,UPI
+16420,200.0,3.0,58.0,,2025-01-10,Tasty Treats,Sandwich,2.0,10.0,Returned,UPI
+10197,424.49,3.0,5.0,Mumbai,2025-01-10,Pizza Hub,Momos,3.0,5.0,Cancelled,UPI
+11291,200.0,0.0,15.0,Pune,2025-01-10,The Spice Route,Momos,2.0,5.0,Returned,Card
+18529,200.0,4.0,15.0,New Delhi,2025-01-10,Biryani House,Pizza,1.0,5.0,Completed,Cash
+18392,200.0,3.0,5.0,,2025-01-10,Pizza Hub,Burger,2.0,10.0,Cancelled,UPI
+18155,205.98,0.0,67.0,Mumbai,2025-01-10,The Spice Route,Momos,2.0,15.0,Returned,Cash
+15311,200.0,3.0,15.0,Nagpur,2025-01-10,Tasty Treats,Burger,3.0,5.0,Completed,Card
+17849,242.52,2.0,10.0,Pune,2025-01-10,Pizza Hub,Noodles,1.0,5.0,Returned,UPI
+14493,200.0,1.0,15.0,Pune,2025-01-10,Pizza Hub,Coke,2.0,5.0,Completed,Card
+14493,200.0,2.0,78.0,,2025-01-10,Tasty Treats,Momos,2.0,5.0,Returned,Card
+16287,200.0,3.0,84.0,Nagpur,2025-01-10,Tasty Treats,Biryani,2.0,5.0,Completed,UPI
+17734,292.24,3.0,61.0,New Delhi,2025-01-10,Foodie Corner,Sandwich,3.0,5.0,Completed,UPI
+13157,200.0,3.0,15.0,New Delhi,2025-01-10,Biryani House,Coke,2.0,5.0,Completed,wallet
+17683,194.89,4.0,46.0,Nagpur,2025-01-10,Foodie Corner,Noodles,3.0,5.0,Cancelled,UPI
+18154,200.0,5.0,15.0,Hyderabad,2025-01-10,Pizza Hub,Momos,2.0,5.0,Cancelled,wallet
+15892,492.01,4.0,58.0,New Delhi,2025-01-10,Foodie Corner,Momos,2.0,5.0,Completed,wallet
+19998,200.0,3.0,15.0,Nagpur,2025-01-10,Pizza Hub,Momos,2.0,10.0,Cancelled,Cash
+14061,200.0,3.0,15.0,Mumbai,2025-05-11,Tasty Treats,Momos,1.0,15.0,Returned,Cash
+12433,213.75,4.0,15.0,Pune,2025-01-10,Tasty Treats,Sandwich,2.0,5.0,Cancelled,UPI
+10659,200.0,1.0,15.0,,2025-01-10,Tasty Treats,Burger,2.0,5.0,Cancelled,UPI
+17280,200.0,2.0,15.0,Nagpur,2025-10-10,Tasty Treats,Momos,2.0,5.0,Cancelled,UPI
+14297,259.51,3.0,15.0,New Delhi,2025-01-10,Biryani House,Coke,2.0,5.0,Cancelled,wallet
+15618,200.0,0.0,15.0,Bengaluru,2025-01-10,Biryani House,Burger,3.0,15.0,Cancelled,wallet
+13009,200.0,3.0,5.0,Pune,2025-01-10,Tasty Treats,Pasta,3.0,15.0,Cancelled,UPI
+19789,200.0,4.0,15.0,Bengaluru,2025-01-10,Pizza Hub,Sandwich,2.0,5.0,Completed,UPI
+10663,200.0,5.0,15.0,New Delhi,2025-01-10,Tasty Treats,Sandwich,3.0,15.0,Completed,Cash
+17683,200.0,4.0,74.0,Hyderabad,2025-01-10,Pizza Hub,Coke,2.0,10.0,Cancelled,Cash
+14389,200.0,5.0,5.0,Nagpur,2025-01-10,Foodie Corner,Pizza,2.0,5.0,Completed,UPI
+10537,206.15,5.0,5.0,Mumbai,2025-01-10,Biryani House,Pasta,3.0,15.0,Cancelled,UPI
+19998,200.0,0.0,45.0,New Delhi,2025-04-11,Tasty Treats,Momos,2.0,5.0,Completed,Cash
+10569,200.0,0.0,73.0,Mumbai,2025-01-10,Foodie Corner,Noodles,2.0,5.0,Cancelled,wallet
+12806,200.0,5.0,15.0,New Delhi,2025-01-10,Pizza Hub,Noodles,2.0,5.0,Completed,Cash
+11678,200.0,1.0,11.0,Mumbai,2025-01-10,The Spice Route,Biryani,3.0,5.0,Completed,Cash
+17869,118.08,5.0,5.0,New Delhi,2025-01-10,Pizza Hub,Noodles,2.0,5.0,Returned,wallet
+14636,389.13,0.0,5.0,,2025-01-10,Foodie Corner,Coke,2.0,5.0,Completed,UPI
+12200,200.0,1.0,15.0,Hyderabad,2025-01-10,The Spice Route,Pizza,2.0,15.0,Returned,wallet
+18322,200.0,3.0,15.0,Hyderabad,2025-01-10,The Spice Route,Pizza,1.0,5.0,Cancelled,Card
+17858,200.0,3.0,15.0,,2025-07-10,Foodie Corner,Noodles,2.0,5.0,Returned,UPI
+13009,457.2,3.0,5.0,New Delhi,2025-01-10,Tasty Treats,Biryani,3.0,5.0,Completed,Cash
+18050,471.66,3.0,15.0,Mumbai,2025-01-10,Pizza Hub,Burger,2.0,5.0,Completed,Card
+13943,231.04,3.0,63.0,Nagpur,2025-01-10,Foodie Corner,Biryani,3.0,15.0,Cancelled,UPI
+12790,396.02,4.0,5.0,New Delhi,2025-01-10,Pizza Hub,Sandwich,3.0,5.0,Cancelled,UPI
+12511,200.0,0.0,46.0,New Delhi,2025-01-10,Pizza Hub,Burger,3.0,5.0,Completed,wallet
+12612,200.0,5.0,15.0,Hyderabad,2025-01-10,Pizza Hub,Momos,2.0,5.0,Returned,Card
+10206,200.0,0.0,32.0,,2025-01-10,The Spice Route,Coke,2.0,5.0,Completed,UPI
+11291,223.75,1.0,5.0,Pune,2025-01-10,The Spice Route,Biryani,3.0,15.0,Completed,wallet
+12200,200.0,3.0,5.0,Nagpur,2025-01-10,Pizza Hub,Burger,3.0,15.0,Cancelled,Card
+13108,200.0,4.0,15.0,Nagpur,2025-01-10,The Spice Route,Noodles,2.0,5.0,Completed,UPI
+16331,189.65,3.0,15.0,Hyderabad,2025-01-10,Foodie Corner,Burger,3.0,10.0,Completed,UPI
+10466,200.0,0.0,15.0,Nagpur,2025-01-10,Tasty Treats,Pasta,2.0,5.0,Completed,Card
+19670,200.0,1.0,53.0,Mumbai,2025-01-10,Foodie Corner,Coke,2.0,5.0,Completed,Cash
+13005,200.0,4.0,15.0,Nagpur,2025-01-10,The Spice Route,Biryani,3.0,5.0,Cancelled,UPI
+18792,200.0,4.0,5.0,Pune,2025-01-10,The Spice Route,Burger,1.0,5.0,Cancelled,Card
+15855,200.0,5.0,82.0,New Delhi,2025-01-10,Biryani House,Pizza,2.0,15.0,Cancelled,Cash
+16776,200.0,2.0,5.0,Hyderabad,2025-01-10,Pizza Hub,Burger,3.0,10.0,Cancelled,Card
+14413,200.0,3.0,15.0,Pune,2025-01-10,The Spice Route,Coke,2.0,10.0,Returned,UPI
+19062,200.0,3.0,5.0,New Delhi,2025-01-10,Tasty Treats,Sandwich,2.0,15.0,Cancelled,Cash
+10064,200.0,3.0,15.0,Hyderabad,2025-01-10,The Spice Route,Noodles,1.0,15.0,Completed,Card
+18996,200.0,3.0,15.0,Mumbai,2025-01-10,Foodie Corner,Burger,2.0,15.0,Cancelled,wallet
+15734,153.01,3.0,15.0,,2025-01-10,Tasty Treats,Burger,2.0,10.0,Cancelled,UPI
+15592,200.0,2.0,5.0,Nagpur,2025-01-10,The Spice Route,Biryani,2.0,15.0,Completed,UPI
+12869,234.49,5.0,18.0,Hyderabad,2025-01-10,Foodie Corner,Sandwich,2.0,5.0,Cancelled,Cash
+19492,280.62,4.0,15.0,Mumbai,2025-09-09,Tasty Treats,Momos,2.0,5.0,Returned,Card
+19151,495.95,4.0,15.0,Bengaluru,2025-01-10,The Spice Route,Momos,1.0,15.0,Cancelled,UPI
+12327,287.3,1.0,15.0,New Delhi,2025-01-10,Foodie Corner,Burger,3.0,15.0,Completed,Cash
+19167,200.0,3.0,15.0,,2025-01-10,Pizza Hub,Momos,2.0,10.0,Completed,Card
+12695,200.0,1.0,5.0,Pune,2025-01-10,Tasty Treats,Pizza,3.0,10.0,Completed,Cash
+12327,200.0,5.0,32.0,Bengaluru,2025-01-10,Tasty Treats,Biryani,3.0,15.0,Completed,Card
+13581,200.0,1.0,5.0,Pune,2025-01-10,The Spice Route,Biryani,2.0,5.0,Returned,UPI
+17158,200.0,3.0,43.0,Pune,2025-01-10,Tasty Treats,Coke,2.0,5.0,Completed,Cash
+15442,200.0,1.0,33.0,Mumbai,2025-01-10,Biryani House,Coke,2.0,5.0,Returned,UPI
+10098,200.0,2.0,15.0,Pune,2025-01-10,Pizza Hub,Burger,2.0,5.0,Cancelled,Card
+14493,200.0,0.0,15.0,,2025-01-10,The Spice Route,Pizza,2.0,10.0,Completed,UPI
+11585,200.0,2.0,78.0,New Delhi,2025-01-10,Foodie Corner,Coke,3.0,10.0,Cancelled,UPI
+10860,261.53,5.0,5.0,Bengaluru,2025-01-10,Tasty Treats,Pasta,2.0,5.0,Cancelled,wallet
+15596,200.0,3.0,15.0,Nagpur,2025-01-10,Pizza Hub,Burger,2.0,5.0,Cancelled,UPI
+16197,200.0,1.0,5.0,,2025-07-09,Pizza Hub,Sandwich,2.0,5.0,Cancelled,Card
+17339,200.0,3.0,5.0,,2025-01-10,The Spice Route,Biryani,1.0,15.0,Completed,UPI
+19762,200.0,5.0,15.0,Hyderabad,2025-06-09,Pizza Hub,Burger,1.0,15.0,Returned,UPI
+13073,200.0,3.0,15.0,Hyderabad,2025-01-10,Biryani House,Biryani,3.0,5.0,Cancelled,wallet
+13561,200.0,4.0,74.0,Mumbai,2025-01-10,Pizza Hub,Noodles,2.0,5.0,Completed,Card
+17629,200.0,4.0,40.0,Bengaluru,2025-01-10,Foodie Corner,Sandwich,2.0,15.0,Cancelled,Cash
+14218,200.0,2.0,15.0,Bengaluru,2025-01-10,Foodie Corner,Burger,2.0,5.0,Completed,Card
+11648,200.0,5.0,15.0,Mumbai,2025-04-10,Foodie Corner,Burger,2.0,5.0,Returned,UPI
+15675,200.0,3.0,58.0,,2025-10-10,Pizza Hub,Noodles,2.0,5.0,Cancelled,UPI
+16265,249.56,3.0,5.0,New Delhi,2025-01-10,Foodie Corner,Biryani,1.0,15.0,Returned,UPI
+12205,441.72,5.0,15.0,Bengaluru,2025-06-11,Pizza Hub,Noodles,3.0,5.0,Returned,Cash
+11528,200.0,3.0,5.0,,2025-01-10,Foodie Corner,Noodles,2.0,10.0,Completed,Cash
+13394,270.44,4.0,5.0,Pune,2025-01-10,Pizza Hub,Momos,1.0,5.0,Completed,Card
+13987,200.0,3.0,5.0,,2025-01-10,The Spice Route,Pasta,1.0,10.0,Completed,wallet
+19268,362.37,1.0,5.0,New Delhi,2025-01-10,Pizza Hub,Momos,2.0,5.0,Completed,UPI
+10189,200.0,2.0,15.0,Bengaluru,2025-01-10,Foodie Corner,Noodles,3.0,5.0,Completed,wallet
+18666,181.47,5.0,53.0,Mumbai,2025-01-10,Pizza Hub,Burger,2.0,5.0,Cancelled,UPI
+11802,309.71,5.0,76.0,,2025-01-10,The Spice Route,Noodles,2.0,15.0,Returned,Card
+14737,200.0,2.0,15.0,Nagpur,2025-01-10,Pizza Hub,Pasta,2.0,5.0,Completed,Card
+11853,200.0,0.0,15.0,Pune,2025-01-10,Tasty Treats,Pizza,2.0,5.0,Completed,UPI
+18901,200.0,1.0,15.0,Mumbai,2025-01-10,Pizza Hub,Pasta,3.0,10.0,Cancelled,Cash
+17215,496.67,5.0,22.0,New Delhi,2025-01-10,The Spice Route,Momos,3.0,5.0,Cancelled,Cash
+14433,200.0,3.0,15.0,Mumbai,2025-01-10,Tasty Treats,Biryani,3.0,15.0,Cancelled,Card
+11895,200.0,2.0,5.0,,2025-01-10,Foodie Corner,Sandwich,2.0,5.0,Completed,wallet
+18164,200.0,0.0,5.0,Pune,2025-01-10,Tasty Treats,Burger,2.0,5.0,Cancelled,wallet
+13354,200.0,2.0,15.0,Pune,2025-01-10,The Spice Route,Momos,1.0,5.0,Completed,Card
+17408,200.0,3.0,15.0,Bengaluru,2025-01-10,The Spice Route,Biryani,1.0,5.0,Completed,Cash
+16102,200.0,0.0,5.0,Hyderabad,2025-05-10,The Spice Route,Coke,1.0,5.0,Cancelled,wallet
+10769,200.0,0.0,23.0,Bengaluru,2025-01-10,Tasty Treats,Burger,2.0,5.0,Completed,UPI
+15276,200.0,3.0,87.0,Mumbai,2025-01-10,Biryani House,Sandwich,3.0,5.0,Cancelled,Cash
+10197,200.0,5.0,13.0,Mumbai,2025-01-10,Foodie Corner,Biryani,2.0,10.0,Completed,Cash
+14735,200.0,3.0,62.0,Pune,2025-01-10,Biryani House,Noodles,1.0,5.0,Returned,Card
+17041,200.0,1.0,15.0,New Delhi,2025-01-10,The Spice Route,Pasta,2.0,5.0,Returned,UPI
+16102,488.91,0.0,19.0,Bengaluru,2025-01-10,Tasty Treats,Biryani,2.0,10.0,Cancelled,wallet
+12869,200.0,5.0,37.0,New Delhi,2025-01-10,The Spice Route,Noodles,2.0,5.0,Returned,UPI
+19151,200.0,3.0,75.0,Bengaluru,2025-01-10,Foodie Corner,Biryani,2.0,10.0,Returned,wallet
+19561,200.0,4.0,15.0,New Delhi,2025-01-10,Pizza Hub,Momos,3.0,5.0,Cancelled,wallet
+10784,200.0,4.0,15.0,Hyderabad,2025-01-10,Foodie Corner,Pizza,2.0,15.0,Cancelled,UPI
+14973,200.0,5.0,5.0,New Delhi,2025-01-10,Foodie Corner,Sandwich,2.0,5.0,Completed,Card
+18319,200.0,3.0,15.0,Mumbai,2025-01-10,The Spice Route,Noodles,2.0,5.0,Returned,wallet
+16235,200.0,0.0,15.0,Hyderabad,2025-01-10,Foodie Corner,Sandwich,2.0,5.0,Completed,UPI
+14282,200.0,1.0,15.0,Mumbai,2025-01-10,Biryani House,Sandwich,3.0,10.0,Completed,Card
+11059,200.0,0.0,63.0,Bengaluru,2025-01-10,Foodie Corner,Pasta,2.0,10.0,Completed,wallet
+17560,200.0,2.0,5.0,Pune,2025-01-10,Pizza Hub,Sandwich,3.0,15.0,Completed,wallet
+14893,200.0,4.0,56.0,New Delhi,2025-01-10,Pizza Hub,Burger,2.0,10.0,Cancelled,UPI
+17392,200.0,5.0,5.0,Nagpur,2025-01-10,Pizza Hub,Momos,1.0,5.0,Cancelled,UPI
+19687,200.0,4.0,15.0,New Delhi,2025-01-10,Foodie Corner,Pasta,2.0,5.0,Cancelled,wallet
+19721,262.81,5.0,15.0,Hyderabad,2025-01-10,The Spice Route,Coke,2.0,5.0,Completed,UPI
+13099,200.0,0.0,86.0,New Delhi,2025-01-10,Tasty Treats,Pasta,1.0,15.0,Completed,wallet
+17270,200.0,4.0,5.0,Pune,2025-01-10,Tasty Treats,Momos,2.0,10.0,Completed,UPI
+14636,200.0,2.0,15.0,Mumbai,2025-01-10,Biryani House,Biryani,3.0,5.0,Returned,Cash
+16694,200.0,3.0,15.0,,2025-01-10,Foodie Corner,Momos,3.0,10.0,Completed,Cash
+14061,200.0,5.0,82.0,Mumbai,2025-09-11,Pizza Hub,Pizza,2.0,5.0,Cancelled,Cash
+19167,200.0,5.0,5.0,Nagpur,2025-01-10,Pizza Hub,Momos,3.0,5.0,Cancelled,Cash
+10784,200.0,3.0,5.0,Bengaluru,2025-12-10,Pizza Hub,Biryani,3.0,5.0,Cancelled,UPI
+10775,200.0,2.0,5.0,,2025-01-10,The Spice Route,Pizza,2.0,5.0,Cancelled,Cash
+12385,353.19,3.0,15.0,Bengaluru,2025-01-10,Tasty Treats,Noodles,3.0,10.0,Returned,UPI
+16736,427.1,4.0,5.0,Pune,2025-11-09,Pizza Hub,Coke,2.0,10.0,Cancelled,wallet
+12961,200.0,5.0,15.0,Nagpur,2025-01-10,Biryani House,Pizza,3.0,10.0,Cancelled,wallet
+17400,200.0,3.0,5.0,New Delhi,2025-01-10,Pizza Hub,Biryani,2.0,5.0,Cancelled,Cash
+18754,254.21,5.0,5.0,Pune,2025-01-10,Pizza Hub,Coke,3.0,5.0,Returned,Cash
+17206,200.0,3.0,15.0,Hyderabad,2025-01-10,Foodie Corner,Biryani,3.0,5.0,Completed,Card
+14658,200.0,0.0,35.0,Mumbai,2025-01-10,Foodie Corner,Pizza,2.0,10.0,Completed,Cash
+13394,200.0,1.0,81.0,Hyderabad,2025-01-10,Foodie Corner,Pasta,1.0,5.0,Completed,wallet
+19914,200.0,5.0,21.0,New Delhi,2025-01-10,Foodie Corner,Burger,3.0,10.0,Cancelled,UPI
+11045,200.0,5.0,5.0,New Delhi,2025-01-10,Tasty Treats,Biryani,3.0,5.0,Completed,wallet
+12806,200.0,2.0,15.0,New Delhi,2025-01-10,Tasty Treats,Noodles,3.0,5.0,Returned,Cash
+14297,124.38,0.0,5.0,Nagpur,2025-01-10,Tasty Treats,Noodles,3.0,5.0,Cancelled,Cash
+12557,200.0,3.0,5.0,Mumbai,2025-01-10,Tasty Treats,Pizza,1.0,5.0,Completed,Card

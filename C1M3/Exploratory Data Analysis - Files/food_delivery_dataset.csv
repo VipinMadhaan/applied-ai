@@ -1,0 +1,351 @@
+order_id,customer_name,customer_age,customer_city,order_date,delivery_timestamp,restaurant_name,food_item,quantity,price,discount,payment_method,delivery_rating,special_instructions,order_status,delivery_time_minutes
+11484,sara khan,twenty,Bangalore,09-11-2025,,Biryani House,Pizza,three,200,5,Card,5.0,Less sugar,cancelled,-5.0
+19268,alexa,twenty,Hyderabad,15-10-2025,,Foodie Corner,Pasta,2,N/A,10,Cash,1.0,No onions,cancelled,
+16396,Sohan Kumar,56,Mumbai,2025-10-05 06:15:29.465901,2025-11-28 12:15:29.465918,pizza hub,Pasta,2,200,15,wallet,6.0,No onions,cancelled,-5.0
+13943,PRIYA SINGH,32,delhi,2025-11-28 06:15:29.465935,2025-11-27 10:15:29.465955,Pizza Hub,Pizza,1,200,5%,CASH,2.0,   ,cancelled,
+18004,sara khan,twenty,Bangalore,10/22/2025,2025-11-28 15:15:29.465989,Pizza Hub,Pizza,2,161.33,,wallet,,,cancelled,37.0
+12911,Ritu,twenty,Pune,10/09/2025,2025-11-27 19:15:29.466022,Tasty Treats,Pizza,3,N/A,15,Cash,0.0,Extra spicy,Returned,
+10161,Ritu,twenty,,02-11-2025,,Pizza Hub,Pasta,2,200,5,CASH,5.0,No onions,cancelled,-5.0
+10161,raj,twenty,delhi,10-09-2025,,The Spice Route,Sandwich,3,N/A,5,Card,,Less sugar,Returned,89.0
+19339,john doe,,Nagpur,10/24/2025,,Biryani House,Sandwich,three,N/A,10,Card,1.0,Extra spicy,Completed,-5.0
+12062,john doe,,Hyderabad,2025-08-30 06:15:29.466244,,Biryani House,noodles,,325.85,5,CASH,2.0,Less sugar,Cancelled,-5.0
+18208,Sohan Kumar,45.0,Mumbai,2025-10-23 06:15:29.466280,2025-11-26 16:15:29.466297,Tasty Treats,Burger,3,N/A,5,Cash,0.0,   ,completed,88.0
+15596,Sohan Kumar,,DELHI,2025-10-27 06:15:29.466312,,Tasty Treats,noodles,three,204.76,15,CASH,6.0,Less sugar,Completed,
+14297,alexa,45,,2025-09-29 06:15:29.466343,2025-11-27 17:15:29.466359,The Spice Route,noodles,3,491.45,10,Cash,0.0,No onions,Returned,
+18050,alexa,45.0,Pune,09/05/2025,,Biryani House,noodles,,143.14,,Card,1.0,   ,completed,
+11306,Amar,45.0,Hyderabad,10/03/2025,2025-11-29 02:15:29.466419,The Spice Route,Coke,3,,N/A,wallet,0.0,No onions,Completed,44.0
+15442,alexa,,mumbai,09/30/2025,,pizza hub,Coke,1,N/A,10,upi,2.0,   ,completed,68.0
+12695,Anita Sharma,45.0,Hyderabad,08-10-2025,2025-11-29 15:15:29.466498,foodie corner,Sandwich,,200,10,Card,5.0,No onions,Returned,
+13446,john doe,twenty,Pune,10/14/2025,,Biryani House,Pizza,three,243.43,5,wallet,3.0,,Cancelled,
+10606,Anita Sharma,45.0,Mumbai,30-10-2025,2025-11-28 04:15:29.466558,pizza hub,Coke,2,N/A,5,wallet,,,Cancelled,-5.0
+10206,alexa,,Pune,01-10-2025,2025-11-29 04:15:29.466589,Pizza Hub,Sandwich,2,200,,wallet,0.0,Less sugar,Cancelled,44.0
+10064,michael,twenty,Mumbai,11/07/2025,,Foodie Corner,momos,2,269.18,,Cash,1.0,   ,completed,
+15759,alexa,45.0,DELHI,09/13/2025,2025-11-26 20:15:29.466647,Pizza Hub,noodles,2,,5%,Cash,3.0,Less sugar,Completed,
+16892,manish,29,Hyderabad,08/26/2025,2025-11-28 23:15:29.466676,pizza hub,noodles,2,200,5,Card,6.0,Extra spicy,completed,
+18006,michael,twenty,Nagpur,2025-10-12 06:15:29.466689,2025-11-29 14:15:29.466705,Foodie Corner,Coke,three,,15,Cash,6.0,No onions,completed,
+13843,sara khan,45.0,delhi,2025-11-06 06:15:29.466719,,Foodie Corner,momos,1,N/A,10,UPI,5.0,,cancelled,-5.0
+13394,michael,18,Pune,2025-11-13 06:15:29.466766,,Biryani House,Biryani,3,N/A,10,wallet,,   ,completed,
+11693,Ritu,45.0,Pune,10/31/2025,2025-11-29 04:15:29.466830,Foodie Corner,Biryani,2,419.38,15,Cash,3.0,   ,Cancelled,
+10098,alexa,twenty,Nagpur,10/18/2025,2025-11-29 13:15:29.466868,pizza hub,Biryani,3,N/A,N/A,CASH,3.0,,cancelled,-5.0
+13170,john doe,45.0,Nagpur,2025-11-27 06:15:29.466897,,Biryani House,Biryani,2,200,5,Card,6.0,Less sugar,Completed,
+14658,Ritu,,Bangalore,11/14/2025,,Tasty Treats,Burger,three,N/A,N/A,Cash,1.0,   ,Cancelled,-5.0
+14658,sara khan,twenty,Nagpur,23-11-2025,,Tasty Treats,momos,,200,15,UPI,,No onions,Cancelled,31.0
+14548,Ritu,45.0,DELHI,09/24/2025,2025-11-27 20:15:29.467008,pizza hub,Burger,1,N/A,,Card,5.0,   ,cancelled,69.0
+11986,Sohan Kumar,,Hyderabad,11/01/2025,,foodie corner,Burger,three,N/A,10,wallet,4.0,Less sugar,Cancelled,79.0
+16235,michael,,Pune,09/26/2025,,Tasty Treats,momos,three,,N/A,Card,0.0,No onions,Cancelled,-5.0
+14911,john doe,53,Nagpur,10/30/2025,2025-11-26 10:15:29.467098,Biryani House,Coke,1,430.13,10,wallet,0.0,Less sugar,completed,
+11495,Anita Sharma,twenty,Hyderabad,2025-10-09 06:15:29.467113,2025-11-28 17:15:29.467162,pizza hub,momos,three,200,5%,Cash,5.0,Less sugar,Returned,
+16265,michael,49,Pune,28-08-2025,2025-11-28 16:15:29.467197,The Spice Route,Pasta,1,492.76,15,Cash,,Less sugar,Cancelled,
+18815,PRIYA SINGH,45.0,Bangalore,10/13/2025,2025-11-27 13:15:29.467242,The Spice Route,momos,2,388.1,5,upi,,   ,Returned,-5.0
+15855,manish,,Pune,2025-09-20 06:15:29.467256,2025-11-26 23:15:29.467271,pizza hub,momos,2,222.26,5%,UPI,6.0,Less sugar,Cancelled,
+14737,alexa,,Mumbai,2025-11-22 06:15:29.467285,2025-11-27 04:15:29.467300,Foodie Corner,Coke,1,N/A,10,CASH,6.0,No onions,Cancelled,
+12806,sara khan,twenty,Nagpur,2025-09-17 06:15:29.467313,,pizza hub,Sandwich,1,,N/A,Card,3.0,Extra spicy,Cancelled,-5.0
+18155,Ritu,45.0,Mumbai,10/26/2025,,The Spice Route,Pasta,three,200,N/A,Card,0.0,Extra spicy,Completed,-5.0
+15855,Amar,58,,11/07/2025,,foodie corner,Pizza,2,204.39,5%,UPI,0.0,,Returned,
+14433,michael,twenty,Hyderabad,09/30/2025,,Pizza Hub,Burger,3,,N/A,upi,2.0,Extra spicy,Cancelled,-5.0
+14636,Sohan Kumar,twenty,DELHI,11/25/2025,,Foodie Corner,momos,three,,N/A,Card,2.0,No onions,cancelled,36.0
+12869,PRIYA SINGH,38,Hyderabad,11/28/2025,,Pizza Hub,Sandwich,3,200,15,CASH,,No onions,cancelled,
+16197,Sohan Kumar,45.0,delhi,2025-09-25 06:15:29.467491,,pizza hub,noodles,,257.33,5,Cash,1.0,Extra spicy,Completed,40.0
+14014,Amar,,Nagpur,2025-11-24 06:15:29.467520,2025-11-29 03:15:29.467535,The Spice Route,Biryani,2,200,10,UPI,1.0,Extra spicy,Cancelled,84.0
+15450,alexa,,mumbai,01-11-2025,,foodie corner,Coke,3,N/A,N/A,CASH,1.0,   ,Cancelled,-5.0
+13446,alexa,60,DELHI,24-09-2025,2025-11-29 23:15:29.467593,The Spice Route,Coke,three,440.85,N/A,Card,6.0,Less sugar,Cancelled,70.0
+14496,Amar,twenty,Hyderabad,11/07/2025,2025-11-30 01:15:29.467621,Foodie Corner,momos,2,200,N/A,Card,0.0,,completed,49.0
+13556,manish,24,Pune,2025-11-02 06:15:29.467635,,Tasty Treats,Pasta,3,200,10,Cash,,No onions,Cancelled,
+18004,Sohan Kumar,,Mumbai,10/10/2025,2025-11-26 20:15:29.467681,Tasty Treats,momos,three,N/A,5%,Card,5.0,No onions,completed,54.0
+17041,alexa,,mumbai,10/22/2025,2025-11-26 23:15:29.467711,The Spice Route,Pizza,2,,5%,wallet,2.0,Less sugar,completed,
+10064,sara khan,44,delhi,2025-10-03 06:15:29.467725,2025-11-29 17:15:29.467740,Pizza Hub,Pizza,1,200,5,wallet,6.0,   ,Completed,-5.0
+12747,PRIYA SINGH,31,Mumbai,2025-09-12 06:15:29.467755,2025-11-28 16:15:29.467771,Pizza Hub,Pizza,,200,15,Card,4.0,,Completed,35.0
+16420,raj,,Nagpur,2025-11-16 06:15:29.467785,,The Spice Route,momos,2,,5%,Cash,6.0,No onions,completed,48.0
+11218,Anita Sharma,45.0,Hyderabad,2025-10-15 06:15:29.467814,,Tasty Treats,momos,1,384.55,,wallet,,Less sugar,Cancelled,-5.0
+11734,raj,twenty,Mumbai,10/10/2025,2025-11-29 17:15:29.467859,Pizza Hub,Biryani,,200,15,Cash,5.0,,Completed,-5.0
+12869,Sohan Kumar,33,Hyderabad,10-11-2025,,Biryani House,Coke,,,5%,CASH,2.0,Extra spicy,completed,-5.0
+16971,michael,twenty,mumbai,2025-10-21 06:15:29.467920,,Biryani House,Coke,,209.81,15,Card,4.0,Less sugar,cancelled,53.0
+18571,Anita Sharma,twenty,mumbai,11/07/2025,2025-11-26 08:15:29.467974,Tasty Treats,noodles,,N/A,5%,Cash,2.0,   ,Cancelled,44.0
+11409,Anita Sharma,,Nagpur,30-09-2025,2025-11-29 11:15:29.468031,Biryani House,noodles,1,,N/A,CASH,6.0,No onions,Returned,
+19146,Anita Sharma,,Mumbai,11/28/2025,,The Spice Route,Pizza,three,N/A,15,Cash,5.0,Less sugar,Returned,41.0
+15051,Sohan Kumar,20,delhi,2025-11-10 06:15:29.468078,,Pizza Hub,Burger,2,N/A,5%,Cash,4.0,No onions,Returned,57.0
+17035,john doe,,mumbai,19-11-2025,,The Spice Route,Coke,three,,N/A,Card,3.0,Less sugar,cancelled,75.0
+14493,Ritu,,mumbai,03-09-2025,,Tasty Treats,Pizza,2,200,,wallet,4.0,   ,cancelled,
+14297,PRIYA SINGH,twenty,Bangalore,22-08-2025,,pizza hub,Pasta,3,197.03,N/A,Cash,,   ,Completed,76.0
+19986,Ritu,,,04-10-2025,,Pizza Hub,Sandwich,1,N/A,15,Card,,No onions,Completed,-5.0
+13099,michael,29,Hyderabad,10-09-2025,2025-11-27 10:15:29.468266,The Spice Route,Sandwich,three,N/A,5,CASH,3.0,Extra spicy,completed,47.0
+10956,Sohan Kumar,twenty,Mumbai,10/11/2025,,The Spice Route,momos,1,200,5%,upi,1.0,Extra spicy,cancelled,-5.0
+15134,michael,twenty,Pune,2025-11-01 06:15:29.468311,,Tasty Treats,momos,3,265.49,5%,Card,5.0,   ,Completed,
+12790,Ritu,,,2025-10-18 06:15:29.468342,2025-11-28 07:15:29.468358,The Spice Route,Sandwich,three,200,N/A,CASH,2.0,   ,Completed,
+18226,Amar,twenty,Mumbai,2025-09-30 06:15:29.468372,,Tasty Treats,Burger,2,,N/A,wallet,6.0,   ,Completed,
+11707,PRIYA SINGH,twenty,DELHI,20-10-2025,2025-11-26 05:15:29.468430,Tasty Treats,momos,3,N/A,15,CASH,3.0,Extra spicy,Cancelled,
+12062,raj,45.0,DELHI,2025-09-14 06:15:29.468445,2025-11-26 02:15:29.468461,Biryani House,noodles,three,,N/A,Card,6.0,Extra spicy,cancelled,-5.0
+17280,raj,45.0,,08/29/2025,,Tasty Treats,Coke,three,N/A,10,Cash,4.0,Less sugar,Returned,
+11060,michael,18,Mumbai,2025-10-25 06:15:29.468505,,Tasty Treats,Sandwich,1,265.9,10,Cash,2.0,No onions,Cancelled,66.0
+11585,Amar,33,Bangalore,2025-09-24 06:15:29.468536,,The Spice Route,Pasta,,,10,CASH,,   ,cancelled,
+10262,Amar,,Pune,07-11-2025,,pizza hub,Coke,,200,5%,wallet,5.0,,completed,-5.0
+13987,john doe,,Mumbai,09/19/2025,2025-11-27 19:15:29.468610,The Spice Route,Burger,,N/A,15,wallet,5.0,   ,Cancelled,-5.0
+10064,Ritu,,mumbai,30-10-2025,,pizza hub,noodles,3,200,5,wallet,,No onions,Returned,48.0
+19007,Anita Sharma,,delhi,25-09-2025,2025-11-27 15:15:29.468671,Biryani House,Biryani,2,200,N/A,Cash,5.0,Less sugar,Returned,52.0
+12255,john doe,45.0,mumbai,10/10/2025,2025-11-28 03:15:29.468701,foodie corner,Burger,2,449.63,N/A,wallet,2.0,   ,completed,
+12205,Amar,45.0,DELHI,08/29/2025,2025-11-27 07:15:29.468731,Pizza Hub,Sandwich,2,200,15,upi,0.0,No onions,Returned,
+14433,Amar,,Bangalore,01-11-2025,2025-11-26 06:15:29.468761,Biryani House,Pizza,2,,N/A,upi,6.0,Less sugar,cancelled,45.0
+17385,Anita Sharma,,mumbai,2025-11-23 06:15:29.468775,2025-11-27 22:15:29.468791,Pizza Hub,Pizza,3,223.61,5,Card,0.0,   ,Returned,
+13157,alexa,,Mumbai,2025-11-23 06:15:29.468806,,The Spice Route,momos,3,,,CASH,4.0,,Completed,83.0
+15575,alexa,twenty,Hyderabad,09/29/2025,,foodie corner,Pasta,2,281.69,,UPI,6.0,Less sugar,Returned,61.0
+17869,Sohan Kumar,45.0,DELHI,08/30/2025,,Biryani House,Burger,3,N/A,,upi,4.0,,cancelled,
+18445,john doe,,Nagpur,09/15/2025,,foodie corner,Sandwich,3,N/A,5,UPI,5.0,,completed,
+19167,sara khan,56,delhi,09/11/2025,2025-11-28 19:15:29.468942,Foodie Corner,momos,2,459.53,15,wallet,5.0,,Completed,-5.0
+16892,michael,22,DELHI,2025-10-22 06:15:29.468956,,Tasty Treats,Sandwich,2,473.93,N/A,Card,5.0,,Completed,41.0
+19670,alexa,twenty,mumbai,30-09-2025,2025-11-28 23:15:29.469004,Biryani House,Pasta,1,200,N/A,wallet,5.0,Less sugar,Cancelled,37.0
+17208,alexa,45.0,mumbai,2025-10-01 06:15:29.469085,2025-11-29 12:15:29.469116,The Spice Route,Pizza,1,200,,wallet,,Extra spicy,cancelled,
+17125,sara khan,twenty,Mumbai,10/24/2025,2025-11-27 14:15:29.469183,The Spice Route,Pasta,2,200,10,Card,2.0,No onions,cancelled,
+16374,raj,,Nagpur,2025-11-07 06:15:29.469202,2025-11-28 14:15:29.469220,Biryani House,Coke,2,N/A,,Card,5.0,   ,Completed,84.0
+10502,michael,22,Nagpur,05-09-2025,2025-11-27 02:15:29.469250,The Spice Route,momos,2,N/A,N/A,Cash,2.0,Extra spicy,cancelled,
+15450,michael,45.0,Hyderabad,28-08-2025,,The Spice Route,momos,1,200,,upi,2.0,,Cancelled,
+17270,alexa,,Hyderabad,15-10-2025,,Biryani House,Pizza,,N/A,5,Card,,Extra spicy,cancelled,
+12747,Sohan Kumar,,Mumbai,2025-09-10 06:15:29.469325,,Pizza Hub,Pasta,,,5%,Cash,3.0,Extra spicy,Returned,-5.0
+13843,Sohan Kumar,57,Nagpur,2025-08-24 06:15:29.469355,2025-11-28 16:15:29.469373,foodie corner,Biryani,1,298.35,10,UPI,4.0,No onions,cancelled,
+12695,Ritu,,Nagpur,28-08-2025,2025-11-27 05:15:29.469402,The Spice Route,Pasta,2,,5,Card,4.0,No onions,completed,43.0
+14218,alexa,,Nagpur,2025-09-09 06:15:29.469416,2025-11-26 13:15:29.469432,foodie corner,noodles,2,200,5,CASH,5.0,Extra spicy,Completed,29.0
+10502,Sohan Kumar,,Bangalore,27-11-2025,,The Spice Route,noodles,,N/A,10,Cash,3.0,Extra spicy,Completed,76.0
+19474,Sohan Kumar,twenty,mumbai,04-10-2025,,pizza hub,Pizza,3,,5%,wallet,3.0,Less sugar,Returned,-5.0
+15390,PRIYA SINGH,twenty,Hyderabad,27-10-2025,2025-11-28 01:15:29.469540,The Spice Route,Pizza,2,,N/A,UPI,4.0,Extra spicy,Cancelled,72.0
+16863,Ritu,52,Bangalore,11/28/2025,2025-11-26 10:15:29.469568,foodie corner,Pizza,2,200,,CASH,0.0,   ,Completed,-5.0
+11663,alexa,,Mumbai,13-09-2025,,Pizza Hub,Pizza,2,,10,Card,,Extra spicy,Completed,41.0
+16585,sara khan,,DELHI,10-09-2025,2025-11-28 22:15:29.469627,The Spice Route,momos,2,,5%,upi,,   ,Returned,-5.0
+14199,michael,twenty,Pune,10/05/2025,,Foodie Corner,Pizza,2,200,15,CASH,5.0,,cancelled,
+18319,michael,45.0,delhi,2025-10-22 06:15:29.469672,,pizza hub,noodles,2,285.32,5,CASH,,Extra spicy,Cancelled,80.0
+13099,PRIYA SINGH,,Hyderabad,2025-11-29 06:15:29.469701,2025-11-28 17:15:29.469717,The Spice Route,Burger,1,,N/A,Cash,6.0,No onions,Returned,-5.0
+13005,michael,twenty,mumbai,09/25/2025,2025-11-29 23:15:29.469745,pizza hub,Pasta,1,N/A,15,upi,6.0,   ,Cancelled,-5.0
+12733,raj,46,delhi,2025-09-04 06:15:29.469759,,foodie corner,Burger,,200,15,CASH,6.0,Extra spicy,cancelled,
+15056,Amar,,Mumbai,2025-08-25 06:15:29.469788,2025-11-29 20:15:29.469803,pizza hub,momos,3,,N/A,upi,6.0,Extra spicy,Cancelled,
+14931,Ritu,45.0,,2025-10-07 06:15:29.469817,,foodie corner,Sandwich,three,438.34,N/A,Cash,4.0,,cancelled,43.0
+18392,Sohan Kumar,48,Mumbai,13-10-2025,,pizza hub,Burger,2,200,10,upi,5.0,   ,cancelled,
+14736,sara khan,37,Mumbai,2025-11-21 06:15:29.469875,,Tasty Treats,momos,2,193.26,5,Cash,2.0,   ,completed,
+14499,raj,39,Bangalore,09/07/2025,2025-11-28 13:15:29.469918,pizza hub,momos,2,418.56,10,Card,6.0,,cancelled,-5.0
+17408,PRIYA SINGH,45.0,Pune,2025-10-28 06:15:29.469932,,foodie corner,Coke,2,N/A,15,wallet,,Extra spicy,Cancelled,
+19339,Sohan Kumar,,Nagpur,2025-10-30 06:15:29.469961,,Biryani House,Pizza,2,258.07,5%,wallet,,Less sugar,Completed,15.0
+19719,Anita Sharma,,mumbai,25-08-2025,2025-11-26 18:15:29.470006,Foodie Corner,Pizza,2,N/A,15,Cash,4.0,,cancelled,39.0
+10980,Amar,,Mumbai,19-10-2025,,foodie corner,Coke,2,,,Card,1.0,No onions,Cancelled,-5.0
+11636,Sohan Kumar,,delhi,06-10-2025,2025-11-27 08:15:29.470063,foodie corner,Burger,3,200,10,Cash,2.0,Less sugar,Returned,
+14061,alexa,45.0,Hyderabad,09/14/2025,2025-11-30 03:15:29.470091,The Spice Route,Coke,1,200,10,Card,1.0,,completed,
+10502,michael,twenty,Bangalore,01-10-2025,2025-11-29 05:15:29.470119,Foodie Corner,Biryani,,232.3,,Card,5.0,   ,Returned,
+17022,michael,27,mumbai,2025-11-21 06:15:29.470133,2025-11-30 00:15:29.470189,Pizza Hub,Pasta,2,,10,wallet,,   ,Cancelled,-5.0
+15172,alexa,59,Hyderabad,22-08-2025,,Pizza Hub,momos,3,N/A,15,Card,,No onions,Cancelled,
+18050,Ritu,45.0,Pune,2025-08-27 06:15:29.470256,,Tasty Treats,Sandwich,1,N/A,5%,upi,2.0,,Returned,
+14499,Amar,43,DELHI,09/22/2025,,Biryani House,noodles,1,N/A,5%,Card,5.0,Less sugar,cancelled,16.0
+12558,Sohan Kumar,,Pune,23-08-2025,,Foodie Corner,momos,2,273.88,15,Card,1.0,,Cancelled,-5.0
+13987,alexa,twenty,,2025-11-13 06:15:29.470353,,Pizza Hub,Sandwich,1,,5,Cash,1.0,   ,cancelled,-5.0
+14548,manish,45.0,DELHI,09/15/2025,,Biryani House,Pasta,2,200,5%,upi,6.0,   ,completed,-5.0
+15759,john doe,25,Mumbai,11/28/2025,,foodie corner,noodles,2,N/A,5,UPI,4.0,   ,completed,
+15116,Ritu,46,Pune,02-09-2025,,Biryani House,Pasta,2,N/A,N/A,wallet,1.0,   ,Completed,
+11930,alexa,19,delhi,11/23/2025,,foodie corner,Coke,2,200,5,upi,,,Completed,
+13840,john doe,twenty,Mumbai,23-10-2025,,Tasty Treats,Biryani,3,200,10,wallet,2.0,Extra spicy,completed,38.0
+17339,michael,twenty,Pune,18-11-2025,2025-11-28 07:15:29.470546,Pizza Hub,momos,2,N/A,N/A,UPI,6.0,,cancelled,49.0
+14548,alexa,,Mumbai,22-11-2025,2025-11-27 00:15:29.470577,pizza hub,Biryani,,,,Cash,6.0,Less sugar,Returned,-5.0
+10854,Anita Sharma,,,09/10/2025,,pizza hub,Pizza,,233.4,,Cash,,Extra spicy,Cancelled,65.0
+18901,john doe,twenty,,2025-09-22 06:15:29.470620,2025-11-28 22:15:29.470636,Tasty Treats,Sandwich,1,,10,UPI,6.0,   ,Returned,67.0
+12811,Amar,,Nagpur,2025-08-23 06:15:29.470650,2025-11-29 03:15:29.470666,Tasty Treats,noodles,1,,15,wallet,1.0,,Completed,-5.0
+18120,sara khan,45.0,mumbai,10/17/2025,,Biryani House,Pasta,1,N/A,5%,Cash,4.0,No onions,Returned,-5.0
+11843,Sohan Kumar,60,Nagpur,09/12/2025,2025-11-26 03:15:29.470726,Biryani House,Pasta,,,,wallet,6.0,,Returned,
+19062,Ritu,43,Nagpur,2025-11-28 06:15:29.470740,,Biryani House,Sandwich,three,,N/A,UPI,2.0,No onions,Completed,
+16287,michael,53,Mumbai,29-10-2025,,Pizza Hub,Burger,3,281.61,15,UPI,5.0,   ,completed,
+14737,alexa,45.0,,10/01/2025,2025-11-28 11:15:29.470814,Pizza Hub,Coke,3,236.96,10,upi,,No onions,completed,-5.0
+14413,alexa,45.0,mumbai,24-09-2025,,The Spice Route,noodles,1,105.95,10,Card,0.0,,Cancelled,-5.0
+10956,Anita Sharma,,delhi,15-09-2025,,The Spice Route,Sandwich,2,N/A,15,UPI,2.0,No onions,Returned,
+18319,alexa,29,delhi,2025-09-30 06:15:29.470889,2025-11-27 02:15:29.470904,Pizza Hub,Burger,three,N/A,5,Card,2.0,,completed,51.0
+11841,Sohan Kumar,twenty,Bangalore,28-10-2025,2025-11-28 18:15:29.470933,pizza hub,Pasta,2,200,10,wallet,6.0,   ,cancelled,41.0
+10995,Amar,35,Hyderabad,27-08-2025,2025-11-28 21:15:29.470964,Foodie Corner,Burger,2,179.18,5,Card,3.0,,Cancelled,-5.0
+17392,john doe,45.0,mumbai,2025-11-18 06:15:29.470978,,Pizza Hub,noodles,three,N/A,,UPI,2.0,Extra spicy,cancelled,-5.0
+18096,raj,twenty,Hyderabad,2025-11-06 06:15:29.471008,,Biryani House,momos,,434.7,5%,CASH,2.0,,Cancelled,
+19331,Amar,45.0,Hyderabad,2025-11-21 06:15:29.471038,2025-11-26 03:15:29.471054,foodie corner,momos,3,N/A,N/A,UPI,4.0,Less sugar,cancelled,-5.0
+11267,Ritu,,DELHI,2025-10-29 06:15:29.471068,,Tasty Treats,Pasta,2,N/A,,wallet,4.0,   ,cancelled,66.0
+13354,Amar,twenty,Nagpur,19-11-2025,,Pizza Hub,Coke,1,N/A,15,wallet,4.0,   ,Cancelled,30.0
+10189,PRIYA SINGH,twenty,Mumbai,2025-11-03 06:15:29.471127,2025-11-29 01:15:29.471142,Biryani House,Coke,1,N/A,5%,upi,1.0,,Cancelled,
+16893,john doe,,Nagpur,2025-08-30 06:15:29.471156,2025-11-29 05:15:29.471172,pizza hub,Pasta,1,200,,Cash,2.0,   ,completed,
+18110,john doe,45.0,Pune,23-11-2025,,Pizza Hub,momos,,,10,upi,0.0,Extra spicy,completed,
+19692,PRIYA SINGH,,Bangalore,2025-11-05 06:15:29.471214,2025-11-28 12:15:29.471230,Foodie Corner,noodles,1,147.86,,UPI,2.0,Extra spicy,Cancelled,13.0
+17400,raj,33,mumbai,11/10/2025,2025-11-27 07:15:29.471259,foodie corner,noodles,2,,15,wallet,,   ,Completed,
+18155,Sohan Kumar,45.0,Bangalore,2025-11-27 06:15:29.471273,,pizza hub,Biryani,2,N/A,5,wallet,,,completed,14.0
+16892,john doe,twenty,Hyderabad,11/01/2025,2025-11-29 01:15:29.471329,Pizza Hub,Coke,3,241.98,,Card,2.0,Extra spicy,Returned,84.0
+18006,alexa,,DELHI,2025-11-29 06:15:29.471361,2025-11-28 15:15:29.471389,Pizza Hub,Coke,2,N/A,5%,Cash,0.0,Less sugar,Returned,74.0
+18901,alexa,twenty,Mumbai,2025-10-19 06:15:29.471406,2025-11-26 04:15:29.471423,The Spice Route,noodles,three,,10,Cash,4.0,Less sugar,Returned,25.0
+18392,manish,twenty,Bangalore,11-09-2025,,Biryani House,Biryani,three,N/A,15,CASH,3.0,,cancelled,
+10698,Anita Sharma,twenty,,11/04/2025,2025-11-27 21:15:29.471482,The Spice Route,Sandwich,1,350.63,10,Cash,3.0,   ,Returned,
+13394,manish,23,Nagpur,18-11-2025,,Foodie Corner,Pizza,2,225.71,10,upi,2.0,No onions,Cancelled,
+17777,john doe,45.0,Nagpur,2025-09-20 06:15:29.471528,,foodie corner,Pizza,3,N/A,5,UPI,5.0,   ,cancelled,
+17629,manish,41,Hyderabad,11/25/2025,2025-11-28 12:15:29.471574,Tasty Treats,momos,2,,10,UPI,6.0,Less sugar,cancelled,-5.0
+16776,Anita Sharma,46,Nagpur,18-11-2025,,Tasty Treats,Biryani,,200,5,Cash,4.0,   ,Returned,-5.0
+10301,sara khan,45.0,mumbai,16-11-2025,2025-11-27 02:15:29.471654,pizza hub,Biryani,three,N/A,15,Card,,   ,Completed,
+17526,Ritu,47,Pune,10/29/2025,2025-11-28 13:15:29.471684,The Spice Route,momos,,200,5,wallet,5.0,Extra spicy,completed,11.0
+12327,michael,twenty,DELHI,03-10-2025,2025-11-28 20:15:29.471714,Foodie Corner,Burger,1,N/A,5%,UPI,4.0,Extra spicy,Cancelled,
+15056,PRIYA SINGH,,Mumbai,2025-09-09 06:15:29.471729,,Pizza Hub,Pasta,3,352.09,5%,CASH,,No onions,cancelled,
+17869,michael,twenty,,2025-11-13 06:15:29.471759,,The Spice Route,Pizza,2,474.88,15,upi,3.0,,completed,-5.0
+15450,Anita Sharma,45.0,Nagpur,2025-11-03 06:15:29.471804,2025-11-27 11:15:29.471819,pizza hub,Coke,1,200,15,wallet,1.0,Less sugar,Completed,22.0
+17849,PRIYA SINGH,twenty,DELHI,10/15/2025,,Foodie Corner,Burger,3,N/A,5%,wallet,2.0,,Cancelled,
+18352,Anita Sharma,42,Pune,22-11-2025,,foodie corner,Pizza,,N/A,10,CASH,,Extra spicy,completed,-5.0
+17400,raj,19,Hyderabad,15-09-2025,2025-11-29 03:15:29.471905,The Spice Route,Pasta,1,,15,wallet,0.0,   ,Returned,38.0
+11484,raj,twenty,Mumbai,2025-10-18 06:15:29.471919,2025-11-29 05:15:29.471935,Biryani House,Pizza,three,200,N/A,UPI,0.0,,Completed,61.0
+16546,raj,twenty,Nagpur,11/11/2025,,Biryani House,noodles,three,N/A,N/A,CASH,4.0,Less sugar,Completed,-5.0
+19986,john doe,,Mumbai,09/05/2025,2025-11-29 15:15:29.471994,Foodie Corner,Burger,three,200,5,CASH,,Less sugar,Returned,68.0
+15895,Ritu,,Pune,20-09-2025,,Pizza Hub,Coke,1,200,,Card,1.0,,completed,26.0
+17215,PRIYA SINGH,twenty,Mumbai,2025-11-04 06:15:29.472037,,foodie corner,Pasta,3,,10,UPI,5.0,,completed,
+18445,Ritu,twenty,Pune,2025-10-15 06:15:29.472165,2025-11-26 09:15:29.472195,Pizza Hub,momos,3,N/A,N/A,UPI,3.0,   ,completed,63.0
+16949,alexa,45.0,Pune,08/31/2025,2025-11-27 14:15:29.472231,The Spice Route,Biryani,3,177.44,15,CASH,3.0,   ,Cancelled,
+16396,sara khan,17,Pune,2025-11-17 06:15:29.472245,2025-11-29 00:15:29.472262,Biryani House,Coke,1,200,10,wallet,1.0,,Returned,-5.0
+11707,michael,twenty,mumbai,09/05/2025,2025-11-28 04:15:29.472296,The Spice Route,momos,3,488.82,5%,CASH,4.0,,Completed,15.0
+17574,Amar,twenty,delhi,09/03/2025,2025-11-29 16:15:29.472326,Pizza Hub,Pizza,3,,10,wallet,3.0,Extra spicy,Completed,-5.0
+16776,john doe,45.0,mumbai,2025-10-02 06:15:29.472341,,foodie corner,Biryani,,255.11,5,UPI,6.0,No onions,cancelled,-5.0
+18120,Anita Sharma,,Nagpur,10/06/2025,,The Spice Route,Biryani,three,200,5,Cash,4.0,,Returned,
+12511,PRIYA SINGH,,Bangalore,10/24/2025,2025-11-30 00:15:29.472416,pizza hub,Burger,2,N/A,10,UPI,5.0,Extra spicy,Returned,-5.0
+10769,john doe,,DELHI,2025-10-18 06:15:29.472451,2025-11-28 13:15:29.472491,Foodie Corner,Pizza,2,N/A,5,Cash,0.0,Extra spicy,completed,
+16019,manish,17,Mumbai,2025-09-11 06:15:29.472510,2025-11-29 01:15:29.472528,Foodie Corner,momos,three,N/A,10,UPI,2.0,,Completed,-5.0
+13005,Ritu,twenty,Pune,2025-08-31 06:15:29.472542,,The Spice Route,Biryani,2,200,5%,UPI,3.0,,Returned,34.0
+12911,manish,45.0,Bangalore,11/26/2025,2025-11-26 18:15:29.472588,Biryani House,Sandwich,2,200,15,wallet,,,Returned,
+17560,PRIYA SINGH,,Hyderabad,08/25/2025,2025-11-27 04:15:29.472618,pizza hub,Burger,three,N/A,10,Card,6.0,Less sugar,cancelled,45.0
+11986,alexa,,Hyderabad,15-11-2025,2025-11-30 02:15:29.472648,Tasty Treats,Burger,2,N/A,N/A,Card,5.0,   ,Cancelled,83.0
+10391,raj,29,Pune,21-10-2025,2025-11-30 05:15:29.472679,Foodie Corner,Coke,2,,5,UPI,2.0,,Returned,-5.0
+18792,Sohan Kumar,45.0,Mumbai,09/19/2025,,pizza hub,Sandwich,1,,10,wallet,0.0,   ,Completed,-5.0
+14658,john doe,45.0,mumbai,28-08-2025,2025-11-29 04:15:29.472738,pizza hub,noodles,1,191.4,5,UPI,3.0,   ,completed,79.0
+14061,john doe,twenty,delhi,2025-08-25 06:15:29.472752,2025-11-29 22:15:29.472768,Pizza Hub,Burger,2,200,5%,UPI,,No onions,completed,21.0
+16420,Sohan Kumar,,,2025-10-07 06:15:29.472781,,Tasty Treats,Sandwich,,,10,upi,3.0,,Returned,58.0
+10197,Ritu,41,Mumbai,2025-08-30 06:15:29.472813,,pizza hub,momos,3,424.49,5,UPI,3.0,Less sugar,Cancelled,-5.0
+11291,Sohan Kumar,,Pune,2025-09-27 06:15:29.472843,,The Spice Route,momos,2,200,,Card,0.0,No onions,Returned,
+18529,sara khan,,delhi,10/20/2025,2025-11-27 13:15:29.472912,Biryani House,Pizza,1,N/A,5%,Cash,4.0,,Completed,
+18392,Anita Sharma,,,2025-09-13 06:15:29.472925,,Pizza Hub,Burger,,N/A,10,UPI,3.0,Extra spicy,Cancelled,-5.0
+18155,john doe,,Mumbai,31-08-2025,2025-11-26 10:15:29.472969,The Spice Route,momos,2,205.98,15,Cash,0.0,,Returned,67.0
+15311,sara khan,twenty,Nagpur,2025-09-21 06:15:29.472982,2025-11-27 03:15:29.472998,Tasty Treats,Burger,3,,5,Card,,Extra spicy,Completed,
+17849,sara khan,45.0,Pune,2025-11-05 06:15:29.473012,,pizza hub,noodles,1,242.52,5,upi,2.0,Less sugar,Returned,10.0
+14493,Amar,,Pune,10/27/2025,2025-11-27 22:15:29.473055,pizza hub,Coke,2,N/A,,Card,1.0,No onions,Completed,
+14493,Sohan Kumar,45.0,,2025-11-23 06:15:29.473069,,Tasty Treats,momos,2,N/A,,Card,2.0,,Returned,78.0
+16287,alexa,,Nagpur,25-08-2025,2025-11-29 08:15:29.473112,Tasty Treats,Biryani,,,N/A,upi,3.0,   ,completed,84.0
+17734,Anita Sharma,,DELHI,25-09-2025,,Foodie Corner,Sandwich,3,292.24,,UPI,,   ,Completed,61.0
+13157,Ritu,29,delhi,11/21/2025,,Biryani House,Coke,2,N/A,,wallet,3.0,Less sugar,Completed,
+17683,Ritu,,Nagpur,2025-11-03 06:15:29.473182,,foodie corner,noodles,three,194.89,5%,upi,4.0,Less sugar,cancelled,46.0
+18154,alexa,,Hyderabad,09/07/2025,2025-11-29 01:15:29.473226,pizza hub,momos,2,200,5,wallet,6.0,   ,cancelled,
+15892,PRIYA SINGH,twenty,delhi,09/01/2025,2025-11-28 13:15:29.473254,foodie corner,momos,2,492.01,5,wallet,4.0,No onions,Completed,58.0
+19998,PRIYA SINGH,twenty,Nagpur,2025-08-26 06:15:29.473268,,Pizza Hub,momos,2,,10,Cash,3.0,No onions,Cancelled,
+14061,PRIYA SINGH,,mumbai,05-11-2025,2025-11-29 12:15:29.473329,Tasty Treats,momos,1,N/A,15,CASH,,Extra spicy,Returned,
+12433,Ritu,twenty,Pune,2025-09-20 06:15:29.473342,,Tasty Treats,Sandwich,,213.75,5,upi,4.0,   ,cancelled,
+10659,sara khan,twenty,,2025-09-18 06:15:29.473370,,Tasty Treats,Burger,2,,N/A,UPI,1.0,Less sugar,cancelled,
+17280,manish,40,Nagpur,10-10-2025,2025-11-27 12:15:29.473415,Tasty Treats,momos,2,,,upi,2.0,,Cancelled,
+14297,raj,26,DELHI,2025-11-11 06:15:29.473428,2025-11-26 22:15:29.473443,Biryani House,Coke,2,259.51,5%,wallet,,No onions,Cancelled,
+15618,Ritu,twenty,Bangalore,10/17/2025,2025-11-26 19:15:29.473488,Biryani House,Burger,3,200,15,wallet,0.0,No onions,Cancelled,
+13009,john doe,twenty,Pune,2025-10-31 06:15:29.473523,2025-11-27 13:15:29.473553,Tasty Treats,Pasta,three,200,15,upi,3.0,No onions,Cancelled,-5.0
+19789,manish,30,Bangalore,2025-09-17 06:15:29.473582,,Pizza Hub,Sandwich,2,N/A,5%,upi,4.0,   ,completed,
+10663,Sohan Kumar,45.0,delhi,2025-10-05 06:15:29.473637,,Tasty Treats,Sandwich,three,,15,Cash,5.0,Extra spicy,completed,
+17683,raj,,Hyderabad,11/05/2025,,pizza hub,Coke,2,200,10,CASH,4.0,Less sugar,Cancelled,74.0
+14389,sara khan,twenty,Nagpur,11/26/2025,,Foodie Corner,Pizza,2,N/A,,upi,6.0,Less sugar,completed,-5.0
+10537,Anita Sharma,45.0,Mumbai,2025-10-25 06:15:29.473729,2025-11-29 15:15:29.473744,Biryani House,Pasta,3,206.15,15,UPI,6.0,Less sugar,cancelled,-5.0
+19998,michael,45.0,DELHI,04-11-2025,2025-11-27 17:15:29.473774,Tasty Treats,momos,2,,N/A,CASH,0.0,,completed,45.0
+10569,raj,,Mumbai,2025-10-17 06:15:29.473788,,foodie corner,noodles,2,,5,wallet,0.0,,cancelled,73.0
+12806,Amar,twenty,DELHI,25-08-2025,2025-11-29 06:15:29.473834,pizza hub,noodles,,,5%,CASH,5.0,Less sugar,completed,
+11678,Amar,29,mumbai,11/07/2025,,The Spice Route,Biryani,three,N/A,N/A,Cash,1.0,Extra spicy,completed,11.0
+17869,PRIYA SINGH,45.0,delhi,2025-11-05 06:15:29.473877,2025-11-26 02:15:29.473892,pizza hub,noodles,2,118.08,N/A,wallet,6.0,Less sugar,Returned,-5.0
+14636,Anita Sharma,45.0,,11/10/2025,,Foodie Corner,Coke,2,389.13,5%,upi,0.0,Extra spicy,Completed,-5.0
+12200,PRIYA SINGH,twenty,Hyderabad,28-09-2025,,The Spice Route,Pizza,,200,15,wallet,1.0,   ,Returned,
+18322,Sohan Kumar,twenty,Hyderabad,2025-11-10 06:15:29.473965,,The Spice Route,Pizza,1,200,,Card,,   ,Cancelled,
+17858,Anita Sharma,twenty,,07-10-2025,2025-11-29 02:15:29.474048,Foodie Corner,noodles,2,,,UPI,,,Returned,
+13009,sara khan,twenty,delhi,2025-10-07 06:15:29.474062,2025-11-27 05:15:29.474076,Tasty Treats,Biryani,three,457.2,5%,Cash,3.0,Less sugar,Completed,-5.0
+18050,alexa,twenty,mumbai,24-09-2025,2025-11-29 01:15:29.474105,pizza hub,Burger,2,471.66,,Card,,Extra spicy,completed,
+13943,manish,29,Nagpur,11/29/2025,,Foodie Corner,Biryani,3,231.04,15,UPI,,,cancelled,63.0
+12790,michael,59,DELHI,10/15/2025,2025-11-26 21:15:29.474212,Pizza Hub,Sandwich,3,396.02,N/A,upi,4.0,No onions,Cancelled,-5.0
+12511,raj,twenty,delhi,10/02/2025,2025-11-28 13:15:29.474258,Pizza Hub,Burger,3,N/A,5%,wallet,0.0,Less sugar,Completed,46.0
+12612,Amar,,Hyderabad,2025-09-17 06:15:29.474272,2025-11-27 00:15:29.474289,pizza hub,momos,,200,,Card,5.0,   ,Returned,
+10206,sara khan,twenty,,09/23/2025,2025-11-30 00:15:29.474319,The Spice Route,Coke,2,,N/A,UPI,0.0,,completed,32.0
+11291,PRIYA SINGH,45.0,Pune,09/21/2025,,The Spice Route,Biryani,3,223.75,15,wallet,1.0,Less sugar,completed,-5.0
+12200,Amar,twenty,Nagpur,2025-11-12 06:15:29.474362,,pizza hub,Burger,three,N/A,15,Card,,   ,Cancelled,-5.0
+13108,PRIYA SINGH,,Nagpur,29-11-2025,2025-11-29 17:15:29.474408,The Spice Route,noodles,2,200,N/A,upi,4.0,No onions,Completed,
+16331,sara khan,,Hyderabad,10/13/2025,2025-11-26 02:15:29.474438,Foodie Corner,Burger,3,189.65,10,upi,,Less sugar,Completed,
+10466,alexa,,Nagpur,26-08-2025,,Tasty Treats,Pasta,2,200,5,Card,0.0,,Completed,
+19670,Ritu,,mumbai,10/09/2025,2025-11-29 20:15:29.474516,Foodie Corner,Coke,2,200,5,CASH,1.0,No onions,completed,53.0
+13005,sara khan,60,Nagpur,2025-10-02 06:15:29.474529,,The Spice Route,Biryani,3,N/A,5,UPI,4.0,,Cancelled,
+18792,Amar,twenty,Pune,25-09-2025,2025-11-26 21:15:29.474575,The Spice Route,Burger,1,,5%,Card,4.0,Extra spicy,cancelled,-5.0
+15855,Ritu,45.0,delhi,2025-11-13 06:15:29.474589,,Biryani House,Pizza,2,N/A,15,Cash,6.0,,Cancelled,82.0
+16776,sara khan,,Hyderabad,14-10-2025,,Pizza Hub,Burger,three,N/A,10,Card,2.0,Less sugar,Cancelled,-5.0
+14413,Amar,,Pune,2025-11-19 06:15:29.474698,2025-11-26 13:15:29.474720,The Spice Route,Coke,,N/A,10,UPI,,Less sugar,Returned,
+19062,sara khan,,DELHI,2025-09-08 06:15:29.474736,,Tasty Treats,Sandwich,2,,15,CASH,3.0,,Cancelled,-5.0
+10064,Anita Sharma,24,Hyderabad,17-09-2025,,The Spice Route,noodles,1,200,15,Card,,,completed,
+18996,PRIYA SINGH,,Mumbai,08/28/2025,2025-11-28 14:15:29.474834,foodie corner,Burger,2,N/A,15,wallet,3.0,   ,cancelled,
+15734,Sohan Kumar,twenty,,2025-11-08 06:15:29.474851,,Tasty Treats,Burger,2,153.01,10,upi,,   ,Cancelled,
+15592,Ritu,,Nagpur,2025-11-16 06:15:29.474882,,The Spice Route,Biryani,2,200,15,upi,2.0,Less sugar,completed,-5.0
+12869,sara khan,,Hyderabad,2025-11-01 06:15:29.474912,,Foodie Corner,Sandwich,2,234.49,N/A,Cash,5.0,Extra spicy,Cancelled,18.0
+19492,michael,twenty,mumbai,09-09-2025,2025-11-28 01:15:29.474957,Tasty Treats,momos,,280.62,5%,Card,4.0,No onions,Returned,
+19151,raj,36,Bangalore,23-09-2025,2025-11-28 05:15:29.474986,The Spice Route,momos,1,495.95,15,upi,4.0,   ,cancelled,
+12327,raj,55,DELHI,2025-10-26 06:15:29.475001,,foodie corner,Burger,3,287.3,15,CASH,1.0,Less sugar,Completed,
+19167,michael,twenty,,2025-09-29 06:15:29.475030,2025-11-27 03:15:29.475046,pizza hub,momos,,,10,Card,3.0,Less sugar,Completed,
+12695,Ritu,41,Pune,11/24/2025,2025-11-26 03:15:29.475075,Tasty Treats,Pizza,3,,10,CASH,1.0,Extra spicy,Completed,-5.0
+12327,john doe,,Bangalore,2025-09-17 06:15:29.475089,,Tasty Treats,Biryani,3,,15,Card,6.0,,Completed,32.0
+13581,Sohan Kumar,58,Pune,26-10-2025,2025-11-29 17:15:29.475151,The Spice Route,Biryani,,N/A,N/A,UPI,1.0,No onions,Returned,-5.0
+17158,john doe,22,Pune,17-10-2025,,Tasty Treats,Coke,2,,5,CASH,3.0,,Completed,43.0
+15442,michael,58,mumbai,10/11/2025,,Biryani House,Coke,2,,5,UPI,1.0,Less sugar,Returned,33.0
+10098,Anita Sharma,,Pune,10/13/2025,2025-11-29 06:15:29.475235,pizza hub,Burger,2,200,5%,Card,2.0,Less sugar,Cancelled,
+14493,manish,twenty,,22-11-2025,2025-11-26 12:15:29.475265,The Spice Route,Pizza,,,10,UPI,0.0,   ,completed,
+11585,Ritu,twenty,DELHI,20-09-2025,,Foodie Corner,Coke,three,200,10,UPI,2.0,   ,cancelled,78.0
+10860,Anita Sharma,,Bangalore,2025-08-28 06:15:29.475307,,Tasty Treats,Pasta,,261.53,,wallet,5.0,   ,cancelled,-5.0
+15596,PRIYA SINGH,twenty,Nagpur,18-09-2025,2025-11-26 13:15:29.475349,Pizza Hub,Burger,2,N/A,5,UPI,3.0,Less sugar,cancelled,
+16197,sara khan,twenty,,07-09-2025,,Pizza Hub,Sandwich,2,200,5,Card,1.0,   ,cancelled,-5.0
+17339,manish,,,2025-11-21 06:15:29.475391,2025-11-27 22:15:29.475406,The Spice Route,Biryani,1,N/A,15,upi,3.0,Less sugar,Completed,-5.0
+19762,sara khan,45,Hyderabad,06-09-2025,2025-11-27 14:15:29.475435,Pizza Hub,Burger,1,,15,upi,6.0,Less sugar,Returned,
+13073,Ritu,,Hyderabad,2025-11-23 06:15:29.475449,2025-11-30 02:15:29.475464,Biryani House,Biryani,3,N/A,,wallet,,Extra spicy,cancelled,
+13561,Anita Sharma,45.0,Mumbai,22-10-2025,2025-11-28 05:15:29.475492,Pizza Hub,noodles,2,,,Card,4.0,No onions,completed,74.0
+17629,raj,45.0,Bangalore,10/31/2025,,Foodie Corner,Sandwich,,200,15,Cash,4.0,   ,Cancelled,40.0
+14218,sara khan,twenty,Bangalore,11/15/2025,2025-11-27 20:15:29.475550,Foodie Corner,Burger,,,5%,Card,2.0,,completed,
+11648,Amar,,mumbai,04-10-2025,2025-11-26 15:15:29.475578,Foodie Corner,Burger,,,5%,upi,6.0,Extra spicy,Returned,
+15675,michael,20,,10-10-2025,2025-11-29 17:15:29.475609,pizza hub,noodles,2,,N/A,UPI,,,Cancelled,58.0
+16265,Anita Sharma,34,DELHI,08/28/2025,2025-11-27 23:15:29.475638,foodie corner,Biryani,1,249.56,15,upi,3.0,   ,Returned,-5.0
+12205,Anita Sharma,,Bangalore,06-11-2025,,Pizza Hub,noodles,three,441.72,,CASH,6.0,No onions,Returned,
+11528,raj,58,,15-09-2025,,Foodie Corner,noodles,2,200,10,CASH,3.0,   ,completed,-5.0
+13394,sara khan,,Pune,10/19/2025,,pizza hub,momos,1,270.44,5%,Card,4.0,Less sugar,completed,-5.0
+13987,Ritu,38,,2025-11-23 06:15:29.475741,,The Spice Route,Pasta,1,200,10,wallet,3.0,No onions,Completed,-5.0
+19268,Amar,42,DELHI,2025-09-17 06:15:29.475820,2025-11-27 02:15:29.475840,pizza hub,momos,2,362.37,,UPI,1.0,No onions,Completed,-5.0
+10189,Ritu,45.0,Bangalore,27-10-2025,2025-11-29 04:15:29.475872,Foodie Corner,noodles,three,,5%,wallet,2.0,,completed,
+18666,Amar,45.0,Mumbai,2025-10-30 06:15:29.475886,2025-11-26 11:15:29.475902,Pizza Hub,Burger,,181.47,5,upi,6.0,Less sugar,Cancelled,53.0
+11802,PRIYA SINGH,twenty,,01-10-2025,2025-11-29 21:15:29.475931,The Spice Route,noodles,2,309.71,15,Card,6.0,Less sugar,Returned,76.0
+14737,sara khan,56,Nagpur,2025-11-02 06:15:29.475945,,Pizza Hub,Pasta,2,,5,Card,2.0,Extra spicy,completed,
+11853,PRIYA SINGH,,Pune,2025-11-28 06:15:29.475974,2025-11-28 23:15:29.475990,Tasty Treats,Pizza,2,N/A,5,UPI,0.0,Extra spicy,Completed,
+18901,Amar,,Mumbai,2025-11-08 06:15:29.476004,2025-11-26 22:15:29.476019,Pizza Hub,Pasta,3,200,10,CASH,1.0,Less sugar,Cancelled,
+17215,alexa,45.0,delhi,08/23/2025,2025-11-29 01:15:29.476049,The Spice Route,momos,three,496.67,,CASH,6.0,Extra spicy,cancelled,22.0
+14433,michael,45.0,Mumbai,15-09-2025,2025-11-27 03:15:29.476078,Tasty Treats,Biryani,three,,15,Card,3.0,   ,Cancelled,
+11895,john doe,,,2025-10-27 06:15:29.476092,2025-11-28 23:15:29.476109,Foodie Corner,Sandwich,2,N/A,5%,wallet,2.0,,completed,-5.0
+18164,john doe,twenty,Pune,2025-10-16 06:15:29.476123,2025-11-29 17:15:29.476139,Tasty Treats,Burger,2,200,N/A,wallet,0.0,,cancelled,-5.0
+13354,sara khan,45.0,Pune,14-11-2025,2025-11-28 08:15:29.476168,The Spice Route,momos,1,200,5,Card,2.0,No onions,completed,
+17408,alexa,27,Bangalore,2025-11-24 06:15:29.476183,2025-11-27 18:15:29.476198,The Spice Route,Biryani,1,200,,Cash,,Extra spicy,Completed,
+16102,PRIYA SINGH,45.0,Hyderabad,05-10-2025,,The Spice Route,Coke,1,200,,wallet,0.0,Extra spicy,Cancelled,-5.0
+10769,Sohan Kumar,45.0,Bangalore,11/27/2025,,Tasty Treats,Burger,,200,5%,UPI,0.0,,completed,23.0
+15276,alexa,45.0,Mumbai,11/27/2025,2025-11-28 11:15:29.476301,Biryani House,Sandwich,3,200,,Cash,3.0,Less sugar,Cancelled,87.0
+10197,raj,49,Mumbai,2025-11-26 06:15:29.476315,2025-11-29 16:15:29.476330,Foodie Corner,Biryani,2,,10,CASH,6.0,Less sugar,completed,13.0
+14735,manish,,Pune,23-10-2025,,Biryani House,noodles,1,,,Card,,   ,Returned,62.0
+17041,john doe,,delhi,11/17/2025,,The Spice Route,Pasta,2,,5,UPI,1.0,Less sugar,Returned,
+16102,michael,twenty,Bangalore,13-09-2025,,Tasty Treats,Biryani,2,488.91,10,wallet,0.0,Extra spicy,cancelled,19.0
+12869,sara khan,,DELHI,13-09-2025,,The Spice Route,noodles,2,N/A,,upi,6.0,Extra spicy,Returned,37.0
+19151,Ritu,45.0,Bangalore,2025-08-30 06:15:29.476458,,foodie corner,Biryani,2,200,10,wallet,3.0,   ,Returned,75.0
+19561,michael,52,delhi,23-11-2025,,pizza hub,momos,3,,N/A,wallet,4.0,No onions,Cancelled,
+10784,manish,28,Hyderabad,28-10-2025,2025-11-27 14:15:29.476529,foodie corner,Pizza,2,,15,upi,4.0,No onions,Cancelled,
+14973,Sohan Kumar,27,DELHI,2025-10-24 06:15:29.476542,2025-11-28 12:15:29.476557,Foodie Corner,Sandwich,2,,5%,Card,5.0,No onions,completed,-5.0
+18319,alexa,,mumbai,22-09-2025,,The Spice Route,noodles,,200,5%,wallet,,Extra spicy,Returned,
+16235,Ritu,45.0,Hyderabad,2025-09-20 06:15:29.476616,2025-11-28 21:15:29.476632,Foodie Corner,Sandwich,2,200,5%,UPI,0.0,   ,Completed,
+14282,PRIYA SINGH,45.0,Mumbai,08/24/2025,2025-11-28 16:15:29.476661,Biryani House,Sandwich,3,200,10,Card,1.0,,Completed,
+11059,alexa,33,Bangalore,25-10-2025,,foodie corner,Pasta,,,10,wallet,0.0,Less sugar,completed,63.0
+17560,Sohan Kumar,51,Pune,21-11-2025,2025-11-29 11:15:29.476721,Pizza Hub,Sandwich,three,200,15,wallet,2.0,,Completed,-5.0
+14893,sara khan,53,DELHI,16-10-2025,,pizza hub,Burger,2,,10,upi,4.0,Less sugar,cancelled,56.0
+17392,Anita Sharma,twenty,Nagpur,2025-08-24 06:15:29.476765,,pizza hub,momos,1,,,UPI,5.0,Less sugar,Cancelled,-5.0
+19687,alexa,53,delhi,10/02/2025,,foodie corner,Pasta,,N/A,5,wallet,4.0,Extra spicy,Cancelled,
+19721,manish,,Hyderabad,26-09-2025,,The Spice Route,Coke,2,262.81,5%,UPI,6.0,,Completed,
+13099,Anita Sharma,24,DELHI,09/28/2025,2025-11-28 09:15:29.476891,Tasty Treats,Pasta,1,N/A,15,wallet,0.0,,completed,86.0
+17270,raj,twenty,Pune,08/24/2025,2025-11-29 03:15:29.476933,Tasty Treats,momos,2,,10,UPI,4.0,No onions,Completed,-5.0
+14636,manish,twenty,Mumbai,20-10-2025,2025-11-28 21:15:29.476963,Biryani House,Biryani,3,,N/A,Cash,2.0,No onions,Returned,
+16694,Amar,,,2025-09-05 06:15:29.476977,,foodie corner,momos,three,200,10,Cash,3.0,,completed,
+14061,sara khan,41,mumbai,09-11-2025,,pizza hub,Pizza,2,,5,Cash,6.0,   ,Cancelled,82.0
+19167,Ritu,twenty,Nagpur,10/26/2025,,pizza hub,momos,3,N/A,5%,Cash,5.0,Less sugar,Cancelled,-5.0
+10784,alexa,35,Bangalore,12-10-2025,2025-11-29 22:15:29.477082,Pizza Hub,Biryani,three,N/A,,upi,3.0,   ,Cancelled,-5.0
+10775,michael,45.0,,2025-09-01 06:15:29.477096,2025-11-28 18:15:29.477112,The Spice Route,Pizza,2,N/A,5%,CASH,2.0,Less sugar,Cancelled,-5.0
+12385,sara khan,twenty,Bangalore,2025-11-14 06:15:29.477125,,Tasty Treats,noodles,3,353.19,10,upi,,No onions,Returned,
+16736,manish,twenty,Pune,11-09-2025,2025-11-29 06:15:29.477170,pizza hub,Coke,2,427.1,10,wallet,4.0,,cancelled,-5.0
+12961,Anita Sharma,,Nagpur,16-10-2025,,Biryani House,Pizza,three,,10,wallet,6.0,Extra spicy,cancelled,
+17400,manish,45.0,delhi,2025-09-03 06:15:29.477215,,pizza hub,Biryani,2,N/A,5%,Cash,3.0,Less sugar,cancelled,-5.0
+18754,Amar,twenty,Pune,2025-10-16 06:15:29.477244,,pizza hub,Coke,three,254.21,5,Cash,5.0,   ,Returned,-5.0
+17206,Amar,23,Hyderabad,14-09-2025,,foodie corner,Biryani,three,N/A,,Card,,No onions,Completed,
+14658,Sohan Kumar,,mumbai,26-10-2025,2025-11-27 19:15:29.477319,Foodie Corner,Pizza,2,,10,CASH,0.0,Less sugar,Completed,35.0
+13394,john doe,,Hyderabad,09/30/2025,2025-11-27 16:15:29.477350,Foodie Corner,Pasta,1,,,wallet,1.0,,completed,81.0
+19914,raj,16,DELHI,2025-10-08 06:15:29.477365,,Foodie Corner,Burger,3,200,10,UPI,5.0,   ,Cancelled,21.0
+11045,alexa,twenty,delhi,2025-09-09 06:15:29.477395,2025-11-29 01:15:29.477410,Tasty Treats,Biryani,three,,,wallet,6.0,Less sugar,completed,-5.0
+12806,sara khan,twenty,delhi,11/07/2025,,Tasty Treats,noodles,three,,N/A,Cash,2.0,Extra spicy,Returned,
+14297,manish,23,Nagpur,13-10-2025,,Tasty Treats,noodles,three,124.38,,Cash,0.0,   ,cancelled,-5.0
+12557,Amar,45.0,mumbai,29-10-2025,2025-11-29 06:15:29.477515,Tasty Treats,Pizza,1,N/A,5,Card,3.0,No onions,completed,-5.0
