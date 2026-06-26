@@ -8,7 +8,7 @@ A Python 3.12 data science project managed with [Miniconda](https://docs.conda.i
 
 ```bash
 conda env create -f environment.yml
-conda activate applied-ai
+conda activate main
 python main.py
 ```
 
@@ -87,7 +87,7 @@ python --version
 conda env create -f environment.yml
 
 # 2. Activate it
-conda activate applied-ai
+conda activate main
 
 # 3. Run the app
 python main.py
@@ -96,7 +96,7 @@ python main.py
 Expected output:
 
 ```
-Hello from applied-ai!
+Hello from main!
 ```
 
 ---
@@ -119,19 +119,19 @@ Commit `environment.yml` after every dependency change.
 Build:
 
 ```bash
-docker build -f DockerFile -t applied-ai .
+docker build -f DockerFile -t main .
 ```
 
 Run:
 
 ```bash
-docker run --rm applied-ai
+docker run --rm main
 ```
 
 Expected output:
 
 ```
-Hello from applied-ai!
+Hello from main!
 ```
 
 ---
@@ -140,7 +140,7 @@ Hello from applied-ai!
 
 ```bash
 # Day-to-day
-conda activate applied-ai
+conda activate main
 python main.py
 
 # After editing environment.yml
@@ -148,8 +148,8 @@ conda env update -f environment.yml --prune
 python main.py
 
 # Build and test in Docker
-docker build -f DockerFile -t applied-ai .
-docker run --rm applied-ai
+docker build -f DockerFile -t main .
+docker run --rm main
 ```
 
 ---

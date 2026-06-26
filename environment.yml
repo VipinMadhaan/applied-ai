@@ -1,4 +1,4 @@
-name: applied-ai
+name: main
 channels:
   - conda-forge
   - defaults
