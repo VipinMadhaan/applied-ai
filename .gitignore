@@ -2,7 +2,10 @@ logs
 *.log
 .agents
 .codex
-.venv
+
+# Conda environments
+envs/
+.conda/
 
 # Local env files
 .env

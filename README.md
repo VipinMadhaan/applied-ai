@@ -1,113 +1,156 @@
 # Applied AI
 
-Applied AI is a Python 3.12 project managed with
-[uv](https://docs.astral.sh/uv/). The current app entry point is `main.py`.
+A Python 3.12 data science project managed with [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+
+---
+
+## Quick Start
+
+```bash
+conda env create -f environment.yml
+conda activate applied-ai
+python main.py
+```
+
+---
+
+## Stack
+
+| Library | Purpose |
+|---|---|
+| `pandas` 2.2.2 | Data manipulation and analysis |
+| `numpy` 1.26.4 | Numerical computing |
+| `matplotlib` 3.10.0 | Plotting and visualization |
+| `seaborn` 0.13.2 | Statistical data visualization |
+| `pyarrow` | Columnar data and Parquet I/O |
+| `fastparquet` | Parquet file read/write |
+| `xlrd` | Excel file reading |
+| `ipykernel` | Jupyter notebook support |
+
+---
 
 ## Project Layout
 
 ```text
 .
-|-- .python-version    # Python version pin for uv
-|-- DockerFile         # Container build for running the app with uv
-|-- main.py            # Application entry point
-|-- pyproject.toml     # Project metadata and Python dependencies
-`-- README.md          # Project guide
+├── environment.yml    # Conda environment (Python version + all dependencies)
+├── DockerFile         # Container build using Miniconda
+├── main.py            # Application entry point
+└── README.md          # This file
 ```
+
+---
 
 ## Prerequisites
 
-Install these tools before running the project locally:
+- [Miniconda](https://docs.conda.io/en/latest/miniconda.html) — Python and package management
+- [Docker](https://docs.docker.com/get-docker/) — only needed for container builds
 
-- Python 3.12
-- uv
-- Docker, only if you want to build and run the container
+### Install Miniconda
 
-Install uv on macOS or Linux:
+**Linux:**
 
 ```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+source ~/.bashrc
 ```
 
-Verify the installation:
+**macOS (Apple Silicon):**
 
 ```bash
-uv --version
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
+bash Miniconda3-latest-MacOSX-arm64.sh
+source ~/.zshrc
+```
+
+**macOS (Intel):**
+
+```bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+bash Miniconda3-latest-MacOSX-x86_64.sh
+source ~/.zshrc
+```
+
+Verify:
+
+```bash
+conda --version
 python --version
 ```
 
+---
+
 ## Local Setup
 
-From the project root:
-
 ```bash
-uv python install 3.12
-uv python pin 3.12
-uv sync
-```
+# 1. Create the environment from the lock file
+conda env create -f environment.yml
 
-Run the application:
+# 2. Activate it
+conda activate applied-ai
 
-```bash
-uv run python main.py
+# 3. Run the app
+python main.py
 ```
 
 Expected output:
 
-```text
+```
 Hello from applied-ai!
 ```
 
+---
+
 ## Managing Dependencies
 
-Use uv for Python dependencies:
+All dependencies live in `environment.yml`. Edit that file, then sync the environment:
 
 ```bash
-uv add package-name
-uv remove package-name
-uv sync
+# After adding or removing a package in environment.yml:
+conda env update -f environment.yml --prune
 ```
 
-After dependency changes, commit both `pyproject.toml` and `uv.lock`.
+Commit `environment.yml` after every dependency change.
 
-If `uv.lock` does not exist yet, generate it with:
-
-```bash
-uv lock
-```
+---
 
 ## System Dependencies
 
-The Dockerfile currently installs these operating system packages:
+The following OS-level packages are installed in the Docker image:
 
-- `ffmpeg`
-- `libpq-dev`
+| Package | Why |
+|---|---|
+| `ffmpeg` | Media processing |
+| `libpq-dev` | PostgreSQL client headers |
 
-Keep Python packages in `pyproject.toml`. Keep non-Python system packages in
-the Dockerfile, and document any local install requirements here.
+To install them locally:
 
-Ubuntu or Debian example:
+**Ubuntu / Debian:**
 
 ```bash
-sudo apt update
-sudo apt install ffmpeg libpq-dev
+sudo apt update && sudo apt install -y ffmpeg libpq-dev
 ```
 
-macOS example:
+**macOS:**
 
 ```bash
 brew install ffmpeg libpq
 ```
 
+Keep Python packages in `environment.yml`. Keep OS packages in `DockerFile` and documented here.
+
+---
+
 ## Docker
 
-The Docker build expects `uv.lock` to exist. Generate it before building:
+Build:
 
 ```bash
-uv lock
 docker build -f DockerFile -t applied-ai .
 ```
 
-Run the container:
+Run:
 
 ```bash
 docker run --rm applied-ai
@@ -115,163 +158,36 @@ docker run --rm applied-ai
 
 Expected output:
 
-```text
+```
 Hello from applied-ai!
 ```
 
+---
+
 ## Development Workflow
 
-Use this loop for normal development:
-
 ```bash
-uv sync
-uv run python main.py
-```
+# Day-to-day
+conda activate applied-ai
+python main.py
 
-When adding dependencies:
+# After editing environment.yml
+conda env update -f environment.yml --prune
+python main.py
 
-```bash
-uv add package-name
-uv run python main.py
-```
-
-When preparing a Docker build:
-
-```bash
-uv lock
+# Build and test in Docker
 docker build -f DockerFile -t applied-ai .
+docker run --rm applied-ai
 ```
 
-## Future Project Setup Guide
-
-Use this section as a quick decision guide when starting this project or another
-Python project.
-
-### Creating a New uv Project
-
-```bash
-uv init project-name
-cd project-name
-uv python install 3.12
-uv python pin 3.12
-uv add package-name
-uv run python main.py
-```
-
-### Tool Selection Rule
-
-| Project type | Recommended setup |
-| --- | --- |
-| Pure Python projects, APIs, CLIs, automation, or web apps | uv only |
-| Python project with a few system tools like `ffmpeg`, `tesseract`, or `libpq` | uv plus OS package manager |
-| Data science, ML, geospatial, scientific computing, GPU, or native-library-heavy projects | Conda, Mamba, or Pixi |
-| Production deployment or team reproducibility | Docker plus uv |
-
-### Practical Recommendation
-
-Use this default stack unless the project has a strong reason to do otherwise:
-
-| Need | Tool |
-| --- | --- |
-| Python dependency management | uv |
-| Local system packages | Homebrew, apt, choco, or the platform package manager |
-| Cross-language scientific dependencies | Pixi, Conda, or Mamba |
-| Reproducible production runtime | Docker |
-
-In other words, do not replace uv for normal Python package management. Pair it
-with the right tool when the project needs non-Python dependencies.
-
-### Normal App, Backend, or API Development
-
-Use `uv` plus the operating system package manager. This is the best fit for
-most Python applications.
-
-macOS example:
-
-```bash
-brew install ffmpeg
-uv add moviepy
-```
-
-Ubuntu or Debian example:
-
-```bash
-sudo apt update
-sudo apt install ffmpeg
-uv add moviepy
-```
-
-PostgreSQL example:
-
-```bash
-sudo apt update
-sudo apt install libpq-dev
-uv add psycopg2
-```
-
-Use this approach when the non-Python dependency list is small and easy to
-document.
-
-Recommended project convention:
-
-- Python packages are managed by `uv`.
-- System packages are documented in `README.md`.
-- Production system packages are installed in `DockerFile` or `Dockerfile`.
-
-### Data Science, Geospatial, ML, and Scientific Computing
-
-Use Conda, Mamba, or Pixi when the project needs many native, scientific, GPU,
-or cross-language dependencies. These tools can manage Python versions,
-compiled libraries, and non-Python packages in one environment.
-
-Conda example:
-
-```bash
-conda create -n geo python=3.12 geopandas gdal rasterio
-conda activate geo
-```
-
-Pixi example:
-
-```bash
-pixi init
-pixi add python=3.12 gdal geopandas
-pixi add --pypi fastapi
-pixi run python app.py
-```
-
-Prefer Conda, Mamba, or Pixi when the project depends heavily on packages or
-tools such as:
-
-- `gdal`
-- `proj`
-- `geos`
-- `cuda`
-- `ffmpeg`
-- `java`
-- `r-base`
-- `gcc`
-- `postgresql`
-- `graphviz`
+---
 
 ## Troubleshooting
 
-If Python 3.12 is missing:
-
-```bash
-uv python install 3.12
-```
-
-If Docker fails because `uv.lock` is missing:
-
-```bash
-uv lock
-```
-
-If a Python package needs native libraries, install the matching system package
-with your OS package manager or add it to `DockerFile`.
-
-cd project
-uv venv
-source .venv/bin/activate
-uv pip install -r requirements.txt
+| Problem | Fix |
+|---|---|
+| `conda: command not found` | Re-run the Miniconda installer and reload your shell |
+| Environment missing | `conda env create -f environment.yml` |
+| Package version conflict | `conda env update -f environment.yml --prune` |
+| Docker build fails | Verify `environment.yml` exists; run `conda env create -f environment.yml --dry-run` |
+| Package needs native libs | Install via OS package manager and add to `DockerFile` |

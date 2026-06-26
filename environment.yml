@@ -1,0 +1,12 @@
+name: applied-ai
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - matplotlib=3.10.0
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scikit-learn=1.3.0
+  - seaborn=0.13.2
+  - xlrd>=2.0.2

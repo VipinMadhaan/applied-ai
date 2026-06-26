@@ -1,15 +1,16 @@
-FROM python:3.12-slim
+FROM continuumio/miniconda3:latest
 
 RUN apt-get update && apt-get install -y \
     ffmpeg \
     libpq-dev \
     && rm -rf /var/lib/apt/lists/*
 
-COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
-
 WORKDIR /app
-COPY pyproject.toml uv.lock ./
-RUN uv sync --frozen --no-dev
+COPY environment.yml ./
+RUN conda env create -f environment.yml && conda clean -afy
+
+# Activate the conda environment for all subsequent commands
+SHELL ["conda", "run", "-n", "applied-ai", "/bin/bash", "-c"]
 
 COPY . .
-CMD ["uv", "run", "python", "main.py"]
+CMD ["conda", "run", "--no-capture-output", "-n", "applied-ai", "python", "main.py"]
