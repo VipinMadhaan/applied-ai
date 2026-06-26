@@ -22,8 +22,7 @@ python main.py
 | `numpy` 1.26.4 | Numerical computing |
 | `matplotlib` 3.10.0 | Plotting and visualization |
 | `seaborn` 0.13.2 | Statistical data visualization |
-| `pyarrow` | Columnar data and Parquet I/O |
-| `fastparquet` | Parquet file read/write |
+| `scikit-learn` 1.3.0 | Machine learning |
 | `xlrd` | Excel file reading |
 | `ipykernel` | Jupyter notebook support |
 
@@ -112,33 +111,6 @@ conda env update -f environment.yml --prune
 ```
 
 Commit `environment.yml` after every dependency change.
-
----
-
-## System Dependencies
-
-The following OS-level packages are installed in the Docker image:
-
-| Package | Why |
-|---|---|
-| `ffmpeg` | Media processing |
-| `libpq-dev` | PostgreSQL client headers |
-
-To install them locally:
-
-**Ubuntu / Debian:**
-
-```bash
-sudo apt update && sudo apt install -y ffmpeg libpq-dev
-```
-
-**macOS:**
-
-```bash
-brew install ffmpeg libpq
-```
-
-Keep Python packages in `environment.yml`. Keep OS packages in `DockerFile` and documented here.
 
 ---
 
