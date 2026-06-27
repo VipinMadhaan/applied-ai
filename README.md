@@ -30,7 +30,6 @@ conda activate main
 ## Prerequisites
 
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html) — Python and package management
-- [Docker](https://docs.docker.com/get-docker/) — only needed for container builds
 
 ### Install Miniconda
 
@@ -99,4 +98,3 @@ Commit `environment.yml` after every dependency change.
 | `conda: command not found` | Re-run the Miniconda installer and reload your shell |
 | Environment missing | `conda env create -f environment.yml` |
 | Package version conflict | `conda env update -f environment.yml --prune` |
-| Docker build fails | Verify `environment.yml` exists; run `conda env create -f environment.yml --dry-run` |
