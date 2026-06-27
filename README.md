@@ -9,7 +9,6 @@ A Python 3.12 data science project managed with [Miniconda](https://docs.conda.i
 ```bash
 conda env create -f environment.yml
 conda activate main
-python main.py
 ```
 
 ---
@@ -25,18 +24,6 @@ python main.py
 | `scikit-learn` 1.3.0 | Machine learning |
 | `xlrd` | Excel file reading |
 | `ipykernel` | Jupyter notebook support |
-
----
-
-## Project Layout
-
-```text
-.
-├── environment.yml    # Conda environment (Python version + all dependencies)
-├── DockerFile         # Container build using Miniconda
-├── main.py            # Application entry point
-└── README.md          # This file
-```
 
 ---
 
@@ -88,15 +75,6 @@ conda env create -f environment.yml
 
 # 2. Activate it
 conda activate main
-
-# 3. Run the app
-python main.py
-```
-
-Expected output:
-
-```
-Hello from main!
 ```
 
 ---
@@ -114,46 +92,6 @@ Commit `environment.yml` after every dependency change.
 
 ---
 
-## Docker
-
-Build:
-
-```bash
-docker build -f DockerFile -t main .
-```
-
-Run:
-
-```bash
-docker run --rm main
-```
-
-Expected output:
-
-```
-Hello from main!
-```
-
----
-
-## Development Workflow
-
-```bash
-# Day-to-day
-conda activate main
-python main.py
-
-# After editing environment.yml
-conda env update -f environment.yml --prune
-python main.py
-
-# Build and test in Docker
-docker build -f DockerFile -t main .
-docker run --rm main
-```
-
----
-
 ## Troubleshooting
 
 | Problem | Fix |
@@ -162,4 +100,3 @@ docker run --rm main
 | Environment missing | `conda env create -f environment.yml` |
 | Package version conflict | `conda env update -f environment.yml --prune` |
 | Docker build fails | Verify `environment.yml` exists; run `conda env create -f environment.yml --dry-run` |
-| Package needs native libs | Install via OS package manager and add to `DockerFile` |
